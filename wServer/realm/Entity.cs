@@ -160,6 +160,8 @@ namespace wServer.realm
                 {
                     foreach (var i in s.Behaviors)
                         i.OnStateEntry(this, time);
+                    foreach (var i in s.Transitions)
+                        i.OnStateEntry(this, time);
                     s = s.Parent;
                 }
                 stateEntryCommonRoot = null;

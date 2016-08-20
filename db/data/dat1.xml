@@ -1,7 +1,77 @@
 <Objects>
 
 
-
+ <Object type="0x186A0" id="Oryx the Mad God 3">
+      <DisplayId>Oryx the Mad God 3</DisplayId>
+      <Enemy/>
+      <Class>Character</Class>
+      <Texture>
+         <File>lofiChar16x16</File>
+         <Index>0x54</Index>
+      </Texture>
+      <HitSound>monster/oryx_hit</HitSound>
+      <DeathSound>monster/oryx_death</DeathSound>
+      <Size>200</Size>
+      <MaxHitPoints>125000</MaxHitPoints>
+      <Defense>80</Defense>
+      <Quest/>
+      <God/>
+      <Oryx/>
+      <StasisImmune/>
+      <Level>1</Level>
+      <XpMult>1</XpMult>
+      <NoArticle/>
+      <Projectile id="0">
+         <ObjectId>Green Star</ObjectId>
+         <Damage>160</Damage>
+         <Speed>70</Speed>
+         <LifetimeMS>2500</LifetimeMS>
+         <ConditionEffect duration="10">Slowed</ConditionEffect>
+      </Projectile>
+      <Projectile id="1">
+         <ObjectId>Blade</ObjectId>
+         <Damage>240</Damage>
+         <Speed>100</Speed>
+         <LifetimeMS>450</LifetimeMS>
+      </Projectile>
+      <Projectile id="2">
+         <ObjectId>Purple Star</ObjectId>
+         <Damage>160</Damage>
+         <Speed>55</Speed>
+         <LifetimeMS>3000</LifetimeMS>
+         <ConditionEffect duration="5">Blind</ConditionEffect>
+      </Projectile>
+      <Projectile id="3">
+         <ObjectId>Blue Star</ObjectId>
+         <Damage>160</Damage>
+         <Speed>105</Speed>
+         <LifetimeMS>1200</LifetimeMS>
+         <ConditionEffect duration="5">Confused</ConditionEffect>
+      </Projectile>
+      <Projectile id="4">
+         <ObjectId>Grey Star</ObjectId>
+         <Damage>160</Damage>
+         <Speed>45</Speed>
+         <LifetimeMS>3000</LifetimeMS>
+         <ConditionEffect duration="5">Quiet</ConditionEffect>
+      </Projectile>
+      <Projectile id="5">
+         <ObjectId>Red Star</ObjectId>
+         <Damage>160</Damage>
+         <Speed>55</Speed>
+         <LifetimeMS>3000</LifetimeMS>
+         <ArmorPiercing/>
+      </Projectile>
+      <Projectile id="6">
+         <ObjectId>Fire Boomerang</ObjectId>
+         <Speed>140</Speed>
+         <Size>100</Size>
+         <Damage>150</Damage>
+         <LifetimeMS>3000</LifetimeMS>
+         <ConditionEffect duration="10">Armor Broken</ConditionEffect>
+         <MultiHit/>
+      </Projectile>
+   </Object>
    <Object type="0x0e56" id="Masked Party God">
       <Enemy/>
       <Class>Character</Class>
