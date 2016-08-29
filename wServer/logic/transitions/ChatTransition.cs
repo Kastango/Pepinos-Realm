@@ -19,11 +19,6 @@ namespace wServer.logic.transitions
             this.transit = false;
         }
 
-        protected override void OnStateEntry(Entity host, RealmTime time, ref object state)
-        {
-            transit = false;
-        }
-
         protected override bool TickCore(Entity host, RealmTime time, ref object state)
         {
             return transit;

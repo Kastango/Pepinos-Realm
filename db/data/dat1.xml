@@ -1,7 +1,664 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+
 <Objects>
 
+   <Object type="0x1607" id="Ozone">
+      <Enemy/>
+      <Class>Character</Class>
+      <AnimatedTexture>
+         <File>chars16x16rEncounters</File>
+         <Index>127</Index>
+      </AnimatedTexture>
+      <HitSound>monster/scorpions_hit</HitSound>
+      <DeathSound>monster/scorpions_death</DeathSound>
+      <Size>140</Size>
+      <MaxHitPoints>50000</MaxHitPoints>
+      <Defense>35</Defense>
+      <Quest/>
+      <God/>
+      <StasisImmune/>
+      <XpMult>1.5</XpMult>
+      <Level>1</Level>
+      <Flying/>
+      <Projectile id="0">
+         <ObjectId>Masamune Slash</ObjectId>
+         <Damage>80</Damage>
+         <Speed>100</Speed>
+         <Size>100</Size>
+         <LifetimeMS>800</LifetimeMS>
+      </Projectile>
+      <Projectile id="1">
+         <ObjectId>Lightning Blast</ObjectId>
+         <Damage>88</Damage>
+         <Speed>120</Speed>
+         <LifetimeMS>700</LifetimeMS>
+         <ConditionEffect duration="2">Stunned</ConditionEffect>
+      </Projectile>
+      <Projectile id="2">
+         <ObjectId>Lightning Spiral</ObjectId>
+         <Damage>111</Damage>
+         <Speed>100</Speed>
+         <LifetimeMS>500</LifetimeMS>  
+      </Projectile>
+      <Projectile id="3">
+         <ObjectId>Yellow Missile</ObjectId>
+         <Damage>200</Damage>
+         <Speed>100</Speed>
+         <LifetimeMS>600</LifetimeMS>  
+      </Projectile>
+      <DisplayId>Ozone, Sky Titan</DisplayId>
+   </Object>
 
- <Object type="0x186A0" id="Oryx the Mad God 3">
+  <Object type="0x160c" id="Cauldron">
+      <Enemy/>
+      <Class>Character</Class>
+      <AnimatedTexture>
+         <File>chars16x16rEncounters</File>
+         <Index>128</Index>
+      </AnimatedTexture>
+      <HitSound>monster/goblins_hit</HitSound>
+      <DeathSound>monster/goblins_death</DeathSound>
+      <Size>90</Size>
+      <MaxHitPoints>10000</MaxHitPoints>
+      <Defense>30</Defense>
+      <Quest/>
+      <God/>
+      <StasisImmune/>
+      <ParalyzeImmune/>
+      <XpMult>1.8</XpMult>
+      <Level>1</Level>
+      <Flying/>
+      <Projectile id="0">
+         <ObjectId>Green Blob</ObjectId>
+         <Damage>70</Damage>
+         <Speed>50</Speed>
+         <size>180</size>
+         <LifetimeMS>800</LifetimeMS>
+         <ConditionEffect duration="5">Bleeding</ConditionEffect>
+      </Projectile>
+      <DisplayId>Cauldron O Desgostoso</DisplayId>
+   </Object>
+
+      <Object type="0x1606" id="Swamp Witch">
+      <Enemy/>
+      <Class>Character</Class>
+      <AnimatedTexture>
+         <File>chars16x16rEncounters</File>
+         <Index>126</Index>
+      </AnimatedTexture>
+      <HitSound>monster/goblins_hit</HitSound>
+      <DeathSound>monster/goblins_death</DeathSound>
+      <Size>120</Size>
+      <MaxHitPoints>60000</MaxHitPoints>
+      <Defense>40</Defense>
+      <Quest/>
+      <God/>
+      <StunImmune/>
+      <StasisImmune/>
+      <ParalyzeImmune/>
+      <XpMult>1.8</XpMult>
+      <Level>1</Level>
+      <Flying/>
+      <Projectile id="0">
+         <ObjectId>White Bullet</ObjectId>
+         <Damage>180</Damage>
+         <Speed>20</Speed>
+         <Size>70</Size>
+         <LifetimeMS>5000</LifetimeMS>
+      </Projectile>
+      <Projectile id="1">
+         <ObjectId>Green Blob</ObjectId>
+         <Damage>70</Damage>
+         <Speed>75</Speed>
+        <size>180</size>
+         <LifetimeMS>1400</LifetimeMS>
+         <ConditionEffect duration="5">Bleeding</ConditionEffect>
+      </Projectile>
+      <Projectile id="2">
+         <ObjectId>H Creation Energy</ObjectId>
+         <Damage>260</Damage>
+         <Speed>50</Speed>
+         <size>100</size>
+         <LifetimeMS>3000</LifetimeMS>  
+      </Projectile>
+      <DisplayId>The Great Swamp Witch</DisplayId>
+   </Object>
+
+   <Object type="0x1605" id="Astor">
+      <Enemy/>
+      <Class>Character</Class>
+      <AnimatedTexture>
+         <File>chars16x16rEncounters</File>
+         <Index>125</Index>
+      </AnimatedTexture>
+      <HitSound>monster/lizard_god_hit</HitSound>
+      <DeathSound>monster/lizard_god_death</DeathSound>
+      <Size>150</Size>
+      <MaxHitPoints>37000</MaxHitPoints>
+      <Defense>70</Defense>
+      <Quest/>
+      <God/>
+      <StasisImmune/>
+      <ParalyzedImmune/>
+      <XpMult>1.8</XpMult>
+      <Level>1</Level>
+      <Flying/>
+      <Projectile id="0">
+         <ObjectId>Pink Warrior Shot</ObjectId>
+         <Damage>180</Damage>
+         <Speed>65</Speed>
+         <Size>110</Size>
+         <LifetimeMS>1700</LifetimeMS>
+      </Projectile>
+      <Projectile id="1">
+         <ObjectId>Purple Boomerang</ObjectId>
+         <Damage>70</Damage>
+         <Speed>75</Speed>
+         <LifetimeMS>1400</LifetimeMS>
+         <ConditionEffect duration="3">Paralyzed</ConditionEffect>
+      </Projectile>
+      <Projectile id="2">
+         <ObjectId>Purple Magic</ObjectId>
+         <Damage>260</Damage>
+         <Speed>100</Speed>
+         <size>100</size>
+         <LifetimeMS>600</LifetimeMS>  
+      </Projectile>
+      <DisplayId>Astor, Cosmic Son</DisplayId>
+   </Object>
+
+      <Object type="0x1608" id="Dragon Hunter Bow">
+      <Class>Equipment</Class>
+      <Item/>
+      <Texture>
+         <File>lofiObj5</File>
+         <Index>0x8c</Index>
+      </Texture>
+      <SlotType>3</SlotType>
+      <Description>Insubstantial yet powerful, it can knock a dragon out of the sky.</Description>
+      <RateOfFire>1.4</RateOfFire>
+      <Sound>weapon/golden_bow</Sound>
+      <Projectile>
+         <ObjectId>Lightning Bolt</ObjectId>
+         <Speed>160</Speed>
+         <MinDamage>50</MinDamage>
+         <MaxDamage>65</MaxDamage>
+         <LifetimeMS>438</LifetimeMS>
+         <Frequency>1</Frequency>
+         <Size>100</Size>
+         <MultiHit/>
+      </Projectile>
+      <NumProjectiles>3</NumProjectiles>
+      <ArcGap>15</ArcGap>
+      <BagType>6</BagType>
+      <FameBonus>5</FameBonus>
+      <feedPower>540</feedPower>
+      <DisplayId>Dragon Hunter Bow</DisplayId>
+   </Object>
+
+   <Object type="0x1609" id="Aerial Trap">
+      <Class>Equipment</Class>
+      <Item/>
+      <Texture>
+         <File>lofiObj5</File>
+         <Index>0x8d</Index>
+      </Texture>
+      <SlotType>20</SlotType>
+      <Description>A weightless trap used to hunt flying beasts.</Description>
+      <Usable/>
+      <BagType>6</BagType>
+      <FameBonus>6</FameBonus>
+      <MpCost>110</MpCost>
+      <Activate radius="4" totalDamage="600" condEffect="Slowed" condDuration="3">Trap</Activate>
+      <feedPower>700</feedPower>
+      <DisplayId>Aerial Trap</DisplayId>
+   </Object>
+
+   <Object type="0x160a" id="Cloud Armor">
+      <Class>Equipment</Class>
+      <Item/>
+      <Texture>
+         <File>lofiObj5</File>
+         <Index>0x8e</Index>
+      </Texture>
+      <SlotType>6</SlotType>
+      <Description>A lightweight armor that makes you feel quick and swift.</Description>
+      <ActivateOnEquip stat="21" amount="16">IncrementStat</ActivateOnEquip>
+      <ActivateOnEquip stat="22" amount="8">IncrementStat</ActivateOnEquip>
+      <BagType>6</BagType>
+      <FameBonus>5</FameBonus>
+      <feedPower>640</feedPower>
+      <DisplayId>Cloud Armor</DisplayId>
+   </Object>
+
+   <Object type="0x160b" id="Ring of Storms">
+      <Class>Equipment</Class>
+      <Item/>
+      <Texture>
+         <File>lofiObj5</File>
+         <Index>0x8f</Index>
+      </Texture>
+      <SlotType>9</SlotType>
+      <Description>A magical ring inbued with the power of a thousand storms.</Description>
+      <ActivateOnEquip stat="21" amount="6">IncrementStat</ActivateOnEquip>
+      <ActivateOnEquip stat="22" amount="10">IncrementStat</ActivateOnEquip>
+      <BagType>6</BagType>
+      <FameBonus>5</FameBonus>
+      <feedPower>500</feedPower>
+      <DisplayId>Ring of Storms</DisplayId>
+   </Object>
+
+<Object type="0x1601" id="Falling Star Sword">
+<Class>Equipment</Class>
+<Item/>
+<Texture>
+  <File>lofiObj5</File>
+  <Index>0xc8</Index>
+</Texture>
+<SlotType>1</SlotType>
+<Description>A weapon originated from a long ended era where celestial beings used to look after the realm.</Description>
+<RateOfFire>0.8</RateOfFire>
+<Sound>weapon/mithril_sword</Sound>
+<Projectile>
+   <ObjectId>Pink Warrior Shot</ObjectId>
+   <Speed>500</Speed>
+   <MinDamage>260</MinDamage>
+   <MaxDamage>350</MaxDamage>
+   <LifetimeMS>72</LifetimeMS>
+   <Frequency>1</Frequency>
+   <Size>100</Size>
+   <ParticleTrail lifetimeMS="300">0xff3399</ParticleTrail>
+</Projectile>
+<NumProjectiles>1</NumProjectiles>
+<ArcGap>10</ArcGap>
+<BagType>6</BagType>
+<FameBonus>4</FameBonus>
+<feedPower>880</feedPower>
+<DisplayId>Falling Star Sword</DisplayId>
+</Object>
+   <Object type="0x1602" id="Stardust Helm">
+      <Class>Equipment</Class>
+      <Item/>
+      <Texture>
+         <File>lofiObj5</File>
+         <Index>0xc9</Index>
+      </Texture>
+      <SlotType>16</SlotType>
+      <Description>A helm made with pieces of fallen ethereals.</Description>
+      <ActivateOnEquip stat="21" amount="10">IncrementStat</ActivateOnEquip>
+      <Usable/>
+      <BagType>4</BagType>
+      <FameBonus>4</FameBonus>
+      <MpCost>95</MpCost>
+      <Activate effect="Invulnerable" duration="3.5">ConditionEffectSelf</Activate>
+      <Activate effect="Slowed" duration="2">ConditionEffectSelf</Activate>
+      <Cooldown>6</Cooldown>
+      <feedPower>570</feedPower>
+      <DisplayId>Stardust Helm</DisplayId>
+   </Object>
+<Object type="0x1603" id="Constellation Armor">
+      <Class>Equipment</Class>
+      <Item/>
+      <Texture>
+         <File>lofiObj5</File>
+         <Index>0xca</Index>
+      </Texture>
+      <SlotType>7</SlotType>
+      <Tier></Tier>
+      <Description></Description>
+      <ActivateOnEquip stat="21" amount="22">IncrementStat</ActivateOnEquip>
+      <ActivateOnEquip stat="22" amount="5">IncrementStat</ActivateOnEquip>
+      <BagType>6</BagType>
+      <FameBonus>4</FameBonus>
+      <feedPower>435</feedPower>
+      <DisplayId>Constellation Armor</DisplayId>
+   </Object>
+<Object type="0x1604" id="Comet Ring">
+      <Class>Equipment</Class>
+      <Item/>
+      <Texture>
+         <File>lofiObj5</File>
+         <Index>0xcb</Index>
+      </Texture>
+      <SlotType>9</SlotType>
+      <Description></Description>
+      <ActivateOnEquip stat="21" amount="3">IncrementStat</ActivateOnEquip>
+      <ActivateOnEquip stat="3" amount="60">IncrementStat</ActivateOnEquip>
+      <ActivateOnEquip stat="0" amount="80">IncrementStat</ActivateOnEquip>
+      <BagType>6</BagType>
+      <FameBonus>5</FameBonus>
+      <feedPower>400</feedPower>
+      <DisplayId>Comet Ring</DisplayId>
+   </Object>
+
+<Object type="0x15ed" id="Righteous Sword">
+<Class>Equipment</Class>
+<Item/>
+<Texture>
+  <File>lofiObj5</File>
+  <Index>0xa8</Index>
+</Texture>
+<SlotType>1</SlotType>
+<Description>A great sword of recognition, forged by the gods for the champions of humankind.</Description>
+<RateOfFire>1.35</RateOfFire>
+<Sound>weapon/mithril_sword</Sound>
+<Projectile>
+   <ObjectId>Blue Sky Shot</ObjectId>
+   <Speed>150</Speed>
+   <MinDamage>180</MinDamage>
+   <MaxDamage>215</MaxDamage>
+   <LifetimeMS>213</LifetimeMS>
+   <Frequency>1</Frequency>
+   <Size>80</Size>
+   <Wavy/>
+</Projectile>
+<NumProjectiles>1</NumProjectiles>
+<ArcGap>10</ArcGap>
+<BagType>6</BagType>
+<FameBonus>5</FameBonus>
+<feedPower>540</feedPower>
+<DisplayId>Righteous Sword</DisplayId>
+</Object>
+<Object type="0x15ee" id="Holy Seal of the Well-Doer">
+      <Class>Equipment</Class>
+      <Item/>
+      <Texture>
+         <File>lofiObj5</File>
+         <Index>0xa9</Index>
+      </Texture>
+      <SlotType>12</SlotType>
+      <Description>A mighty seal that keeps your mind sane and your body safe.</Description>
+      <Sound>spell/light_heal</Sound>
+      <ActivateOnEquip stat="0" amount="10">IncrementStat</ActivateOnEquip>
+      <Usable/>
+      <BagType>6</BagType>
+      <FameBonus>6</FameBonus>
+      <MpCost>100</MpCost>
+      <Activate stat="0" amount="110" duration="5" range="4" noStack="true" useWisMod="true">StatBoostAura</Activate>    
+      <Activate effect="Healing" duration="4" range="4" color="0x62ffec" target="player" center="player" visualEffect="0"
+useWisMod="true">GenericActivate</Activate>
+      <Activate effect="Damaging" duration="4" range="4" color="0xfff962" target="player" center="player" visualEffect="0" useWisMod="true">GenericActivate</Activate>
+      <Cooldown>5</Cooldown>
+      <feedPower>750</feedPower>
+      <DisplayId>Seal of the Holy Light</DisplayId>
+   </Object>
+<Object type="0x15ef" id="Benign Armor">
+      <Class>Equipment</Class>
+      <Item/>
+      <Texture>
+         <File>lofiObj5</File>
+         <Index>0xaa</Index>
+      </Texture>
+      <SlotType>7</SlotType>
+      <Description>A armor said to help it's wearer in times of need.</Description>
+      <ActivateOnEquip stat="21" amount="19">IncrementStat</ActivateOnEquip>
+      <ActivateOnEquip stat="0" amount="80">IncrementStat</ActivateOnEquip>
+      <BagType>6</BagType>
+      <FameBonus>4</FameBonus>
+      <feedPower>435</feedPower>
+      <DisplayId>Benign Armor</DisplayId>
+</Object>
+<Object type="0x15f0" id="Holy Gem Ring">
+      <Class>Equipment</Class>
+      <Item/>
+      <Texture>
+         <File>lofiObj5</File>
+         <Index>0xab</Index>
+      </Texture>
+      <SlotType>9</SlotType>
+      <Description>An ancient dioptase gem set on a beautiful gold ring.</Description>
+      <ActivateOnEquip stat="21" amount="4">IncrementStat</ActivateOnEquip>
+      <ActivateOnEquip stat="0" amount="110">IncrementStat</ActivateOnEquip>
+      <ActivateOnEquip stat="27" amount="7">IncrementStat</ActivateOnEquip>
+      <BagType>6</BagType>
+      <FameBonus>5</FameBonus>
+      <feedPower>500</feedPower>
+      <DisplayId>Holy Gem Ring</DisplayId>
+</Object>
+
+   <Object type="0x15f8" id="Wand of Muteness">
+<Class>Equipment</Class>
+<Item/>
+<Texture>
+  <File>lofiObj5</File>
+  <Index>0xb8</Index>
+</Texture>
+<SlotType>8</SlotType>
+<Tier>0</Tier>
+<Description>A wand used by the scholars from the great library.</Description>
+<RateOfFire>0.95</RateOfFire>
+<Sound>weapon/fire_wand</Sound>
+<Projectile>
+   <ObjectId>Silencer Shot</ObjectId>
+   <Speed>150</Speed>
+   <MinDamage>80</MinDamage>
+   <MaxDamage>130</MaxDamage>
+   <LifetimeMS>733</LifetimeMS>
+   <Frequency>1</Frequency>
+   <Size>100</Size>
+   <MultiHit/>
+</Projectile>
+<NumProjectiles>1</NumProjectiles>
+<ArcGap>10</ArcGap>
+<BagType>6</BagType>
+<FameBonus>4</FameBonus>
+<feedPower>300</feedPower>
+<DisplayId>Wand of Muteness</DisplayId>
+</Object>
+<Object type="0x15f9" id="Tome of Requiem">
+      <Class>Equipment</Class>
+      <Item/>
+      <Texture>
+         <File>lofiObj5</File>
+         <Index>0xb9</Index>
+      </Texture>
+      <SlotType>4</SlotType>
+      <Description>A tome written by a priest from a the quietest place in the worldlur</Description>
+      <Sound>spell/major_heal</Sound>
+      <Usable/>
+      <BagType>6</BagType>
+      <FameBonus>4</FameBonus>
+      <MpCost>90</MpCost>
+      <Activate stat="27" amount="10" duration="4.5" range="4.5" noStack="true" useWisMod="true">StatBoostAura</Activate>
+      <Activate effect="Healing" duration="4.5" range="4.5" useWisMod="true">ConditionEffectAura</Activate>
+      <Activate range="4.5" amount="100" useWisMod="true">HealNova</Activate>
+      <feedPower>5000</feedPower>
+      <DisplayId>Tome of Requiem</DisplayId>
+</Object>
+<Object type="0x15fa" id="Robe of Calm Corridors">
+      <Class>Equipment</Class>
+      <Item/>
+      <Texture>
+         <File>lofiObj5</File>
+         <Index>0xba</Index>
+      </Texture>
+      <SlotType>14</SlotType>
+      <Description>This robe was made by the seamstress who sewed his own mouth</Description>
+      <ActivateOnEquip stat="21" amount="13">IncrementStat</ActivateOnEquip>
+      <ActivateOnEquip stat="27" amount="6">IncrementStat</ActivateOnEquip>
+      <ActivateOnEquip stat="3" amount="40">IncrementStat</ActivateOnEquip>
+      <BagType>6</BagType>
+      <FameBonus>4</FameBonus>
+      <feedPower>600</feedPower>
+      <DisplayId>Robe of Calm Corridors</DisplayId>
+</Object>
+<Object type="0x15fb" id="Hat of Silence">
+      <Class>Equipment</Class>
+      <Item/>
+      <Texture>
+         <File>lofiObj5</File>
+         <Index>0xbb</Index>
+      </Texture>
+      <SlotType>9</SlotType>
+      <Description>This hat brings great knowledge to its wearer.</Description>
+      <ActivateOnEquip stat="27" amount="7">IncrementStat</ActivateOnEquip>
+      <ActivateOnEquip stat="3" amount="110">IncrementStat</ActivateOnEquip>
+      <BagType>6</BagType>
+      <FameBonus>5</FameBonus>
+      <feedPower>600</feedPower>
+      <DisplayId>Hat of Silence</DisplayId>
+</Object>
+
+   <Object type="0x1600" id="Staff of the Maleficient Paragon">
+<Class>Equipment</Class>
+<Item/>
+<Texture>
+  <File>lofiObj5</File>
+  <Index>0x9c</Index>
+</Texture>
+<SlotType>17</SlotType>
+<Description>An ancient staff said to slowly consume its owners vital force.</Description>
+<RateOfFire>1.2</RateOfFire>
+<Sound>weapon/wand_of_death</Sound>
+<Projectile>
+   <ObjectId>Mage Green Shot</ObjectId>
+   <Speed>150</Speed>
+   <MinDamage>45</MinDamage>
+   <MaxDamage>90</MaxDamage>
+   <LifetimeMS>480</LifetimeMS>
+   <Amplitude>0.2</Amplitude>
+   <Frequency>2</Frequency>
+   <Size>90</Size>
+</Projectile>
+<NumProjectiles>2</NumProjectiles>
+<ArcGap>7</ArcGap>
+<BagType>6</BagType>
+<FameBonus>4</FameBonus>
+<feedPower>460</feedPower>
+<DisplayId>Staff of the Maleficient Paragon</DisplayId>
+</Object>
+<Object type="0x15f5" id="Skull of the Blightcaster">
+      <Class>Equipment</Class>
+      <Item/>
+      <Texture>
+         <File>lofiObj5</File>
+         <Index>0x9d</Index>
+      </Texture>
+      <SlotType>19</SlotType>
+      <Description>A skull found on the great swamp.</Description>
+      <ActivateOnEquip stat="28" amount="2">IncrementStat</ActivateOnEquip>
+      <Usable/>
+      <BagType>6</BagType>
+      <FameBonus>6</FameBonus>
+      <MpCost>120</MpCost>
+      <Activate radius="3" totalDamage="50">VampireBlast</Activate>
+      <Activate effect="Bleeding" duration="3" range="3" color="0x05c2b5" target="enemy" center="mouse" visualEffect="0" useWisMod="false">GenericActivate</Activate>
+      <feedPower>500</feedPower>
+      <Soulbound/>
+      <DisplayId>Skull of the Blightcaster</DisplayId>
+</Object>
+<Object type="0x15f6" id="Robe of Putrefaction">
+      <Class>Equipment</Class>
+      <Item/>
+      <Texture>
+         <File>lofiObj5</File>
+         <Index>0x9e</Index>
+      </Texture>
+      <SlotType>14</SlotType>
+      <Description>An old rotting robe found in the deeps of the great swamp.</Description>
+      <ActivateOnEquip stat="21" amount="13">IncrementStat</ActivateOnEquip>
+      <ActivateOnEquip stat="28" amount="8">IncrementStat</ActivateOnEquip>
+      <ActivateOnEquip stat="3" amount="30">IncrementStat</ActivateOnEquip>
+      <BagType>4</BagType>
+      <FameBonus>4</FameBonus>
+      <feedPower>470</feedPower>
+      <DisplayId>Robe of Putrefaction</DisplayId>
+</Object>
+<Object type="0x15f7" id="Ring of Decay">
+      <Class>Equipment</Class>
+      <Item/>
+      <Texture>
+         <File>lofiObj5</File>
+         <Index>0x9f</Index>
+      </Texture>
+      <SlotType>9</SlotType>
+      <Description>This ring was once used by the harbingers of the plague.</Description>
+      <ActivateOnEquip stat="28" amount="3">IncrementStat</ActivateOnEquip>
+      <ActivateOnEquip stat="0" amount="110">IncrementStat</ActivateOnEquip>
+      <BagType>4</BagType>
+      <FameBonus>5</FameBonus>
+      <feedPower>400</feedPower>
+      <DisplayId>Ring of Decay</DisplayId>
+</Object>
+
+<Object type="0x15fc" id="Wand of Slaughter">
+<Class>Equipment</Class>
+<Item/>
+<Texture>
+  <File>lofiObj5</File>
+  <Index>0xf4</Index>
+</Texture>
+<SlotType>8</SlotType>
+<Description>A wand used by priests who worshipped a chaos god.</Description>
+<RateOfFire>1</RateOfFire>
+<Sound>weapon/wand_of_death</Sound>
+<Projectile>
+   <ObjectId>Slaughter Shot</ObjectId>
+   <Speed>150</Speed>
+   <MinDamage>180</MinDamage>
+   <MaxDamage>235</MaxDamage>
+   <LifetimeMS>300</LifetimeMS>
+   <Frequency>1</Frequency>
+   <Size>100</Size>
+</Projectile>
+<NumProjectiles>1</NumProjectiles>
+<ArcGap>10</ArcGap>
+<BagType>6</BagType>
+<FameBonus>4</FameBonus>
+<feedPower>450</feedPower>
+<DisplayId>Wand of Slaughter</DisplayId>
+</Object>
+<Object type="0x15fd" id="Tome of the Last Stand">
+      <Class>Equipment</Class>
+      <Item/>
+      <Texture>
+         <File>lofiObj5</File>
+         <Index>0xf5</Index>
+      </Texture>
+      <SlotType>4</SlotType>
+      <Description>A bloodstained tome written by ancient cultists.</Description>
+      <Sound>spell/major_heal</Sound>
+      <Activate effect="Dazed" duration="2" range="5" color="0x780000" target="enemy" center="player" visualEffect="0" useWisMod="true">GenericActivate</Activate>
+      <Usable/>
+      <BagType>6</BagType>
+      <FameBonus>4</FameBonus>
+      <MpCost>90</MpCost>
+      <Activate range="4.5" amount="60" useWisMod="true">HealNova</Activate>
+      <feedPower>500</feedPower>
+      <DisplayId>Tome of the Last Stand</DisplayId>
+</Object>
+<Object type="0x15fe" id="Robe of Executions">
+      <Class>Equipment</Class>
+      <Item/>
+      <Texture>
+         <File>lofiObj5</File>
+         <Index>0xf6</Index>
+      </Texture>
+      <SlotType>14</SlotType>
+      <Description>This tome was made with the finest silk and was bathed in the blood of an immortal.</Description>
+      <ActivateOnEquip stat="21" amount="17">IncrementStat</ActivateOnEquip>
+      <BagType>6</BagType>
+      <FameBonus>4</FameBonus>
+      <feedPower>400</feedPower>
+      <DisplayId>Robe of Executions</DisplayId>
+   </Object>
+   <Object type="0x15ff" id="Blood Diamond">
+      <Class>Equipment</Class>
+      <Item/>
+      <Texture>
+         <File>lofiObj5</File>
+         <Index>0xf7</Index>
+      </Texture>
+      <SlotType>9</SlotType>
+      <Description>A magical gemstone that has known many owners.</Description>
+      <ActivateOnEquip stat="21" amount="4">IncrementStat</ActivateOnEquip>
+      <ActivateOnEquip stat="3" amount="100">IncrementStat</ActivateOnEquip>
+      <BagType>6</BagType>
+      <FameBonus>5</FameBonus>
+      <feedPower>400</feedPower>
+      <DisplayId>Blood Diamond</DisplayId>
+   </Object>
+   <Object type="0x15e1" id="Oryx the Mad God 3">
       <DisplayId>Oryx the Mad God 3</DisplayId>
       <Enemy/>
       <Class>Character</Class>
@@ -11,7 +668,7 @@
       </Texture>
       <HitSound>monster/oryx_hit</HitSound>
       <DeathSound>monster/oryx_death</DeathSound>
-      <Size>200</Size>
+      <Size>150</Size>
       <MaxHitPoints>125000</MaxHitPoints>
       <Defense>80</Defense>
       <Quest/>
@@ -8113,9 +8770,182 @@
       </Texture>
       <AngleCorrection>1</AngleCorrection>
    </Object>
-
-
-
+      <Object type="0xa22d" id="Ancient Purple Shot">
+      <Class>Projectile</Class>
+      <Texture>
+         <File>lofiObj3</File>
+         <Index>0x570</Index>
+      </Texture>
+      <AngleCorrection>1</AngleCorrection>
+   </Object>
+      <Object type="0xa22e" id="Summon Orange Fire Shot">
+      <Class>Projectile</Class>
+      <Texture>
+         <File>lofiObj3</File>
+         <Index>0x571</Index>
+      </Texture>
+      <AngleCorrection>1</AngleCorrection>
+   </Object>
+      <Object type="0xa22f" id="Blue Sky Shot">
+      <Class>Projectile</Class>
+      <Texture>
+         <File>lofiObj3</File>
+         <Index>0x572</Index>
+      </Texture>
+      <AngleCorrection>1</AngleCorrection>
+   </Object>
+      <Object type="0xa230" id="Silencer Shot">
+      <Class>Projectile</Class>
+      <Texture>
+         <File>lofiObj3</File>
+         <Index>0x573</Index>
+      </Texture>
+      <AngleCorrection>1</AngleCorrection>
+   </Object>
+      <Object type="0xa231" id="Pink Warrior Shot">
+      <Class>Projectile</Class>
+      <Texture>
+         <File>lofiObj3</File>
+         <Index>0x574</Index>
+      </Texture>
+      <AngleCorrection>1</AngleCorrection>
+   </Object>
+      <Object type="0xa232" id="Gray Rogue Shot">
+      <Class>Projectile</Class>
+      <Texture>
+         <File>lofiObj3</File>
+         <Index>0x575</Index>
+      </Texture>
+      <AngleCorrection>1</AngleCorrection>
+   </Object>
+      <Object type="0xa233" id="Crossbow Red Shot">
+      <Class>Projectile</Class>
+      <Texture>
+         <File>lofiObj3</File>
+         <Index>0x576</Index>
+      </Texture>
+      <AngleCorrection>1</AngleCorrection>
+   </Object>
+      <Object type="0xa234" id="PandB Ninja Shot">
+      <Class>Projectile</Class>
+      <Texture>
+         <File>lofiObj3</File>
+         <Index>0x577</Index>
+      </Texture>
+      <AngleCorrection>1</AngleCorrection>
+   </Object>
+      <Object type="0xa235" id="Nice Blue Archer Shot">
+      <Class>Projectile</Class>
+      <Texture>
+         <File>lofiObj3</File>
+         <Index>0x578</Index>
+      </Texture>
+      <AngleCorrection>1</AngleCorrection>
+   </Object>
+      <Object type="0xa236" id="Mage Green Shot">
+      <Class>Projectile</Class>
+      <Texture>
+         <File>lofiObj3</File>
+         <Index>0x579</Index>
+      </Texture>
+      <AngleCorrection>1</AngleCorrection>
+   </Object>
+      <Object type="0xa237" id="Orange For The Win">
+      <Class>Projectile</Class>
+      <Texture>
+         <File>lofiObj3</File>
+         <Index>0x57a</Index>
+      </Texture>
+      <AngleCorrection>1</AngleCorrection>
+   </Object>
+      <Object type="0xa238" id="Dark Purple Shot">
+      <Class>Projectile</Class>
+      <Texture>
+         <File>lofiObj3</File>
+         <Index>0x57b</Index>
+      </Texture>
+      <AngleCorrection>1</AngleCorrection>
+   </Object>
+      <Object type="0xa239" id="Rolosa Cumshot">
+      <Class>Projectile</Class>
+      <Texture>
+         <File>lofiObj3</File>
+         <Index>0x57c</Index>
+      </Texture>
+      <AngleCorrection>1</AngleCorrection>
+   </Object>
+   <Object type="0xa23a" id="Druid Shot">
+      <Class>Projectile</Class>
+      <Texture>
+         <File>lofiObj3</File>
+         <Index>0x57d</Index>
+      </Texture>
+      <AngleCorrection>1</AngleCorrection>
+   </Object>
+   <Object type="0xa23b" id="Asian Bolt Shot">
+      <Class>Projectile</Class>
+      <Texture>
+         <File>lofiObj3</File>
+         <Index>0x57e</Index>
+      </Texture>
+      <AngleCorrection>1</AngleCorrection>
+   </Object>
+   <Object type="0xa23c" id="Midnight Shot">
+      <Class>Projectile</Class>
+      <Texture>
+         <File>lofiObj3</File>
+         <Index>0x57f</Index>
+      </Texture>
+      <AngleCorrection>1</AngleCorrection>
+   </Object>
+   <Object type="0xa23d" id="Purple Stun Shot">
+      <Class>Projectile</Class>
+      <Texture>
+         <File>lofiObj3</File>
+         <Index>0x56b</Index>
+      </Texture>
+      <AngleCorrection>1</AngleCorrection>
+   </Object>
+   <Object type="0xa23e" id="Heavy Red Shot">
+      <Class>Projectile</Class>
+      <Texture>
+         <File>lofiObj3</File>
+         <Index>0x56c</Index>
+      </Texture>
+      <AngleCorrection>1</AngleCorrection>
+   </Object>
+   <Object type="0xa23f" id="PandB Doughnut">
+      <Class>Projectile</Class>
+      <Texture>
+         <File>lofiObj3</File>
+         <Index>0x56d</Index>
+      </Texture>
+      <AngleCorrection>1</AngleCorrection>
+   </Object>
+   <Object type="0xa240" id="Fish Caller">
+      <Class>Projectile</Class>
+      <Texture>
+         <File>lofiObj3</File>
+         <Index>0x56e</Index>
+      </Texture>
+      <AngleCorrection>1</AngleCorrection>
+   </Object>
+   <Object type="0xa241" id="Black Nature Star">
+      <Class>Projectile</Class>
+      <Texture>
+         <File>lofiObj3</File>
+         <Index>0x56f</Index>
+      </Texture>
+      <AngleCorrection>1</AngleCorrection>
+   </Object>
+   <Object type="0xa242" id="Slaughter Shot">
+      <Class>Projectile</Class>
+      <Texture>
+         <File>lofiObj3</File>
+         <Index>0x580</Index>
+      </Texture>
+      <AngleCorrection>1</AngleCorrection>
+   </Object>
 
 
    <Object type="0x762" id="ic CreepyTime">
@@ -15996,9 +16826,9 @@
       <HitSound>monster/eggs_hit</HitSound>
       <DeathSound>monster/eggs_death</DeathSound>
       <MaxHitPoints>650000</MaxHitPoints>
-      <Defense>0</Defense>
+      <Defense>10</Defense>
       <XpMult>0.0</XpMult>
-      <Size>130</Size>
+      <Size>140</Size>
       <ShadowSize>100</ShadowSize>
    </Object>
    <Object type="0x0e17" id="TestChicken 2">
@@ -16012,7 +16842,7 @@
       <MaxHitPoints>65000</MaxHitPoints>
       <Defense>55</Defense>
       <XpMult>0.35</XpMult>
-      <Size>40</Size>
+      <Size>100</Size>
       <ShadowSize>80</ShadowSize>
       <StasisImmune/>
       <StunImmune/>
@@ -28424,6 +29254,106 @@
       <feedPower>310</feedPower>
       <DisplayId>{equip.Skysplitter_Sword}</DisplayId>
    </Object>
+
+      <Object id="Profaned Saber" type="0x15e0">
+      <Class>Equipment</Class>
+      <Item/>
+      <Texture>
+         <File>lofiObj5</File>
+         <Index>0x88</Index>
+   </Texture>
+   <SlotType>1</SlotType>
+   <Description>A cerimonial saber used by an ancient order of paladins.</Description>
+   <RateOfFire>1.3</RateOfFire>
+   <Sound>weapon/mithril_sword</Sound>
+   <Projectile>
+   <ObjectId>Ancient Purple Shot</ObjectId>
+      <Speed>100</Speed>
+      <MinDamage>120</MinDamage>
+      <MaxDamage>170</MaxDamage>
+      <LifetimeMS>400</LifetimeMS>
+      <Frequency>1</Frequency>
+      <Size>100</Size>
+   </Projectile>
+   <NumProjectiles>2</NumProjectiles>
+   <ArcGap>355</ArcGap>
+   <BagType>6</BagType>
+   <FameBonus>5</FameBonus>
+   <OldSound>bladeSwing</OldSound>
+   <feedPower>750</feedPower>
+   <DisplayId>{Profaned Saber}</DisplayId>
+   </Object>
+
+   <Object id="Diffuse Shield" type="0x15e2">
+      <Class>Equipment</Class>
+      <Item/>
+      <Texture>
+         <File>lofiObj5</File>
+         <Index>0x89</Index>
+      </Texture>
+      <SlotType>5</SlotType>
+      <Description>A magic shield capable of preventing many attacks.</Description>
+      <Sound>spell/fire_spray</Sound>
+      <Projectile>
+         <ObjectId>Purple Stun Shot</ObjectId>
+         <Speed>160</Speed>
+         <MinDamage>10</MinDamage>
+         <MaxDamage>20</MaxDamage>
+         <LifetimeMS>200</LifetimeMS>
+         <Size>100</Size>
+         <ConditionEffect duration="3">Stunned</ConditionEffect>
+         <MultiHit/>
+         <PassesCover/>
+         <ArmorPiercing/>
+      </Projectile>
+      <ActivateOnEquip stat="21" amount="10">IncrementStat</ActivateOnEquip>
+      <ActivateOnEquip stat="0" amount="20">IncrementStat</ActivateOnEquip>
+      <ActivateOnEquip stat="3" amount="20">IncrementStat</ActivateOnEquip>
+      <ConditionEffect duration="3">Stunned</ConditionEffect>
+      <Usable/>
+      <BagType>6</BagType>
+      <FameBonus>5</FameBonus>
+      <MpCost>120</MpCost>
+      <Activate>Shoot</Activate>
+      <NumProjectiles>32</NumProjectiles>
+      <feedPower>800</feedPower>
+      <DisplayId>Diffuse Shield</DisplayId>
+   </Object>
+
+   <Object id="Ravishing Heavy Armor" type="0x15e3">
+      <Class>Equipment</Class>
+      <Item/>
+      <Texture>
+         <File>lofiObj5</File>
+         <Index>0x8a</Index>
+      </Texture>
+      <SlotType>7</SlotType>
+      <Description>Legendary armor flowing with powerful witchcraft.</Description>
+      <ActivateOnEquip stat="21" amount="20">IncrementStat</ActivateOnEquip>
+      <ActivateOnEquip stat="3" amount="50">IncrementStat</ActivateOnEquip>
+      <BagType>6</BagType>
+      <FameBonus>5</FameBonus>
+      <feedPower>750</feedPower>
+      <DisplayId>Ravishing Heavy Armor</DisplayId>
+   </Object>
+
+   <Object id="Bewitchment Ring" type="0x15e4">
+      <Class>Equipment</Class>
+      <Item/>
+      <Texture>
+         <File>lofiObj5</File>
+         <Index>0x8b</Index>
+      </Texture>
+      <SlotType>9</SlotType>
+      <Description>A magical ring twinkling with energy.</Description>
+      <ActivateOnEquip stat="21" amount="5">IncrementStat</ActivateOnEquip>
+      <ActivateOnEquip stat="3" amount="70">IncrementStat</ActivateOnEquip>
+      <BagType>6</BagType>
+      <FameBonus>4</FameBonus>
+      <feedPower>550</feedPower>
+      <DisplayId>Bewitchment Ring</DisplayId>
+   </Object>
+
    <Object type="0xb0b" id="Sword of Acclaim">
       <Class>Equipment</Class>
       <Item/>
@@ -28932,6 +29862,95 @@
       <feedPower>450</feedPower>
       <DisplayId>{equip.Wand_of_Recompense}</DisplayId>
    </Object>
+
+
+<Object type="0x15e9" id="Wand of the Royal Sorcerer">
+<Class>Equipment</Class>
+<Item/>
+<Texture>
+  <File>lofiObj5</File>
+  <Index>0xac</Index>
+</Texture>
+<SlotType>8</SlotType>
+<Description>A golden wand used by the best sorcerers in order to protect their kingdom from evil.</Description>
+<RateOfFire>1.2</RateOfFire>
+<Sound>weapon/wand_of_death</Sound>
+<Projectile>
+   <ObjectId>Orange Missile</ObjectId>
+   <Speed>200</Speed>
+   <MinDamage>85</MinDamage>
+   <MaxDamage>115</MaxDamage>
+   <LifetimeMS>490</LifetimeMS>
+   <Frequency>1</Frequency>
+   <Size>110</Size>
+   <MultiHit/>
+</Projectile>
+<NumProjectiles>1</NumProjectiles>
+<ArcGap>10</ArcGap>
+<ActivateOnEquip stat="0" amount="20">IncrementStat</ActivateOnEquip>
+<BagType>6</BagType>
+<FameBonus>5</FameBonus>
+<feedPower>670</feedPower>
+<DisplayId>Wand of the Royal Sorcerer</DisplayId>
+</Object>
+<Object type="0x15ea" id="Scepter of Marvels">
+      <Class>Equipment</Class>
+      <Item/>
+      <Texture>
+         <File>lofiObj5</File>
+         <Index>0xad</Index>
+      </Texture>
+      <SlotType>23</SlotType>
+      <Description>This scepter is known for knocking down even the most fearsome creatures.</Description>
+      <Sound>spell/magic_nova</Sound>
+      <ActivateOnEquip stat="0" amount="20">IncrementStat</ActivateOnEquip>
+      <ActivateOnEquip stat="21" amount="2">IncrementStat</ActivateOnEquip>
+      <Usable/>
+      <BagType>6</BagType>
+      <FameBonus>6</FameBonus>
+      <MpCost>75</MpCost>
+      <Activate totalDamage="230" maxTargets="6" condEffect="Stunned" condDuration="2" color="0xded60a">Lightning</Activate>
+      <feedPower>900</feedPower>
+      <DisplayId>Scepter of Marvels</DisplayId>
+   </Object>
+<Object type="0x15eb" id="Robe of the Court Wizard">
+      <Class>Equipment</Class>
+      <Item/>
+      <Texture>
+         <File>lofiObj5</File>
+         <Index>0xae</Index>
+      </Texture>
+      <SlotType>14</SlotType>
+      <Description>A robe made out of silk and gold, worn by those who swore to protect their kingdom from any harm.</Description>
+      <ActivateOnEquip stat="0" amount="40">IncrementStat</ActivateOnEquip>
+      <ActivateOnEquip stat="21" amount="14">IncrementStat</ActivateOnEquip>
+      <ActivateOnEquip stat="20" amount="2">IncrementStat</ActivateOnEquip>
+      <ActivateOnEquip stat="3" amount="40">IncrementStat</ActivateOnEquip>
+      <BagType>6</BagType>
+      <FameBonus>5</FameBonus>
+      <feedPower>570</feedPower>
+      <DisplayId>Robe of the Court Wizard</DisplayId>
+   </Object>
+<Object type="0x15ec" id="Amber Gemstone">
+      <Class>Equipment</Class>
+      <Item/>
+      <Texture>
+         <File>lofiObj5</File>
+         <Index>0xaf</Index>
+      </Texture>
+      <SlotType>9</SlotType>
+      <Description>Resin from a long lost tree with golden leaves and magical roots.</Description>
+      <ActivateOnEquip stat="21" amount="5">IncrementStat</ActivateOnEquip>
+      <ActivateOnEquip stat="20" amount="5">IncrementStat</ActivateOnEquip>
+      <ActivateOnEquip stat="0" amount="100">IncrementStat</ActivateOnEquip>
+      <ActivateOnEquip stat="3" amount="40">IncrementStat</ActivateOnEquip>
+      <BagType>6</BagType>
+      <FameBonus>5</FameBonus>
+      <feedPower>600</feedPower>
+      <DisplayId>Amber Gemstone</DisplayId>
+   </Object>
+
+
    <Object type="0x9ca" id="Wand of Evocation">
       <Class>Equipment</Class>
       <Item/>
@@ -34400,6 +35419,92 @@
       <feedPower>600</feedPower>
       <Soulbound/>
       <DisplayId>{equip.Staff_of_Extreme_Prejudice}</DisplayId>
+   </Object>
+   <Object id="Summoning Staff" type="0x15e5">
+      <Class>Equipment</Class>
+      <Item/>
+      <Texture>
+         <File>lofiObj5</File>
+          <Index>0x98</Index>
+      </Texture>
+      <SlotType>17</SlotType>
+      <Description>A staff that summons portals from a long lost realm.</Description>
+      <RateOfFire>0.1</RateOfFire>
+      <Sound>weapon/missile_wand</Sound>
+      <Projectile>
+      <ObjectId>Summon Orange Fire Shot</ObjectId>
+      <Speed>20</Speed>
+      <MinDamage>980</MinDamage>
+      <MaxDamage>1020</MaxDamage>
+      <LifetimeMS>3200</LifetimeMS>
+      <Frequency>1</Frequency>
+      <Size>210</Size>
+      <MultiHit/>
+      <PassesCover/>
+      </Projectile>
+      <NumProjectiles>1</NumProjectiles>
+      <ArcGap>0</ArcGap>
+      <ActivateOnEquip stat="20" amount="2">IncrementStat</ActivateOnEquip>
+      <BagType>6</BagType>
+      <FameBonus>6</FameBonus>
+      <feedPower>600</feedPower>
+      <DisplayId>Summoning Staff</DisplayId>
+   </Object>
+   <Object id="Firelands Orb" type="0x15e6">
+      <Class>Equipment</Class>
+      <Item/>
+      <Texture>
+         <File>lofiObj5</File>
+         <Index>0x99</Index>
+      </Texture>
+      <SlotType>21</SlotType>
+      <Description>Ancient orb that catalyzes energy into powerful blasts.</Description>
+      <ActivateOnEquip stat="20" amount="2">IncrementStat</ActivateOnEquip>
+      <ActivateOnEquip stat="28" amount="2">IncrementStat</ActivateOnEquip>
+      <Usable/>
+      <BagType>6</BagType>
+      <FameBonus>6</FameBonus>
+      <MpCost>120</MpCost>
+      <Activate stat="21" amount="7" duration="3.5" range="5" noStack="true" useWisMod="true">StatBoostAura</Activate>
+      <Activate duration="8">StasisBlast</Activate>
+      <Cooldown>5</Cooldown>
+      <feedPower>750</feedPower>
+      <Soulbound/>
+      <DisplayId>Firelands Orb</DisplayId>
+   </Object>
+   <Object id="Igneous Robe" type="0x15e7">
+      <Class>Equipment</Class>
+      <Item/>
+      <Texture>
+         <File>lofiObj5</File>
+         <Index>0x9a</Index>
+      </Texture>
+      <SlotType>14</SlotType>
+      <Description>A magic robe that protects the wearer from burns.</Description>
+      <ActivateOnEquip stat="20" amount="5">IncrementStat</ActivateOnEquip>
+      <ActivateOnEquip stat="21" amount="13">IncrementStat</ActivateOnEquip>
+      <BagType>6</BagType>
+      <FameBonus>5</FameBonus>
+      <feedPower>600</feedPower>
+      <Soulbound/>
+      <DisplayId>Igneous Robe</DisplayId>
+   </Object>
+   <Object id="Darned Flame" type="0x15e8">
+      <Class>Equipment</Class>
+      <Item/>
+      <Texture>
+         <File>lofiObj5</File>
+         <Index>0x9b</Index>
+      </Texture>
+      <SlotType>9</SlotType>
+      <Description>This inextinguishable flame makes you feel more powerful.</Description>
+      <ActivateOnEquip stat="20" amount="5">IncrementStat</ActivateOnEquip>
+      <ActivateOnEquip stat="21" amount="5">IncrementStat</ActivateOnEquip>
+      <ActivateOnEquip stat="28" amount="5">IncrementStat</ActivateOnEquip>
+      <BagType>6</BagType>
+      <FameBonus>5</FameBonus>
+      <feedPower>400</feedPower>
+      <DisplayId>Darned Flame</DisplayId>
    </Object>
    <Object type="0xaa3" id="Centipede Poison">
       <Class>Equipment</Class>
@@ -41127,6 +42232,99 @@
       <feedPower>500</feedPower>
       <DisplayId>{equip.Pixie-Enchanted_Sword}</DisplayId>
    </Object>
+
+   <Object type="0x15f1" id="Shadowwalker Dagger">
+<Class>Equipment</Class>
+<Item/>
+<Texture>
+  <File>lofiObj5</File>
+  <Index>0xd8</Index>
+</Texture>
+<SlotType>2</SlotType>
+<Description>A tempered steel knife used by a famous group of assassins.</Description>
+<RateOfFire>1</RateOfFire>
+<Sound>weapon/fire_dagger</Sound>
+<Projectile>
+   <ObjectId>Gray Rogue Shot</ObjectId>
+   <Speed>145.5</Speed>
+   <MinDamage>70</MinDamage>
+   <MaxDamage>205</MaxDamage>
+   <LifetimeMS>385</LifetimeMS>
+   <Frequency>1</Frequency>
+   <Size>100</Size>
+   <Wavy/>
+</Projectile>
+<NumProjectiles>1</NumProjectiles>
+<ArcGap>10</ArcGap>
+<ActivateOnEquip stat="3" amount="10">IncrementStat</ActivateOnEquip>
+<BagType>6</BagType>
+<FameBonus>5</FameBonus>
+<feedPower>480</feedPower>
+<DisplayId>Shadowwalker Dagger</DisplayId>
+</Object>
+
+
+ <Object type="0x15f2" id="Cloak of the Lurcher">
+      <Class>Equipment</Class>
+      <Item/>
+      <Texture>
+         <File>lofiObj5</File>
+         <Index>0xd9</Index>
+      </Texture>
+      <SlotType>13</SlotType>
+      <Description>A cloak so good that allows the wearer to hide in plain sight.</Description>
+      <Sound>spell/fire_nova</Sound>
+      <ActivateOnEquip stat="22" amount="2">IncrementStat</ActivateOnEquip>
+      <ActivateOnEquip stat="28" amount="2">IncrementStat</ActivateOnEquip>
+      <Usable/>
+      <BagType>6</BagType>
+      <FameBonus>6</FameBonus>
+      <MpCost>90</MpCost>
+      <Activate effect="Invisible" duration="6">ConditionEffectSelf</Activate>
+      <Cooldown>6.5</Cooldown>
+      <feedPower>800</feedPower>
+      <DisplayId>Cloak of the Lurcher</DisplayId>
+   </Object>
+
+
+<Object type="0x15f3" id="Concealed Leather Armor">
+      <Class>Equipment</Class>
+      <Item/>
+      <Texture>
+         <File>lofiObj5</File>
+         <Index>0xda</Index>
+      </Texture>
+      <SlotType>6</SlotType>
+      <Description>A heavy leather armor that can be worn under other pieces of clothing.</Description>
+      <ActivateOnEquip stat="21" amount="16">IncrementStat</ActivateOnEquip>
+      <ActivateOnEquip stat="3" amount="20">IncrementStat</ActivateOnEquip>
+      <ActivateOnEquip stat="22" amount="3">IncrementStat</ActivateOnEquip>
+      <BagType>6</BagType>
+      <FameBonus>4</FameBonus>
+      <feedPower>550</feedPower>
+      <DisplayId>Concealed Leather Armor</DisplayId>
+   </Object>
+
+
+<Object type="0x15f4" id="Coin Purse">
+      <Class>Equipment</Class>
+      <Item/>
+      <Texture>
+         <File>lofiObj5</File>
+         <Index>0xdb</Index>
+      </Texture>
+      <SlotType>9</SlotType>
+      <Description>A bag used to store coins.</Description>
+      <ActivateOnEquip stat="21" amount="1">IncrementStat</ActivateOnEquip>
+      <ActivateOnEquip stat="3" amount="100">IncrementStat</ActivateOnEquip>
+      <ActivateOnEquip stat="28" amount="7">IncrementStat</ActivateOnEquip>
+      <ActivateOnEquip stat="22" amount="7">IncrementStat</ActivateOnEquip>
+      <BagType>6</BagType>
+      <FameBonus>8</FameBonus>
+      <feedPower>1000</feedPower>
+      <DisplayId>Coin Purse</DisplayId>
+   </Object>
+
    <Object type="0x21a0" id="Etherite Dagger" setType="0x0005" setName="Skuld 2 The ReGhostening Set">
       <Class>Equipment</Class>
       <Item/>
@@ -41155,6 +42353,7 @@
       <feedPower>500</feedPower>
       <DisplayId>{equip.Etherite_Dagger}</DisplayId>
    </Object>
+
    <Object type="0x21a1" id="Mantle of Skuld" setType="0x0005" setName="Skuld 2 The ReGhostening Set">
       <Class>Equipment</Class>
       <Item/>
@@ -69249,10 +70448,6 @@
          </Frame>
       </Animation>
    </Object>
-
-
-
-
 
    <Object type="0x0932" id="Oryx the Mad God 2">
       <DisplayId>Oryx the Mad God</DisplayId>

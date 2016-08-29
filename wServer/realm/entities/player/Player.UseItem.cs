@@ -391,32 +391,44 @@ namespace wServer.realm.entities.player
 
                     case ActivateEffects.StatBoostAura:
                         {
-                            int idx = -1;
-
-                            if(eff.Stats == StatsType.MaximumHP) idx = 0;
-                            if(eff.Stats == StatsType.MaximumMP) idx = 1;
-                            if(eff.Stats == StatsType.Attack) idx = 2;
-                            if(eff.Stats == StatsType.Defense) idx = 3;
-                            if(eff.Stats == StatsType.Speed) idx = 4;
-                            if(eff.Stats == StatsType.Vitality) idx = 5;
-                            if(eff.Stats == StatsType.Wisdom) idx = 6;
-                            if(eff.Stats == StatsType.Dexterity) idx = 7;
-                            
-                            int bit = idx + 39;
-
                             var amountSBA = eff.Amount;
                             var durationSBA = eff.DurationMS;
                             var rangeSBA = eff.Range;
+                            int idx = -1;
+
+                            if (eff.Stats == StatsType.MaximumHP) idx = 0;
+                            if (eff.Stats == StatsType.MaximumMP) idx = 1;
+                            if (eff.Stats == StatsType.Attack) idx = 2;
+                            if (eff.Stats == StatsType.Defense) idx = 3;
+                            if (eff.Stats == StatsType.Speed) idx = 4;
+                            if (eff.Stats == StatsType.Vitality) idx = 5;
+                            if (eff.Stats == StatsType.Wisdom) idx = 6;
+                            if (eff.Stats == StatsType.Dexterity) idx = 7;
+
+                            int bit = idx + 39;
+
+
                             if (eff.UseWisMod)
                             {
                                 amountSBA = (int)UseWisMod(eff.Amount, 0);
                                 durationSBA = (int)(UseWisMod(eff.DurationSec) * 1000);
                                 rangeSBA = UseWisMod(eff.Range);
                             }
-                            
+                            if (HasConditionEffect(ConditionEffectIndex.HPBoost))
+                            {
+                                
+
+                                if (amountSBA == 0) ;
+                                
+                            else if (amountSBA >= 1) ;
+                                amountSBA = 0;
+                                durationSBA = 0;
+                                return false;
+
+                            } 
+                
                             this.Aoe(rangeSBA, true, player =>
                             {
-                                // TODO support for noStack StatBoostAura attribute (paladin total hp increase / insta heal)
                                 ApplyConditionEffect(new ConditionEffect
                                 {
                                     DurationMS = durationSBA,
@@ -428,6 +440,7 @@ namespace wServer.realm.entities.player
                                 {
                                     (player as Player).Boost[idx] -= amountSBA;
                                     player.UpdateCount++;
+                               
                                 }));
                             });
                             BroadcastSync(new ShowEffectPacket()
@@ -437,7 +450,7 @@ namespace wServer.realm.entities.player
                                 Color = new ARGB(0xffffffff),
                                 PosA = new Position() { X = rangeSBA }
                             }, p => this.Dist(p) < 25);
-                        } break;
+                        } break;;
 
                     case ActivateEffects.ConditionEffectSelf:
                     {

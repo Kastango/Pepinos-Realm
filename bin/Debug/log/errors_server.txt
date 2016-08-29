@@ -1,0 +1,759 @@
+2016-01-24 10:01:32,262 [Entry] WARN  db.data.XmlData - 0x0065 and 0x0061 has the same name of Grey Circle!
+2016-01-24 10:05:13,632 [6] ERROR Server - System.Net.HttpListenerException (0x80004005): I/U-operasjonen er blitt avsluttet på grunn av en trådavslutning eller en forespørsel fra et program
+   ved System.Net.HttpResponseStream.Write(Byte[] buffer, Int32 offset, Int32 size)
+   ved server.app.getLanguageStrings.HandleRequest() i C:\Users\Namik\Desktop\Rotmg PServer\fabiano-swagger-of-doom-master\server\app\getLanguageStrings.cs:linje 37
+   ved server.RequestHandler.HandleRequest(HttpListenerContext context) i C:\Users\Namik\Desktop\Rotmg PServer\fabiano-swagger-of-doom-master\server\RequestHandlers.cs:linje 38
+   ved server.Program.ProcessRequest(HttpListenerContext context) i C:\Users\Namik\Desktop\Rotmg PServer\fabiano-swagger-of-doom-master\server\Program.cs:linje 156
+2016-01-24 11:51:14,747 [Entry] WARN  db.data.XmlData - 0x0065 and 0x0061 has the same name of Grey Circle!
+2016-01-24 12:15:43,105 [Entry] WARN  db.data.XmlData - 0x0065 and 0x0061 has the same name of Grey Circle!
+2016-01-24 12:26:58,265 [Entry] WARN  db.data.XmlData - 0x0065 and 0x0061 has the same name of Grey Circle!
+2016-01-24 13:16:08,822 [Entry] WARN  db.data.XmlData - 0x0065 and 0x0061 has the same name of Grey Circle!
+2016-01-24 13:17:27,227 [6] ERROR Server - System.FormatException: Inndatastrengen hadde ugyldig format.
+   ved System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   ved System.Number.ParseInt32(String s, NumberStyles style, NumberFormatInfo info)
+   ved System.Int32.Parse(String s, NumberStyles style)
+   ved Utils.FromString(String x) i C:\Users\Namik\Desktop\Rotmg PServer\fabiano-swagger-of-doom-master\db\Utils.cs:linje 108
+   ved Utils.<>c.<FromCommaSepString32>b__15_0(String _) i C:\Users\Namik\Desktop\Rotmg PServer\fabiano-swagger-of-doom-master\db\Utils.cs:linje 181
+   ved System.Linq.Enumerable.WhereSelectArrayIterator`2.MoveNext()
+   ved System.Linq.Buffer`1..ctor(IEnumerable`1 source)
+   ved System.Linq.Enumerable.ToArray[TSource](IEnumerable`1 source)
+   ved Utils.FromCommaSepString32(String x) i C:\Users\Namik\Desktop\Rotmg PServer\fabiano-swagger-of-doom-master\db\Utils.cs:linje 181
+   ved server.account.playFortuneGame.HandleRequest() i C:\Users\Namik\Desktop\Rotmg PServer\fabiano-swagger-of-doom-master\server\account\playFortuneGame.cs:linje 44
+   ved server.RequestHandler.HandleRequest(HttpListenerContext context) i C:\Users\Namik\Desktop\Rotmg PServer\fabiano-swagger-of-doom-master\server\RequestHandlers.cs:linje 38
+   ved server.Program.ProcessRequest(HttpListenerContext context) i C:\Users\Namik\Desktop\Rotmg PServer\fabiano-swagger-of-doom-master\server\Program.cs:linje 156
+2016-01-24 13:18:02,545 [6] ERROR Server - System.FormatException: Inndatastrengen hadde ugyldig format.
+   ved System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   ved System.Number.ParseInt32(String s, NumberStyles style, NumberFormatInfo info)
+   ved System.Int32.Parse(String s, NumberStyles style)
+   ved Utils.FromString(String x) i C:\Users\Namik\Desktop\Rotmg PServer\fabiano-swagger-of-doom-master\db\Utils.cs:linje 108
+   ved Utils.<>c.<FromCommaSepString32>b__15_0(String _) i C:\Users\Namik\Desktop\Rotmg PServer\fabiano-swagger-of-doom-master\db\Utils.cs:linje 181
+   ved System.Linq.Enumerable.WhereSelectArrayIterator`2.MoveNext()
+   ved System.Linq.Buffer`1..ctor(IEnumerable`1 source)
+   ved System.Linq.Enumerable.ToArray[TSource](IEnumerable`1 source)
+   ved Utils.FromCommaSepString32(String x) i C:\Users\Namik\Desktop\Rotmg PServer\fabiano-swagger-of-doom-master\db\Utils.cs:linje 181
+   ved server.account.playFortuneGame.HandleRequest() i C:\Users\Namik\Desktop\Rotmg PServer\fabiano-swagger-of-doom-master\server\account\playFortuneGame.cs:linje 44
+   ved server.RequestHandler.HandleRequest(HttpListenerContext context) i C:\Users\Namik\Desktop\Rotmg PServer\fabiano-swagger-of-doom-master\server\RequestHandlers.cs:linje 38
+   ved server.Program.ProcessRequest(HttpListenerContext context) i C:\Users\Namik\Desktop\Rotmg PServer\fabiano-swagger-of-doom-master\server\Program.cs:linje 156
+2016-01-24 13:40:45,629 [Entry] WARN  db.data.XmlData - 0x0065 and 0x0061 has the same name of Grey Circle!
+2016-01-24 13:44:02,332 [Entry] WARN  db.data.XmlData - 0x0065 and 0x0061 has the same name of Grey Circle!
+2016-01-24 13:46:19,065 [Entry] WARN  db.data.XmlData - 0x0065 and 0x0061 has the same name of Grey Circle!
+2016-01-24 13:48:09,226 [Entry] WARN  db.data.XmlData - 0x0065 and 0x0061 has the same name of Grey Circle!
+2016-01-24 14:21:50,973 [13] ERROR Server - Not supported server detected: 
+Host: 25.87.26.172
+Port: 2050
+2016-01-24 14:35:50,797 [Entry] WARN  db.data.XmlData - 0x0065 and 0x0061 has the same name of Grey Circle!
+2016-01-24 14:35:54,010 [6] ERROR Server - Not supported server detected: 
+Host: 25.87.26.172
+Port: 2050
+2016-01-24 14:45:50,396 [10] ERROR Server - System.FormatException: Inndatastrengen hadde ugyldig format.
+   ved System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   ved System.Number.ParseInt32(String s, NumberStyles style, NumberFormatInfo info)
+   ved System.Int32.Parse(String s, NumberStyles style)
+   ved Utils.FromString(String x) i C:\Users\Namik\Desktop\Rotmg PServer\fabiano-swagger-of-doom-master\db\Utils.cs:linje 108
+   ved Utils.<>c.<FromCommaSepString32>b__15_0(String _) i C:\Users\Namik\Desktop\Rotmg PServer\fabiano-swagger-of-doom-master\db\Utils.cs:linje 181
+   ved System.Linq.Enumerable.WhereSelectArrayIterator`2.MoveNext()
+   ved System.Linq.Buffer`1..ctor(IEnumerable`1 source)
+   ved System.Linq.Enumerable.ToArray[TSource](IEnumerable`1 source)
+   ved Utils.FromCommaSepString32(String x) i C:\Users\Namik\Desktop\Rotmg PServer\fabiano-swagger-of-doom-master\db\Utils.cs:linje 181
+   ved server.account.playFortuneGame.HandleRequest() i C:\Users\Namik\Desktop\Rotmg PServer\fabiano-swagger-of-doom-master\server\account\playFortuneGame.cs:linje 44
+   ved server.RequestHandler.HandleRequest(HttpListenerContext context) i C:\Users\Namik\Desktop\Rotmg PServer\fabiano-swagger-of-doom-master\server\RequestHandlers.cs:linje 38
+   ved server.Program.ProcessRequest(HttpListenerContext context) i C:\Users\Namik\Desktop\Rotmg PServer\fabiano-swagger-of-doom-master\server\Program.cs:linje 156
+2016-01-24 14:46:36,382 [9] ERROR Server - System.FormatException: Inndatastrengen hadde ugyldig format.
+   ved System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   ved System.Number.ParseInt32(String s, NumberStyles style, NumberFormatInfo info)
+   ved System.Int32.Parse(String s, NumberStyles style)
+   ved Utils.FromString(String x) i C:\Users\Namik\Desktop\Rotmg PServer\fabiano-swagger-of-doom-master\db\Utils.cs:linje 108
+   ved server.account.purchaseMysteryBox.GetAwards(String items) i C:\Users\Namik\Desktop\Rotmg PServer\fabiano-swagger-of-doom-master\server\account\purchaseMysteryBox.cs:linje 130
+   ved server.account.purchaseMysteryBox.HandleRequest() i C:\Users\Namik\Desktop\Rotmg PServer\fabiano-swagger-of-doom-master\server\account\purchaseMysteryBox.cs:linje 88
+   ved server.RequestHandler.HandleRequest(HttpListenerContext context) i C:\Users\Namik\Desktop\Rotmg PServer\fabiano-swagger-of-doom-master\server\RequestHandlers.cs:linje 38
+   ved server.Program.ProcessRequest(HttpListenerContext context) i C:\Users\Namik\Desktop\Rotmg PServer\fabiano-swagger-of-doom-master\server\Program.cs:linje 156
+2016-01-24 14:54:47,053 [Entry] WARN  db.data.XmlData - 0x0065 and 0x0061 has the same name of Grey Circle!
+2016-01-24 15:32:01,489 [Entry] WARN  db.data.XmlData - 0x0065 and 0x0061 has the same name of Grey Circle!
+2016-01-24 15:32:39,208 [Entry] WARN  db.data.XmlData - 0x0065 and 0x0061 has the same name of Grey Circle!
+2016-01-24 15:32:46,525 [6] ERROR Server - Not supported server detected: 
+Host: 25.87.26.172
+Port: 2050
+2016-01-24 15:32:51,337 [6] ERROR Server - Not supported server detected: 
+Host: 25.87.26.172
+Port: 2050
+2016-01-24 15:32:51,725 [3] ERROR Server - Not supported server detected: 
+Host: 25.87.26.172
+Port: 2050
+2016-01-24 15:32:54,124 [7] ERROR Server - Not supported server detected: 
+Host: 25.87.26.172
+Port: 2050
+2016-01-24 15:32:54,224 [6] ERROR Server - Not supported server detected: 
+Host: 25.87.26.172
+Port: 2050
+2016-01-24 15:32:55,624 [7] ERROR Server - Not supported server detected: 
+Host: 25.87.26.172
+Port: 2050
+2016-01-24 15:32:55,738 [6] ERROR Server - Not supported server detected: 
+Host: 25.87.26.172
+Port: 2050
+2016-01-24 15:47:15,455 [11] ERROR Server - System.FormatException: Inndatastrengen hadde ugyldig format.
+   ved System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   ved System.Number.ParseInt32(String s, NumberStyles style, NumberFormatInfo info)
+   ved System.Int32.Parse(String s, NumberStyles style)
+   ved Utils.FromString(String x) i C:\Users\Namik\Desktop\Rotmg PServer\fabiano-swagger-of-doom-master\db\Utils.cs:linje 108
+   ved Utils.<>c.<FromCommaSepString32>b__15_0(String _) i C:\Users\Namik\Desktop\Rotmg PServer\fabiano-swagger-of-doom-master\db\Utils.cs:linje 181
+   ved System.Linq.Enumerable.WhereSelectArrayIterator`2.MoveNext()
+   ved System.Linq.Buffer`1..ctor(IEnumerable`1 source)
+   ved System.Linq.Enumerable.ToArray[TSource](IEnumerable`1 source)
+   ved Utils.FromCommaSepString32(String x) i C:\Users\Namik\Desktop\Rotmg PServer\fabiano-swagger-of-doom-master\db\Utils.cs:linje 181
+   ved server.account.playFortuneGame.HandleRequest() i C:\Users\Namik\Desktop\Rotmg PServer\fabiano-swagger-of-doom-master\server\account\playFortuneGame.cs:linje 44
+   ved server.RequestHandler.HandleRequest(HttpListenerContext context) i C:\Users\Namik\Desktop\Rotmg PServer\fabiano-swagger-of-doom-master\server\RequestHandlers.cs:linje 38
+   ved server.Program.ProcessRequest(HttpListenerContext context) i C:\Users\Namik\Desktop\Rotmg PServer\fabiano-swagger-of-doom-master\server\Program.cs:linje 156
+2016-01-24 15:47:23,803 [11] ERROR Server - System.FormatException: Inndatastrengen hadde ugyldig format.
+   ved System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   ved System.Number.ParseInt32(String s, NumberStyles style, NumberFormatInfo info)
+   ved System.Int32.Parse(String s, NumberStyles style)
+   ved Utils.FromString(String x) i C:\Users\Namik\Desktop\Rotmg PServer\fabiano-swagger-of-doom-master\db\Utils.cs:linje 108
+   ved server.account.purchaseMysteryBox.GetAwards(String items) i C:\Users\Namik\Desktop\Rotmg PServer\fabiano-swagger-of-doom-master\server\account\purchaseMysteryBox.cs:linje 130
+   ved server.account.purchaseMysteryBox.HandleRequest() i C:\Users\Namik\Desktop\Rotmg PServer\fabiano-swagger-of-doom-master\server\account\purchaseMysteryBox.cs:linje 88
+   ved server.RequestHandler.HandleRequest(HttpListenerContext context) i C:\Users\Namik\Desktop\Rotmg PServer\fabiano-swagger-of-doom-master\server\RequestHandlers.cs:linje 38
+   ved server.Program.ProcessRequest(HttpListenerContext context) i C:\Users\Namik\Desktop\Rotmg PServer\fabiano-swagger-of-doom-master\server\Program.cs:linje 156
+2016-01-24 15:55:20,196 [13] ERROR Server - System.FormatException: Inndatastrengen hadde ugyldig format.
+   ved System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   ved System.Number.ParseInt32(String s, NumberStyles style, NumberFormatInfo info)
+   ved System.Int32.Parse(String s, NumberStyles style)
+   ved Utils.FromString(String x) i C:\Users\Namik\Desktop\Rotmg PServer\fabiano-swagger-of-doom-master\db\Utils.cs:linje 108
+   ved server.account.purchaseMysteryBox.GetAwards(String items) i C:\Users\Namik\Desktop\Rotmg PServer\fabiano-swagger-of-doom-master\server\account\purchaseMysteryBox.cs:linje 130
+   ved server.account.purchaseMysteryBox.HandleRequest() i C:\Users\Namik\Desktop\Rotmg PServer\fabiano-swagger-of-doom-master\server\account\purchaseMysteryBox.cs:linje 88
+   ved server.RequestHandler.HandleRequest(HttpListenerContext context) i C:\Users\Namik\Desktop\Rotmg PServer\fabiano-swagger-of-doom-master\server\RequestHandlers.cs:linje 38
+   ved server.Program.ProcessRequest(HttpListenerContext context) i C:\Users\Namik\Desktop\Rotmg PServer\fabiano-swagger-of-doom-master\server\Program.cs:linje 156
+2016-01-24 15:55:31,691 [13] ERROR Server - System.FormatException: Inndatastrengen hadde ugyldig format.
+   ved System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   ved System.Number.ParseInt32(String s, NumberStyles style, NumberFormatInfo info)
+   ved System.Int32.Parse(String s, NumberStyles style)
+   ved Utils.FromString(String x) i C:\Users\Namik\Desktop\Rotmg PServer\fabiano-swagger-of-doom-master\db\Utils.cs:linje 108
+   ved server.account.purchaseMysteryBox.GetAwards(String items) i C:\Users\Namik\Desktop\Rotmg PServer\fabiano-swagger-of-doom-master\server\account\purchaseMysteryBox.cs:linje 130
+   ved server.account.purchaseMysteryBox.HandleRequest() i C:\Users\Namik\Desktop\Rotmg PServer\fabiano-swagger-of-doom-master\server\account\purchaseMysteryBox.cs:linje 88
+   ved server.RequestHandler.HandleRequest(HttpListenerContext context) i C:\Users\Namik\Desktop\Rotmg PServer\fabiano-swagger-of-doom-master\server\RequestHandlers.cs:linje 38
+   ved server.Program.ProcessRequest(HttpListenerContext context) i C:\Users\Namik\Desktop\Rotmg PServer\fabiano-swagger-of-doom-master\server\Program.cs:linje 156
+2016-01-24 15:55:35,570 [13] ERROR Server - System.FormatException: Inndatastrengen hadde ugyldig format.
+   ved System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   ved System.Number.ParseInt32(String s, NumberStyles style, NumberFormatInfo info)
+   ved System.Int32.Parse(String s, NumberStyles style)
+   ved Utils.FromString(String x) i C:\Users\Namik\Desktop\Rotmg PServer\fabiano-swagger-of-doom-master\db\Utils.cs:linje 108
+   ved server.account.purchaseMysteryBox.GetAwards(String items) i C:\Users\Namik\Desktop\Rotmg PServer\fabiano-swagger-of-doom-master\server\account\purchaseMysteryBox.cs:linje 130
+   ved server.account.purchaseMysteryBox.HandleRequest() i C:\Users\Namik\Desktop\Rotmg PServer\fabiano-swagger-of-doom-master\server\account\purchaseMysteryBox.cs:linje 88
+   ved server.RequestHandler.HandleRequest(HttpListenerContext context) i C:\Users\Namik\Desktop\Rotmg PServer\fabiano-swagger-of-doom-master\server\RequestHandlers.cs:linje 38
+   ved server.Program.ProcessRequest(HttpListenerContext context) i C:\Users\Namik\Desktop\Rotmg PServer\fabiano-swagger-of-doom-master\server\Program.cs:linje 156
+2016-01-24 15:57:28,911 [10] ERROR Server - System.FormatException: Inndatastrengen hadde ugyldig format.
+   ved System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   ved System.Number.ParseInt32(String s, NumberStyles style, NumberFormatInfo info)
+   ved System.Int32.Parse(String s, NumberStyles style)
+   ved Utils.FromString(String x) i C:\Users\Namik\Desktop\Rotmg PServer\fabiano-swagger-of-doom-master\db\Utils.cs:linje 108
+   ved server.account.purchaseMysteryBox.GetAwards(String items) i C:\Users\Namik\Desktop\Rotmg PServer\fabiano-swagger-of-doom-master\server\account\purchaseMysteryBox.cs:linje 130
+   ved server.account.purchaseMysteryBox.HandleRequest() i C:\Users\Namik\Desktop\Rotmg PServer\fabiano-swagger-of-doom-master\server\account\purchaseMysteryBox.cs:linje 88
+   ved server.RequestHandler.HandleRequest(HttpListenerContext context) i C:\Users\Namik\Desktop\Rotmg PServer\fabiano-swagger-of-doom-master\server\RequestHandlers.cs:linje 38
+   ved server.Program.ProcessRequest(HttpListenerContext context) i C:\Users\Namik\Desktop\Rotmg PServer\fabiano-swagger-of-doom-master\server\Program.cs:linje 156
+2016-01-24 16:00:18,367 [13] ERROR Server - System.FormatException: Inndatastrengen hadde ugyldig format.
+   ved System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   ved System.Number.ParseInt32(String s, NumberStyles style, NumberFormatInfo info)
+   ved System.Int32.Parse(String s, NumberStyles style)
+   ved Utils.FromString(String x) i C:\Users\Namik\Desktop\Rotmg PServer\fabiano-swagger-of-doom-master\db\Utils.cs:linje 108
+   ved server.account.purchaseMysteryBox.GetAwards(String items) i C:\Users\Namik\Desktop\Rotmg PServer\fabiano-swagger-of-doom-master\server\account\purchaseMysteryBox.cs:linje 130
+   ved server.account.purchaseMysteryBox.HandleRequest() i C:\Users\Namik\Desktop\Rotmg PServer\fabiano-swagger-of-doom-master\server\account\purchaseMysteryBox.cs:linje 88
+   ved server.RequestHandler.HandleRequest(HttpListenerContext context) i C:\Users\Namik\Desktop\Rotmg PServer\fabiano-swagger-of-doom-master\server\RequestHandlers.cs:linje 38
+   ved server.Program.ProcessRequest(HttpListenerContext context) i C:\Users\Namik\Desktop\Rotmg PServer\fabiano-swagger-of-doom-master\server\Program.cs:linje 156
+2016-01-24 16:04:01,460 [14] ERROR Server - System.FormatException: Inndatastrengen hadde ugyldig format.
+   ved System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   ved System.Number.ParseInt32(String s, NumberStyles style, NumberFormatInfo info)
+   ved System.Int32.Parse(String s, NumberStyles style)
+   ved Utils.FromString(String x) i C:\Users\Namik\Desktop\Rotmg PServer\fabiano-swagger-of-doom-master\db\Utils.cs:linje 108
+   ved server.account.purchaseMysteryBox.GetAwards(String items) i C:\Users\Namik\Desktop\Rotmg PServer\fabiano-swagger-of-doom-master\server\account\purchaseMysteryBox.cs:linje 130
+   ved server.account.purchaseMysteryBox.HandleRequest() i C:\Users\Namik\Desktop\Rotmg PServer\fabiano-swagger-of-doom-master\server\account\purchaseMysteryBox.cs:linje 88
+   ved server.RequestHandler.HandleRequest(HttpListenerContext context) i C:\Users\Namik\Desktop\Rotmg PServer\fabiano-swagger-of-doom-master\server\RequestHandlers.cs:linje 38
+   ved server.Program.ProcessRequest(HttpListenerContext context) i C:\Users\Namik\Desktop\Rotmg PServer\fabiano-swagger-of-doom-master\server\Program.cs:linje 156
+2016-01-24 16:04:06,878 [14] ERROR Server - System.FormatException: Inndatastrengen hadde ugyldig format.
+   ved System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   ved System.Number.ParseInt32(String s, NumberStyles style, NumberFormatInfo info)
+   ved System.Int32.Parse(String s, NumberStyles style)
+   ved Utils.FromString(String x) i C:\Users\Namik\Desktop\Rotmg PServer\fabiano-swagger-of-doom-master\db\Utils.cs:linje 108
+   ved server.account.purchaseMysteryBox.GetAwards(String items) i C:\Users\Namik\Desktop\Rotmg PServer\fabiano-swagger-of-doom-master\server\account\purchaseMysteryBox.cs:linje 130
+   ved server.account.purchaseMysteryBox.HandleRequest() i C:\Users\Namik\Desktop\Rotmg PServer\fabiano-swagger-of-doom-master\server\account\purchaseMysteryBox.cs:linje 88
+   ved server.RequestHandler.HandleRequest(HttpListenerContext context) i C:\Users\Namik\Desktop\Rotmg PServer\fabiano-swagger-of-doom-master\server\RequestHandlers.cs:linje 38
+   ved server.Program.ProcessRequest(HttpListenerContext context) i C:\Users\Namik\Desktop\Rotmg PServer\fabiano-swagger-of-doom-master\server\Program.cs:linje 156
+2016-01-24 16:19:51,505 [Entry] WARN  db.data.XmlData - 0x0065 and 0x0061 has the same name of Grey Circle!
+2016-01-24 16:33:57,583 [12] ERROR Server - System.FormatException: Inndatastrengen hadde ugyldig format.
+   ved System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   ved System.Number.ParseInt32(String s, NumberStyles style, NumberFormatInfo info)
+   ved System.Int32.Parse(String s, NumberStyles style)
+   ved Utils.FromString(String x) i C:\Users\Namik\Desktop\Rotmg PServer\fabiano-swagger-of-doom-master\db\Utils.cs:linje 108
+   ved Utils.<>c.<FromCommaSepString32>b__15_0(String _) i C:\Users\Namik\Desktop\Rotmg PServer\fabiano-swagger-of-doom-master\db\Utils.cs:linje 181
+   ved System.Linq.Enumerable.WhereSelectArrayIterator`2.MoveNext()
+   ved System.Linq.Buffer`1..ctor(IEnumerable`1 source)
+   ved System.Linq.Enumerable.ToArray[TSource](IEnumerable`1 source)
+   ved Utils.FromCommaSepString32(String x) i C:\Users\Namik\Desktop\Rotmg PServer\fabiano-swagger-of-doom-master\db\Utils.cs:linje 181
+   ved server.account.playFortuneGame.HandleRequest() i C:\Users\Namik\Desktop\Rotmg PServer\fabiano-swagger-of-doom-master\server\account\playFortuneGame.cs:linje 44
+   ved server.RequestHandler.HandleRequest(HttpListenerContext context) i C:\Users\Namik\Desktop\Rotmg PServer\fabiano-swagger-of-doom-master\server\RequestHandlers.cs:linje 38
+   ved server.Program.ProcessRequest(HttpListenerContext context) i C:\Users\Namik\Desktop\Rotmg PServer\fabiano-swagger-of-doom-master\server\Program.cs:linje 156
+2016-01-24 16:45:04,459 [11] ERROR Server - MySql.Data.MySqlClient.MySqlException (0x80004005): Invalid attempt to access a field before calling Read()
+   ved MySql.Data.MySqlClient.ResultSet.get_Item(Int32 index)
+   ved MySql.Data.MySqlClient.MySqlDataReader.GetFieldValue(Int32 index, Boolean checkNull)
+   ved MySql.Data.MySqlClient.MySqlDataReader.GetDateTime(Int32 i)
+   ved MySql.Data.MySqlClient.MySqlDataReader.GetDateTime(String column)
+   ved server.char.fame.HandleRequest() i C:\Users\Namik\Desktop\Rotmg PServer\fabiano-swagger-of-doom-master\server\char\fame.cs:linje 33
+   ved server.RequestHandler.HandleRequest(HttpListenerContext context) i C:\Users\Namik\Desktop\Rotmg PServer\fabiano-swagger-of-doom-master\server\RequestHandlers.cs:linje 38
+   ved server.Program.ProcessRequest(HttpListenerContext context) i C:\Users\Namik\Desktop\Rotmg PServer\fabiano-swagger-of-doom-master\server\Program.cs:linje 156
+2016-01-24 16:45:06,147 [11] ERROR Server - MySql.Data.MySqlClient.MySqlException (0x80004005): Invalid attempt to access a field before calling Read()
+   ved MySql.Data.MySqlClient.ResultSet.get_Item(Int32 index)
+   ved MySql.Data.MySqlClient.MySqlDataReader.GetFieldValue(Int32 index, Boolean checkNull)
+   ved MySql.Data.MySqlClient.MySqlDataReader.GetDateTime(Int32 i)
+   ved MySql.Data.MySqlClient.MySqlDataReader.GetDateTime(String column)
+   ved server.char.fame.HandleRequest() i C:\Users\Namik\Desktop\Rotmg PServer\fabiano-swagger-of-doom-master\server\char\fame.cs:linje 33
+   ved server.RequestHandler.HandleRequest(HttpListenerContext context) i C:\Users\Namik\Desktop\Rotmg PServer\fabiano-swagger-of-doom-master\server\RequestHandlers.cs:linje 38
+   ved server.Program.ProcessRequest(HttpListenerContext context) i C:\Users\Namik\Desktop\Rotmg PServer\fabiano-swagger-of-doom-master\server\Program.cs:linje 156
+2016-01-24 17:02:40,328 [Entry] WARN  db.data.XmlData - 0x0065 and 0x0061 has the same name of Grey Circle!
+2016-01-24 17:08:19,393 [Entry] WARN  db.data.XmlData - 0x0065 and 0x0061 has the same name of Grey Circle!
+2016-01-24 17:16:42,834 [9] ERROR Server - Not supported server detected: 
+Host: 25.87.26.172
+Port: 2050
+2016-08-21 02:45:57,453 [Entry] WARN  db.data.XmlData - 0x0065 and 0x0061 has the same name of Grey Circle!
+2016-08-21 02:47:57,973 [Entry] WARN  db.data.XmlData - 0x0065 and 0x0061 has the same name of Grey Circle!
+2016-08-21 03:29:32,105 [Entry] WARN  db.data.XmlData - 0x0065 and 0x0061 has the same name of Grey Circle!
+2016-08-21 03:29:32,302 [Entry] WARN  db.data.XmlData - 'TestChicken 2' and 'Giant Oryx Chicken' has the same ID of 0x0e17!
+2016-08-21 03:31:08,194 [Entry] WARN  db.data.XmlData - 0x0065 and 0x0061 has the same name of Grey Circle!
+2016-08-21 03:31:08,341 [Entry] WARN  db.data.XmlData - 'TestChicken 2' and 'Giant Oryx Chicken' has the same ID of 0x0e17!
+2016-08-21 03:31:47,484 [Entry] WARN  db.data.XmlData - 0x0065 and 0x0061 has the same name of Grey Circle!
+2016-08-21 03:31:47,550 [Entry] WARN  db.data.XmlData - 'TestChicken 2' and 'Giant Oryx Chicken' has the same ID of 0x0e17!
+2016-08-21 03:40:22,138 [Entry] WARN  db.data.XmlData - 0x0065 and 0x0061 has the same name of Grey Circle!
+2016-08-21 03:40:22,215 [Entry] WARN  db.data.XmlData - 'TestChicken 2' and 'Giant Oryx Chicken' has the same ID of 0x0e17!
+2016-08-21 03:41:23,429 [3] ERROR Server - Not supported server detected: 
+Host: 25.87.26.172
+Port: 2050
+2016-08-21 03:42:12,591 [Entry] WARN  db.data.XmlData - 0x0065 and 0x0061 has the same name of Grey Circle!
+2016-08-21 03:42:12,735 [Entry] WARN  db.data.XmlData - 'TestChicken 2' and 'Giant Oryx Chicken' has the same ID of 0x0e17!
+2016-08-21 03:44:10,389 [Entry] WARN  db.data.XmlData - 0x0065 and 0x0061 has the same name of Grey Circle!
+2016-08-21 03:44:10,453 [Entry] WARN  db.data.XmlData - 'TestChicken 2' and 'Giant Oryx Chicken' has the same ID of 0x0e17!
+2016-08-21 03:45:11,009 [6] ERROR Server - System.Net.HttpListenerException (0x80004005): Tentativa de operação em uma conexão de rede não existente
+   em System.Net.HttpResponseStream.Write(Byte[] buffer, Int32 offset, Int32 size)
+   em server.sfx.Sfx.HandleRequest() na C:\Users\Namik\Desktop\Rotmg PServer\fabiano-swagger-of-doom-master\server\sfx\Sfx.cs:linha 26
+   em server.RequestHandler.HandleRequest(HttpListenerContext context) na C:\Users\Namik\Desktop\Rotmg PServer\fabiano-swagger-of-doom-master\server\RequestHandlers.cs:linha 38
+   em server.Program.ProcessRequest(HttpListenerContext context) na C:\Users\Namik\Desktop\Rotmg PServer\fabiano-swagger-of-doom-master\server\Program.cs:linha 107
+2016-08-21 03:45:32,069 [7] ERROR Server - Not supported server detected: 
+Host: 25.87.26.172
+Port: 2050
+2016-08-21 03:47:05,252 [9] ERROR Server - Not supported server detected: 
+Host: 25.87.26.172
+Port: 2050
+2016-08-21 03:50:18,833 [Entry] WARN  db.data.XmlData - 0x0065 and 0x0061 has the same name of Grey Circle!
+2016-08-21 03:50:18,885 [Entry] WARN  db.data.XmlData - 'TestChicken 2' and 'Giant Oryx Chicken' has the same ID of 0x0e17!
+2016-08-21 03:51:21,027 [Entry] WARN  db.data.XmlData - 0x0065 and 0x0061 has the same name of Grey Circle!
+2016-08-21 03:51:21,078 [Entry] WARN  db.data.XmlData - 'TestChicken 2' and 'Giant Oryx Chicken' has the same ID of 0x0e17!
+2016-08-21 03:51:54,430 [3] ERROR Server - Not supported server detected: 
+Host: 25.87.26.172
+Port: 2050
+2016-08-21 04:09:32,657 [Entry] WARN  db.data.XmlData - 0x0065 and 0x0061 has the same name of Grey Circle!
+2016-08-21 04:13:22,985 [10] ERROR Server - MySql.Data.MySqlClient.MySqlException (0x80004005): Invalid attempt to access a field before calling Read()
+   em MySql.Data.MySqlClient.ResultSet.get_Item(Int32 index)
+   em MySql.Data.MySqlClient.MySqlDataReader.GetFieldValue(Int32 index, Boolean checkNull)
+   em MySql.Data.MySqlClient.MySqlDataReader.GetDateTime(Int32 i)
+   em MySql.Data.MySqlClient.MySqlDataReader.GetDateTime(String column)
+   em server.char.fame.HandleRequest() na C:\Users\Kastan\Desktop\Rotmg PServer\Pepinos\server\char\fame.cs:linha 33
+   em server.RequestHandler.HandleRequest(HttpListenerContext context) na C:\Users\Kastan\Desktop\Rotmg PServer\Pepinos\server\RequestHandlers.cs:linha 38
+   em server.Program.ProcessRequest(HttpListenerContext context) na C:\Users\Kastan\Desktop\Rotmg PServer\Pepinos\server\Program.cs:linha 156
+2016-08-21 12:11:58,617 [Entry] WARN  db.data.XmlData - 0x0065 and 0x0061 has the same name of Grey Circle!
+2016-08-21 12:13:07,340 [Entry] WARN  db.data.XmlData - 0x0065 and 0x0061 has the same name of Grey Circle!
+2016-08-21 19:12:14,659 [Entry] WARN  db.data.XmlData - 0x0065 and 0x0061 has the same name of Grey Circle!
+2016-08-21 19:13:12,971 [3] ERROR Server - System.Net.HttpListenerException (0x80004005): A operação de E/S foi anulada devido a uma saída de thread ou a uma requisição de aplicativo
+   em System.Net.HttpResponseStream.Write(Byte[] buffer, Int32 offset, Int32 size)
+   em server.sfx.Sfx.HandleRequest() na C:\Users\Kastan\Desktop\Rotmg PServer\Pepinos\server\sfx\Sfx.cs:linha 26
+   em server.RequestHandler.HandleRequest(HttpListenerContext context) na C:\Users\Kastan\Desktop\Rotmg PServer\Pepinos\server\RequestHandlers.cs:linha 38
+   em server.Program.ProcessRequest(HttpListenerContext context) na C:\Users\Kastan\Desktop\Rotmg PServer\Pepinos\server\Program.cs:linha 107
+2016-08-21 19:55:25,687 [12] ERROR Server - Not supported server detected: 
+Host: 25.145.99.110
+Port: 2050
+2016-08-21 19:55:25,687 [11] ERROR Server - Not supported server detected: 
+Host: 25.145.99.110
+Port: 2050
+2016-08-21 19:55:25,687 [3] ERROR Server - Not supported server detected: 
+Host: 25.145.99.110
+Port: 2050
+2016-08-21 19:55:25,687 [8] ERROR Server - Not supported server detected: 
+Host: 25.145.99.110
+Port: 2050
+2016-08-21 19:55:25,688 [6] ERROR Server - Not supported server detected: 
+Host: 25.145.99.110
+Port: 2050
+2016-08-21 19:55:25,688 [13] ERROR Server - Not supported server detected: 
+Host: 25.145.99.110
+Port: 2050
+2016-08-21 19:55:25,688 [9] ERROR Server - Not supported server detected: 
+Host: 25.145.99.110
+Port: 2050
+2016-08-21 19:55:26,172 [11] ERROR Server - System.Net.HttpListenerException (0x80004005): Tentativa de operação em uma conexão de rede não existente
+   em System.Net.HttpResponseStream.Write(Byte[] buffer, Int32 offset, Int32 size)
+   em System.Xml.XmlUtf8RawTextWriter.FlushBuffer()
+   em System.Xml.XmlUtf8RawTextWriter.Flush()
+   em System.Xml.XmlWellFormedWriter.Flush()
+   em System.Xml.Serialization.XmlSerializer.Serialize(XmlWriter xmlWriter, Object o, XmlSerializerNamespaces namespaces, String encodingStyle, String id)
+   em System.Xml.Serialization.XmlSerializer.Serialize(XmlWriter xmlWriter, Object o, XmlSerializerNamespaces namespaces)
+   em server.char.list.HandleRequest() na C:\Users\Kastan\Desktop\Rotmg PServer\Pepinos\server\char\list.cs:linha 106
+   em server.RequestHandler.HandleRequest(HttpListenerContext context) na C:\Users\Kastan\Desktop\Rotmg PServer\Pepinos\server\RequestHandlers.cs:linha 38
+   em server.Program.ProcessRequest(HttpListenerContext context) na C:\Users\Kastan\Desktop\Rotmg PServer\Pepinos\server\Program.cs:linha 156
+2016-08-21 19:55:26,180 [13] ERROR Server - System.Net.HttpListenerException (0x80004005): Tentativa de operação em uma conexão de rede não existente
+   em System.Net.HttpResponseStream.Write(Byte[] buffer, Int32 offset, Int32 size)
+   em System.Xml.XmlUtf8RawTextWriter.FlushBuffer()
+   em System.Xml.XmlUtf8RawTextWriter.Flush()
+   em System.Xml.XmlWellFormedWriter.Flush()
+   em System.Xml.Serialization.XmlSerializer.Serialize(XmlWriter xmlWriter, Object o, XmlSerializerNamespaces namespaces, String encodingStyle, String id)
+   em System.Xml.Serialization.XmlSerializer.Serialize(XmlWriter xmlWriter, Object o, XmlSerializerNamespaces namespaces)
+   em server.char.list.HandleRequest() na C:\Users\Kastan\Desktop\Rotmg PServer\Pepinos\server\char\list.cs:linha 106
+   em server.RequestHandler.HandleRequest(HttpListenerContext context) na C:\Users\Kastan\Desktop\Rotmg PServer\Pepinos\server\RequestHandlers.cs:linha 38
+   em server.Program.ProcessRequest(HttpListenerContext context) na C:\Users\Kastan\Desktop\Rotmg PServer\Pepinos\server\Program.cs:linha 156
+2016-08-21 19:55:26,189 [6] ERROR Server - System.Net.HttpListenerException (0x80004005): Tentativa de operação em uma conexão de rede não existente
+   em System.Net.HttpResponseStream.Write(Byte[] buffer, Int32 offset, Int32 size)
+   em System.Xml.XmlUtf8RawTextWriter.FlushBuffer()
+   em System.Xml.XmlUtf8RawTextWriter.Flush()
+   em System.Xml.XmlWellFormedWriter.Flush()
+   em System.Xml.Serialization.XmlSerializer.Serialize(XmlWriter xmlWriter, Object o, XmlSerializerNamespaces namespaces, String encodingStyle, String id)
+   em System.Xml.Serialization.XmlSerializer.Serialize(XmlWriter xmlWriter, Object o, XmlSerializerNamespaces namespaces)
+   em server.char.list.HandleRequest() na C:\Users\Kastan\Desktop\Rotmg PServer\Pepinos\server\char\list.cs:linha 106
+   em server.RequestHandler.HandleRequest(HttpListenerContext context) na C:\Users\Kastan\Desktop\Rotmg PServer\Pepinos\server\RequestHandlers.cs:linha 38
+   em server.Program.ProcessRequest(HttpListenerContext context) na C:\Users\Kastan\Desktop\Rotmg PServer\Pepinos\server\Program.cs:linha 156
+2016-08-21 19:55:26,172 [12] ERROR Server - System.Net.HttpListenerException (0x80004005): Tentativa de operação em uma conexão de rede não existente
+   em System.Net.HttpResponseStream.Write(Byte[] buffer, Int32 offset, Int32 size)
+   em System.Xml.XmlUtf8RawTextWriter.FlushBuffer()
+   em System.Xml.XmlUtf8RawTextWriter.Flush()
+   em System.Xml.XmlWellFormedWriter.Flush()
+   em System.Xml.Serialization.XmlSerializer.Serialize(XmlWriter xmlWriter, Object o, XmlSerializerNamespaces namespaces, String encodingStyle, String id)
+   em System.Xml.Serialization.XmlSerializer.Serialize(XmlWriter xmlWriter, Object o, XmlSerializerNamespaces namespaces)
+   em server.char.list.HandleRequest() na C:\Users\Kastan\Desktop\Rotmg PServer\Pepinos\server\char\list.cs:linha 106
+   em server.RequestHandler.HandleRequest(HttpListenerContext context) na C:\Users\Kastan\Desktop\Rotmg PServer\Pepinos\server\RequestHandlers.cs:linha 38
+   em server.Program.ProcessRequest(HttpListenerContext context) na C:\Users\Kastan\Desktop\Rotmg PServer\Pepinos\server\Program.cs:linha 156
+2016-08-21 19:55:26,240 [8] ERROR Server - System.Net.HttpListenerException (0x80004005): Tentativa de operação em uma conexão de rede não existente
+   em System.Net.HttpResponseStream.Write(Byte[] buffer, Int32 offset, Int32 size)
+   em System.Xml.XmlUtf8RawTextWriter.FlushBuffer()
+   em System.Xml.XmlUtf8RawTextWriter.Flush()
+   em System.Xml.XmlWellFormedWriter.Flush()
+   em System.Xml.Serialization.XmlSerializer.Serialize(XmlWriter xmlWriter, Object o, XmlSerializerNamespaces namespaces, String encodingStyle, String id)
+   em System.Xml.Serialization.XmlSerializer.Serialize(XmlWriter xmlWriter, Object o, XmlSerializerNamespaces namespaces)
+   em server.char.list.HandleRequest() na C:\Users\Kastan\Desktop\Rotmg PServer\Pepinos\server\char\list.cs:linha 106
+   em server.RequestHandler.HandleRequest(HttpListenerContext context) na C:\Users\Kastan\Desktop\Rotmg PServer\Pepinos\server\RequestHandlers.cs:linha 38
+   em server.Program.ProcessRequest(HttpListenerContext context) na C:\Users\Kastan\Desktop\Rotmg PServer\Pepinos\server\Program.cs:linha 156
+2016-08-21 19:55:26,254 [9] ERROR Server - System.Net.HttpListenerException (0x80004005): Tentativa de operação em uma conexão de rede não existente
+   em System.Net.HttpResponseStream.Write(Byte[] buffer, Int32 offset, Int32 size)
+   em System.Xml.XmlUtf8RawTextWriter.FlushBuffer()
+   em System.Xml.XmlUtf8RawTextWriter.Flush()
+   em System.Xml.XmlWellFormedWriter.Flush()
+   em System.Xml.Serialization.XmlSerializer.Serialize(XmlWriter xmlWriter, Object o, XmlSerializerNamespaces namespaces, String encodingStyle, String id)
+   em System.Xml.Serialization.XmlSerializer.Serialize(XmlWriter xmlWriter, Object o, XmlSerializerNamespaces namespaces)
+   em server.char.list.HandleRequest() na C:\Users\Kastan\Desktop\Rotmg PServer\Pepinos\server\char\list.cs:linha 106
+   em server.RequestHandler.HandleRequest(HttpListenerContext context) na C:\Users\Kastan\Desktop\Rotmg PServer\Pepinos\server\RequestHandlers.cs:linha 38
+   em server.Program.ProcessRequest(HttpListenerContext context) na C:\Users\Kastan\Desktop\Rotmg PServer\Pepinos\server\Program.cs:linha 156
+2016-08-21 19:55:26,261 [3] ERROR Server - System.Net.HttpListenerException (0x80004005): Tentativa de operação em uma conexão de rede não existente
+   em System.Net.HttpResponseStream.Write(Byte[] buffer, Int32 offset, Int32 size)
+   em System.Xml.XmlUtf8RawTextWriter.FlushBuffer()
+   em System.Xml.XmlUtf8RawTextWriter.Flush()
+   em System.Xml.XmlWellFormedWriter.Flush()
+   em System.Xml.Serialization.XmlSerializer.Serialize(XmlWriter xmlWriter, Object o, XmlSerializerNamespaces namespaces, String encodingStyle, String id)
+   em System.Xml.Serialization.XmlSerializer.Serialize(XmlWriter xmlWriter, Object o, XmlSerializerNamespaces namespaces)
+   em server.char.list.HandleRequest() na C:\Users\Kastan\Desktop\Rotmg PServer\Pepinos\server\char\list.cs:linha 106
+   em server.RequestHandler.HandleRequest(HttpListenerContext context) na C:\Users\Kastan\Desktop\Rotmg PServer\Pepinos\server\RequestHandlers.cs:linha 38
+   em server.Program.ProcessRequest(HttpListenerContext context) na C:\Users\Kastan\Desktop\Rotmg PServer\Pepinos\server\Program.cs:linha 156
+2016-08-22 21:47:00,729 [Entry] WARN  db.data.XmlData - 0x0065 and 0x0061 has the same name of Grey Circle!
+2016-08-22 22:11:15,712 [Entry] WARN  db.data.XmlData - 0x0065 and 0x0061 has the same name of Grey Circle!
+2016-08-22 22:14:17,556 [8] ERROR Server - Not supported server detected: 
+Host: 25.145.99.110
+Port: 2050
+2016-08-22 22:15:19,036 [Entry] WARN  db.data.XmlData - 0x0065 and 0x0061 has the same name of Grey Circle!
+2016-08-22 22:17:21,672 [Entry] WARN  db.data.XmlData - 0x0065 and 0x0061 has the same name of Grey Circle!
+2016-08-22 22:19:43,784 [Entry] WARN  db.data.XmlData - 0x0065 and 0x0061 has the same name of Grey Circle!
+2016-08-22 22:32:31,162 [Entry] WARN  db.data.XmlData - 0x0065 and 0x0061 has the same name of Grey Circle!
+2016-08-24 14:28:30,197 [Entry] WARN  db.data.XmlData - 0x0065 and 0x0061 has the same name of Grey Circle!
+2016-08-24 14:35:30,104 [Entry] WARN  db.data.XmlData - 0x0065 and 0x0061 has the same name of Grey Circle!
+2016-08-24 14:35:52,859 [Entry] WARN  db.data.XmlData - 0x0065 and 0x0061 has the same name of Grey Circle!
+2016-08-24 15:59:32,527 [Entry] WARN  db.data.XmlData - 0x0065 and 0x0061 has the same name of Grey Circle!
+2016-08-24 15:59:51,072 [Entry] WARN  db.data.XmlData - 0x0065 and 0x0061 has the same name of Grey Circle!
+2016-08-24 16:01:56,708 [Entry] WARN  db.data.XmlData - 0x0065 and 0x0061 has the same name of Grey Circle!
+2016-08-24 16:04:11,182 [Entry] WARN  db.data.XmlData - 0x0065 and 0x0061 has the same name of Grey Circle!
+2016-08-24 16:04:17,420 [Entry] WARN  db.data.XmlData - 0x0065 and 0x0061 has the same name of Grey Circle!
+2016-08-24 16:05:30,783 [Entry] WARN  db.data.XmlData - 0x0065 and 0x0061 has the same name of Grey Circle!
+2016-08-24 16:06:22,389 [Entry] WARN  db.data.XmlData - 0x0065 and 0x0061 has the same name of Grey Circle!
+2016-08-24 16:08:36,798 [Entry] WARN  db.data.XmlData - 0x0065 and 0x0061 has the same name of Grey Circle!
+2016-08-24 16:10:03,056 [Entry] WARN  db.data.XmlData - 0x0065 and 0x0061 has the same name of Grey Circle!
+2016-08-24 16:13:04,059 [Entry] WARN  db.data.XmlData - 0x0065 and 0x0061 has the same name of Grey Circle!
+2016-08-24 16:13:56,046 [Entry] WARN  db.data.XmlData - 0x0065 and 0x0061 has the same name of Grey Circle!
+2016-08-24 16:14:23,502 [Entry] WARN  db.data.XmlData - 0x0065 and 0x0061 has the same name of Grey Circle!
+2016-08-24 16:14:47,638 [Entry] WARN  db.data.XmlData - 0x0065 and 0x0061 has the same name of Grey Circle!
+2016-08-24 16:14:47,739 [Entry] WARN  db.data.XmlData - 'Acropolis Armor' and 'Wand of Slaughter' has the same ID of 0x0afc!
+2016-08-24 16:14:47,751 [Entry] WARN  db.data.XmlData - 'Coin Purse' and 'Staff of the Maleficient Paragon' has the same ID of 0x15f4!
+2016-08-24 16:17:02,154 [Entry] WARN  db.data.XmlData - 0x0065 and 0x0061 has the same name of Grey Circle!
+2016-08-24 16:18:58,167 [3] ERROR Server - Not supported server detected: 
+Host: 25.145.99.110
+Port: 2050
+2016-08-24 16:19:08,910 [Entry] WARN  db.data.XmlData - 0x0065 and 0x0061 has the same name of Grey Circle!
+2016-08-24 16:19:16,882 [9] ERROR Server - Not supported server detected: 
+Host: 25.145.99.110
+Port: 2050
+2016-08-24 16:19:16,946 [3] ERROR Server - Not supported server detected: 
+Host: 25.145.99.110
+Port: 2050
+2016-08-24 16:19:18,239 [3] ERROR Server - System.InvalidOperationException: Erro ao gerar o documento XML. ---> System.Net.HttpListenerException: O nome da rede especificado não está mais disponível
+   em System.Net.HttpResponseStream.Write(Byte[] buffer, Int32 offset, Int32 size)
+   em System.Xml.XmlUtf8RawTextWriter.FlushBuffer()
+   em System.Xml.XmlUtf8RawTextWriter.RawText(Char* pSrcBegin, Char* pSrcEnd)
+   em System.Xml.XmlUtf8RawTextWriter.RawText(String s)
+   em System.Xml.XmlUtf8RawTextWriter.WriteEndElement(String prefix, String localName, String ns)
+   em System.Xml.XmlUtf8RawTextWriterIndent.WriteEndElement(String prefix, String localName, String ns)
+   em System.Xml.XmlWellFormedWriter.WriteEndElement()
+   em System.Xml.Serialization.XmlSerializationWriter.WriteEndElement(Object o)
+   em Microsoft.Xml.Serialization.GeneratedAssembly.XmlSerializationWriterChars.Write14_ClassAvailabilityItem(String n, String ns, ClassAvailabilityItem o, Boolean isNullable, Boolean needType)
+   em Microsoft.Xml.Serialization.GeneratedAssembly.XmlSerializationWriterChars.Write17_Chars(String n, String ns, Chars o, Boolean isNullable, Boolean needType)
+   em Microsoft.Xml.Serialization.GeneratedAssembly.XmlSerializationWriterChars.Write18_Chars(Object o)
+   --- Fim do rastreamento de pilha de exceções internas ---
+   em System.Xml.Serialization.XmlSerializer.Serialize(XmlWriter xmlWriter, Object o, XmlSerializerNamespaces namespaces, String encodingStyle, String id)
+   em System.Xml.Serialization.XmlSerializer.Serialize(XmlWriter xmlWriter, Object o, XmlSerializerNamespaces namespaces)
+   em server.char.list.HandleRequest() na C:\Users\Kastan\Desktop\Rotmg PServer\Pepinos\server\char\list.cs:linha 106
+   em server.RequestHandler.HandleRequest(HttpListenerContext context) na C:\Users\Kastan\Desktop\Rotmg PServer\Pepinos\server\RequestHandlers.cs:linha 38
+   em server.Program.ProcessRequest(HttpListenerContext context) na C:\Users\Kastan\Desktop\Rotmg PServer\Pepinos\server\Program.cs:linha 156
+2016-08-24 16:19:33,067 [9] ERROR Server - Not supported server detected: 
+Host: 25.145.99.110
+Port: 2050
+2016-08-24 16:23:01,867 [Entry] WARN  db.data.XmlData - 0x0065 and 0x0061 has the same name of Grey Circle!
+2016-08-24 16:23:02,097 [Entry] ERROR Server - Port 80 is occupied. Can't start listening...
+Press ESC to exit.
+2016-08-24 16:23:51,689 [Entry] WARN  db.data.XmlData - 0x0065 and 0x0061 has the same name of Grey Circle!
+2016-08-24 16:23:51,880 [Entry] ERROR Server - Port 80 is occupied. Can't start listening...
+Press ESC to exit.
+2016-08-24 16:24:45,168 [Entry] WARN  db.data.XmlData - 0x0065 and 0x0061 has the same name of Grey Circle!
+2016-08-24 16:24:45,334 [Entry] ERROR Server - Port 80 is occupied. Can't start listening...
+Press ESC to exit.
+2016-08-24 16:25:28,139 [Entry] WARN  db.data.XmlData - 0x0065 and 0x0061 has the same name of Grey Circle!
+2016-08-24 16:38:49,920 [Entry] WARN  db.data.XmlData - 0x0065 and 0x0061 has the same name of Grey Circle!
+2016-08-24 16:40:22,385 [Entry] WARN  db.data.XmlData - 0x0065 and 0x0061 has the same name of Grey Circle!
+2016-08-24 16:42:16,898 [3] ERROR Server - System.Net.HttpListenerException (0x80004005): A operação de E/S foi anulada devido a uma saída de thread ou a uma requisição de aplicativo
+   em System.Net.HttpResponseStream.Write(Byte[] buffer, Int32 offset, Int32 size)
+   em server.sfx.Sfx.HandleRequest() na C:\Users\Kastan\Desktop\Rotmg PServer\Pepinos\server\sfx\Sfx.cs:linha 26
+   em server.RequestHandler.HandleRequest(HttpListenerContext context) na C:\Users\Kastan\Desktop\Rotmg PServer\Pepinos\server\RequestHandlers.cs:linha 38
+   em server.Program.ProcessRequest(HttpListenerContext context) na C:\Users\Kastan\Desktop\Rotmg PServer\Pepinos\server\Program.cs:linha 107
+2016-08-24 16:43:23,515 [3] ERROR Server - System.Net.HttpListenerException (0x80004005): A operação de E/S foi anulada devido a uma saída de thread ou a uma requisição de aplicativo
+   em System.Net.HttpResponseStream.Write(Byte[] buffer, Int32 offset, Int32 size)
+   em server.sfx.Sfx.HandleRequest() na C:\Users\Kastan\Desktop\Rotmg PServer\Pepinos\server\sfx\Sfx.cs:linha 26
+   em server.RequestHandler.HandleRequest(HttpListenerContext context) na C:\Users\Kastan\Desktop\Rotmg PServer\Pepinos\server\RequestHandlers.cs:linha 38
+   em server.Program.ProcessRequest(HttpListenerContext context) na C:\Users\Kastan\Desktop\Rotmg PServer\Pepinos\server\Program.cs:linha 107
+2016-08-24 16:45:05,489 [Entry] WARN  db.data.XmlData - 0x0065 and 0x0061 has the same name of Grey Circle!
+2016-08-24 16:46:28,445 [3] ERROR Server - System.NullReferenceException: Referência de objeto não definida para uma instância de um objeto.
+   em server.fame.list.HandleRequest() na C:\Users\Kastan\Desktop\Rotmg PServer\Pepinos\server\fame\list.cs:linha 107
+   em server.RequestHandler.HandleRequest(HttpListenerContext context) na C:\Users\Kastan\Desktop\Rotmg PServer\Pepinos\server\RequestHandlers.cs:linha 38
+   em server.Program.ProcessRequest(HttpListenerContext context) na C:\Users\Kastan\Desktop\Rotmg PServer\Pepinos\server\Program.cs:linha 156
+2016-08-24 16:46:34,344 [3] ERROR Server - System.NullReferenceException: Referência de objeto não definida para uma instância de um objeto.
+   em server.fame.list.HandleRequest() na C:\Users\Kastan\Desktop\Rotmg PServer\Pepinos\server\fame\list.cs:linha 107
+   em server.RequestHandler.HandleRequest(HttpListenerContext context) na C:\Users\Kastan\Desktop\Rotmg PServer\Pepinos\server\RequestHandlers.cs:linha 38
+   em server.Program.ProcessRequest(HttpListenerContext context) na C:\Users\Kastan\Desktop\Rotmg PServer\Pepinos\server\Program.cs:linha 156
+2016-08-24 16:46:36,465 [3] ERROR Server - System.NullReferenceException: Referência de objeto não definida para uma instância de um objeto.
+   em server.fame.list.HandleRequest() na C:\Users\Kastan\Desktop\Rotmg PServer\Pepinos\server\fame\list.cs:linha 107
+   em server.RequestHandler.HandleRequest(HttpListenerContext context) na C:\Users\Kastan\Desktop\Rotmg PServer\Pepinos\server\RequestHandlers.cs:linha 38
+   em server.Program.ProcessRequest(HttpListenerContext context) na C:\Users\Kastan\Desktop\Rotmg PServer\Pepinos\server\Program.cs:linha 156
+2016-08-24 16:46:37,703 [3] ERROR Server - System.NullReferenceException: Referência de objeto não definida para uma instância de um objeto.
+   em server.fame.list.HandleRequest() na C:\Users\Kastan\Desktop\Rotmg PServer\Pepinos\server\fame\list.cs:linha 107
+   em server.RequestHandler.HandleRequest(HttpListenerContext context) na C:\Users\Kastan\Desktop\Rotmg PServer\Pepinos\server\RequestHandlers.cs:linha 38
+   em server.Program.ProcessRequest(HttpListenerContext context) na C:\Users\Kastan\Desktop\Rotmg PServer\Pepinos\server\Program.cs:linha 156
+2016-08-24 17:05:46,283 [16] ERROR Server - System.NullReferenceException: Referência de objeto não definida para uma instância de um objeto.
+   em server.fame.list.HandleRequest() na C:\Users\Kastan\Desktop\Rotmg PServer\Pepinos\server\fame\list.cs:linha 107
+   em server.RequestHandler.HandleRequest(HttpListenerContext context) na C:\Users\Kastan\Desktop\Rotmg PServer\Pepinos\server\RequestHandlers.cs:linha 38
+   em server.Program.ProcessRequest(HttpListenerContext context) na C:\Users\Kastan\Desktop\Rotmg PServer\Pepinos\server\Program.cs:linha 156
+2016-08-24 17:05:48,432 [16] ERROR Server - System.NullReferenceException: Referência de objeto não definida para uma instância de um objeto.
+   em server.fame.list.HandleRequest() na C:\Users\Kastan\Desktop\Rotmg PServer\Pepinos\server\fame\list.cs:linha 107
+   em server.RequestHandler.HandleRequest(HttpListenerContext context) na C:\Users\Kastan\Desktop\Rotmg PServer\Pepinos\server\RequestHandlers.cs:linha 38
+   em server.Program.ProcessRequest(HttpListenerContext context) na C:\Users\Kastan\Desktop\Rotmg PServer\Pepinos\server\Program.cs:linha 156
+2016-08-24 17:06:00,364 [16] ERROR Server - System.NullReferenceException: Referência de objeto não definida para uma instância de um objeto.
+   em server.fame.list.HandleRequest() na C:\Users\Kastan\Desktop\Rotmg PServer\Pepinos\server\fame\list.cs:linha 107
+   em server.RequestHandler.HandleRequest(HttpListenerContext context) na C:\Users\Kastan\Desktop\Rotmg PServer\Pepinos\server\RequestHandlers.cs:linha 38
+   em server.Program.ProcessRequest(HttpListenerContext context) na C:\Users\Kastan\Desktop\Rotmg PServer\Pepinos\server\Program.cs:linha 156
+2016-08-24 17:22:26,543 [Entry] WARN  db.data.XmlData - 0x0065 and 0x0061 has the same name of Grey Circle!
+2016-08-24 17:57:32,608 [16] ERROR Server - System.InvalidOperationException: Erro ao gerar o documento XML. ---> System.Net.HttpListenerException: O tempo limite do semáforo expirou
+   em System.Net.HttpResponseStream.Write(Byte[] buffer, Int32 offset, Int32 size)
+   em System.Xml.XmlUtf8RawTextWriter.FlushBuffer()
+   em System.Xml.XmlUtf8RawTextWriter.WriteElementTextBlock(Char* pSrc, Char* pSrcEnd)
+   em System.Xml.XmlUtf8RawTextWriter.WriteString(String text)
+   em System.Xml.XmlUtf8RawTextWriterIndent.WriteString(String text)
+   em System.Xml.XmlWellFormedWriter.WriteString(String text)
+   em System.Xml.XmlWriter.WriteElementString(String localName, String ns, String value)
+   em System.Xml.Serialization.XmlSerializationWriter.WriteElementString(String localName, String ns, String value, XmlQualifiedName xsiType)
+   em Microsoft.Xml.Serialization.GeneratedAssembly.XmlSerializationWriterChars.Write4_Char(String n, String ns, Char o, Boolean isNullable, Boolean needType)
+   em Microsoft.Xml.Serialization.GeneratedAssembly.XmlSerializationWriterChars.Write17_Chars(String n, String ns, Chars o, Boolean isNullable, Boolean needType)
+   em Microsoft.Xml.Serialization.GeneratedAssembly.XmlSerializationWriterChars.Write18_Chars(Object o)
+   --- Fim do rastreamento de pilha de exceções internas ---
+   em System.Xml.Serialization.XmlSerializer.Serialize(XmlWriter xmlWriter, Object o, XmlSerializerNamespaces namespaces, String encodingStyle, String id)
+   em System.Xml.Serialization.XmlSerializer.Serialize(XmlWriter xmlWriter, Object o, XmlSerializerNamespaces namespaces)
+   em server.char.list.HandleRequest() na C:\Users\Kastan\Desktop\Rotmg PServer\Pepinos\server\char\list.cs:linha 106
+   em server.RequestHandler.HandleRequest(HttpListenerContext context) na C:\Users\Kastan\Desktop\Rotmg PServer\Pepinos\server\RequestHandlers.cs:linha 38
+   em server.Program.ProcessRequest(HttpListenerContext context) na C:\Users\Kastan\Desktop\Rotmg PServer\Pepinos\server\Program.cs:linha 156
+2016-08-24 17:59:43,829 [12] ERROR Server - MySql.Data.MySqlClient.MySqlException (0x80004005): Invalid attempt to access a field before calling Read()
+   em MySql.Data.MySqlClient.ResultSet.get_Item(Int32 index)
+   em MySql.Data.MySqlClient.MySqlDataReader.GetFieldValue(Int32 index, Boolean checkNull)
+   em MySql.Data.MySqlClient.MySqlDataReader.GetDateTime(Int32 i)
+   em MySql.Data.MySqlClient.MySqlDataReader.GetDateTime(String column)
+   em server.char.fame.HandleRequest() na C:\Users\Kastan\Desktop\Rotmg PServer\Pepinos\server\char\fame.cs:linha 33
+   em server.RequestHandler.HandleRequest(HttpListenerContext context) na C:\Users\Kastan\Desktop\Rotmg PServer\Pepinos\server\RequestHandlers.cs:linha 38
+   em server.Program.ProcessRequest(HttpListenerContext context) na C:\Users\Kastan\Desktop\Rotmg PServer\Pepinos\server\Program.cs:linha 156
+2016-08-24 18:00:33,304 [16] ERROR Server - System.Net.HttpListenerException (0x80004005): A operação de E/S foi anulada devido a uma saída de thread ou a uma requisição de aplicativo
+   em System.Net.HttpResponseStream.Write(Byte[] buffer, Int32 offset, Int32 size)
+   em server.sfx.Sfx.HandleRequest() na C:\Users\Kastan\Desktop\Rotmg PServer\Pepinos\server\sfx\Sfx.cs:linha 26
+   em server.RequestHandler.HandleRequest(HttpListenerContext context) na C:\Users\Kastan\Desktop\Rotmg PServer\Pepinos\server\RequestHandlers.cs:linha 38
+   em server.Program.ProcessRequest(HttpListenerContext context) na C:\Users\Kastan\Desktop\Rotmg PServer\Pepinos\server\Program.cs:linha 107
+2016-08-24 18:18:12,450 [Entry] WARN  db.data.XmlData - 0x0065 and 0x0061 has the same name of Grey Circle!
+2016-08-24 19:27:03,638 [Entry] WARN  db.data.XmlData - 0x0065 and 0x0061 has the same name of Grey Circle!
+2016-08-24 19:27:12,424 [7] ERROR Server - Not supported server detected: 
+Host: 25.145.99.110
+Port: 2050
+2016-08-24 20:28:08,178 [Entry] WARN  db.data.XmlData - 0x0065 and 0x0061 has the same name of Grey Circle!
+2016-08-24 22:06:45,698 [Entry] WARN  db.data.XmlData - 0x0065 and 0x0061 has the same name of Grey Circle!
+2016-08-24 22:09:05,496 [6] ERROR Server - System.Net.HttpListenerException (0x80004005): A operação de E/S foi anulada devido a uma saída de thread ou a uma requisição de aplicativo
+   em System.Net.HttpResponseStream.Write(Byte[] buffer, Int32 offset, Int32 size)
+   em server.sfx.Sfx.HandleRequest() na C:\Users\Kastan\Desktop\Rotmg PServer\Pepinos\server\sfx\Sfx.cs:linha 26
+   em server.RequestHandler.HandleRequest(HttpListenerContext context) na C:\Users\Kastan\Desktop\Rotmg PServer\Pepinos\server\RequestHandlers.cs:linha 38
+   em server.Program.ProcessRequest(HttpListenerContext context) na C:\Users\Kastan\Desktop\Rotmg PServer\Pepinos\server\Program.cs:linha 107
+2016-08-24 22:11:28,979 [8] ERROR Server - System.Net.HttpListenerException (0x80004005): A operação de E/S foi anulada devido a uma saída de thread ou a uma requisição de aplicativo
+   em System.Net.HttpResponseStream.Write(Byte[] buffer, Int32 offset, Int32 size)
+   em server.sfx.Sfx.HandleRequest() na C:\Users\Kastan\Desktop\Rotmg PServer\Pepinos\server\sfx\Sfx.cs:linha 26
+   em server.RequestHandler.HandleRequest(HttpListenerContext context) na C:\Users\Kastan\Desktop\Rotmg PServer\Pepinos\server\RequestHandlers.cs:linha 38
+   em server.Program.ProcessRequest(HttpListenerContext context) na C:\Users\Kastan\Desktop\Rotmg PServer\Pepinos\server\Program.cs:linha 107
+2016-08-24 22:13:33,895 [Entry] WARN  db.data.XmlData - 0x0065 and 0x0061 has the same name of Grey Circle!
+2016-08-24 22:36:52,846 [Entry] WARN  db.data.XmlData - 0x0065 and 0x0061 has the same name of Grey Circle!
+2016-08-25 20:36:11,047 [Entry] WARN  db.data.XmlData - 0x0065 and 0x0061 has the same name of Grey Circle!
+2016-08-25 20:37:27,739 [Entry] WARN  db.data.XmlData - 0x0065 and 0x0061 has the same name of Grey Circle!
+2016-08-25 20:42:28,874 [Entry] WARN  db.data.XmlData - 0x0065 and 0x0061 has the same name of Grey Circle!
+2016-08-25 20:43:35,807 [Entry] WARN  db.data.XmlData - 0x0065 and 0x0061 has the same name of Grey Circle!
+2016-08-25 20:44:21,061 [Entry] WARN  db.data.XmlData - 0x0065 and 0x0061 has the same name of Grey Circle!
+2016-08-25 20:46:44,416 [Entry] WARN  db.data.XmlData - 0x0065 and 0x0061 has the same name of Grey Circle!
+2016-08-25 21:36:51,669 [Entry] WARN  db.data.XmlData - 0x0065 and 0x0061 has the same name of Grey Circle!
+2016-08-25 21:37:58,945 [Entry] WARN  db.data.XmlData - 0x0065 and 0x0061 has the same name of Grey Circle!
+2016-08-25 21:57:29,016 [Entry] WARN  db.data.XmlData - 0x0065 and 0x0061 has the same name of Grey Circle!
+2016-08-25 22:10:49,526 [Entry] WARN  db.data.XmlData - 0x0065 and 0x0061 has the same name of Grey Circle!
+2016-08-25 22:18:00,385 [Entry] WARN  db.data.XmlData - 0x0065 and 0x0061 has the same name of Grey Circle!
+2016-08-25 22:20:27,868 [Entry] WARN  db.data.XmlData - 0x0065 and 0x0061 has the same name of Grey Circle!
+2016-08-25 22:42:16,884 [Entry] WARN  db.data.XmlData - 0x0065 and 0x0061 has the same name of Grey Circle!
+2016-08-25 22:47:49,882 [Entry] WARN  db.data.XmlData - 0x0065 and 0x0061 has the same name of Grey Circle!
+2016-08-26 14:43:53,183 [Entry] WARN  db.data.XmlData - 0x0065 and 0x0061 has the same name of Grey Circle!
+2016-08-26 14:45:10,599 [Entry] WARN  db.data.XmlData - 0x0065 and 0x0061 has the same name of Grey Circle!
+2016-08-26 14:46:36,199 [Entry] WARN  db.data.XmlData - 0x0065 and 0x0061 has the same name of Grey Circle!
+2016-08-26 14:54:11,858 [Entry] WARN  db.data.XmlData - 0x0065 and 0x0061 has the same name of Grey Circle!
+2016-08-26 14:57:26,005 [Entry] WARN  db.data.XmlData - 0x0065 and 0x0061 has the same name of Grey Circle!
+2016-08-26 15:07:23,082 [Entry] WARN  db.data.XmlData - 0x0065 and 0x0061 has the same name of Grey Circle!
+2016-08-26 21:50:04,204 [Entry] WARN  db.data.XmlData - 0x0065 and 0x0061 has the same name of Grey Circle!
+2016-08-26 21:52:16,922 [Entry] WARN  db.data.XmlData - 0x0065 and 0x0061 has the same name of Grey Circle!
+2016-08-26 22:13:52,236 [Entry] WARN  db.data.XmlData - 0x0065 and 0x0061 has the same name of Grey Circle!
+2016-08-27 15:06:44,010 [Entry] WARN  db.data.XmlData - 0x0065 and 0x0061 has the same name of Grey Circle!
+2016-08-27 15:19:07,959 [Entry] WARN  db.data.XmlData - 0x0065 and 0x0061 has the same name of Grey Circle!
+2016-08-27 16:16:12,678 [12] ERROR Server - Not supported server detected: 
+Host: 25.145.99.110
+Port: 2050
+2016-08-27 16:16:13,559 [12] ERROR Server - System.InvalidOperationException: Erro ao gerar o documento XML. ---> System.Net.HttpListenerException: Tentativa de operação em uma conexão de rede não existente
+   em System.Net.HttpResponseStream.Write(Byte[] buffer, Int32 offset, Int32 size)
+   em System.Xml.XmlUtf8RawTextWriter.FlushBuffer()
+   em System.Xml.XmlUtf8RawTextWriter.WriteElementTextBlock(Char* pSrc, Char* pSrcEnd)
+   em System.Xml.XmlUtf8RawTextWriter.WriteString(String text)
+   em System.Xml.XmlUtf8RawTextWriterIndent.WriteString(String text)
+   em System.Xml.XmlWellFormedWriter.WriteString(String text)
+   em System.Xml.XmlWriter.WriteElementString(String localName, String ns, String value)
+   em System.Xml.Serialization.XmlSerializationWriter.WriteElementString(String localName, String ns, String value, XmlQualifiedName xsiType)
+   em Microsoft.Xml.Serialization.GeneratedAssembly.XmlSerializationWriterChars.Write8_QuestItem(String n, String ns, QuestItem o, Boolean isNullable, Boolean needType)
+   em Microsoft.Xml.Serialization.GeneratedAssembly.XmlSerializationWriterChars.Write11_Account(String n, String ns, Account o, Boolean isNullable, Boolean needType)
+   em Microsoft.Xml.Serialization.GeneratedAssembly.XmlSerializationWriterChars.Write17_Chars(String n, String ns, Chars o, Boolean isNullable, Boolean needType)
+   em Microsoft.Xml.Serialization.GeneratedAssembly.XmlSerializationWriterChars.Write18_Chars(Object o)
+   --- Fim do rastreamento de pilha de exceções internas ---
+   em System.Xml.Serialization.XmlSerializer.Serialize(XmlWriter xmlWriter, Object o, XmlSerializerNamespaces namespaces, String encodingStyle, String id)
+   em System.Xml.Serialization.XmlSerializer.Serialize(XmlWriter xmlWriter, Object o, XmlSerializerNamespaces namespaces)
+   em server.char.list.HandleRequest()
+   em server.RequestHandler.HandleRequest(HttpListenerContext context)
+   em server.Program.ProcessRequest(HttpListenerContext context)
+2016-08-27 16:16:32,517 [Entry] WARN  db.data.XmlData - 0x0065 and 0x0061 has the same name of Grey Circle!
+2016-08-27 18:32:24,748 [Entry] WARN  db.data.XmlData - 0x0065 and 0x0061 has the same name of Grey Circle!
+2016-08-27 18:34:22,806 [6] ERROR Server - Not supported server detected: 
+Host: 25.145.99.110
+Port: 2050
+2016-08-27 18:35:07,637 [6] ERROR Server - Not supported server detected: 
+Host: 25.145.99.110
+Port: 2050
+2016-08-27 18:36:06,214 [6] ERROR Server - Not supported server detected: 
+Host: 25.145.99.110
+Port: 2050
+2016-08-27 18:37:09,786 [Entry] WARN  db.data.XmlData - 0x0065 and 0x0061 has the same name of Grey Circle!
+2016-08-27 21:57:17,491 [Entry] WARN  db.data.XmlData - 0x0065 and 0x0061 has the same name of Grey Circle!
+2016-08-27 21:57:17,585 [Entry] WARN  db.data.XmlData - 'Astor' and 'Swamp Witch' has the same ID of 0x1605!
+2016-08-27 22:02:36,465 [Entry] WARN  db.data.XmlData - 0x0065 and 0x0061 has the same name of Grey Circle!
+2016-08-27 22:02:36,506 [Entry] WARN  db.data.XmlData - 'Astor' and 'Swamp Witch' has the same ID of 0x1605!
+2016-08-27 22:26:30,531 [Entry] WARN  db.data.XmlData - 0x0065 and 0x0061 has the same name of Grey Circle!
+2016-08-27 22:29:10,492 [Entry] WARN  db.data.XmlData - 0x0065 and 0x0061 has the same name of Grey Circle!
+2016-08-27 22:30:03,099 [Entry] WARN  db.data.XmlData - 0x0065 and 0x0061 has the same name of Grey Circle!
+2016-08-27 22:32:28,266 [Entry] WARN  db.data.XmlData - 0x0065 and 0x0061 has the same name of Grey Circle!
+2016-08-27 22:32:58,899 [7] ERROR Server - System.InvalidOperationException: Erro ao gerar o documento XML. ---> System.Net.HttpListenerException: O nome da rede especificado não está mais disponível
+   em System.Net.HttpResponseStream.Write(Byte[] buffer, Int32 offset, Int32 size)
+   em System.Xml.XmlUtf8RawTextWriter.FlushBuffer()
+   em System.Xml.XmlUtf8RawTextWriter.RawText(Char* pSrcBegin, Char* pSrcEnd)
+   em System.Xml.XmlUtf8RawTextWriter.RawText(String s)
+   em System.Xml.XmlUtf8RawTextWriterIndent.WriteIndent()
+   em System.Xml.XmlUtf8RawTextWriterIndent.WriteStartElement(String prefix, String localName, String ns)
+   em System.Xml.XmlWellFormedWriter.WriteStartElement(String prefix, String localName, String ns)
+   em System.Xml.Serialization.XmlSerializationWriter.WriteStartElement(String name, String ns, Object o, Boolean writePrefixed, XmlSerializerNamespaces xmlns)
+   em Microsoft.Xml.Serialization.GeneratedAssembly.XmlSerializationWriterChars.Write14_ClassAvailabilityItem(String n, String ns, ClassAvailabilityItem o, Boolean isNullable, Boolean needType)
+   em Microsoft.Xml.Serialization.GeneratedAssembly.XmlSerializationWriterChars.Write17_Chars(String n, String ns, Chars o, Boolean isNullable, Boolean needType)
+   em Microsoft.Xml.Serialization.GeneratedAssembly.XmlSerializationWriterChars.Write18_Chars(Object o)
+   --- Fim do rastreamento de pilha de exceções internas ---
+   em System.Xml.Serialization.XmlSerializer.Serialize(XmlWriter xmlWriter, Object o, XmlSerializerNamespaces namespaces, String encodingStyle, String id)
+   em System.Xml.Serialization.XmlSerializer.Serialize(XmlWriter xmlWriter, Object o, XmlSerializerNamespaces namespaces)
+   em server.char.list.HandleRequest() na C:\Users\Kastan\Desktop\Rotmg PServer\Pepinos\server\char\list.cs:linha 106
+   em server.RequestHandler.HandleRequest(HttpListenerContext context) na C:\Users\Kastan\Desktop\Rotmg PServer\Pepinos\server\RequestHandlers.cs:linha 38
+   em server.Program.ProcessRequest(HttpListenerContext context) na C:\Users\Kastan\Desktop\Rotmg PServer\Pepinos\server\Program.cs:linha 156
+2016-08-27 22:48:30,465 [13] ERROR Server - System.Net.HttpListenerException (0x80004005): Tentativa de operação em uma conexão de rede não existente
+   em System.Net.HttpResponseStream.Dispose(Boolean disposing)
+   em System.IO.Stream.Close()
+   em System.Net.HttpListenerResponse.Dispose(Boolean disposing)
+   em System.Net.HttpListenerResponse.System.IDisposable.Dispose()
+   em System.Net.HttpListenerResponse.Close()
+   em server.Program.ProcessRequest(HttpListenerContext context) na C:\Users\Kastan\Desktop\Rotmg PServer\Pepinos\server\Program.cs:linha 108
+2016-08-27 22:48:30,467 [19] ERROR Server - System.Net.HttpListenerException (0x80004005): Tentativa de operação em uma conexão de rede não existente
+   em System.Net.HttpResponseStream.Dispose(Boolean disposing)
+   em System.IO.Stream.Close()
+   em System.Net.HttpListenerResponse.Dispose(Boolean disposing)
+   em System.Net.HttpListenerResponse.System.IDisposable.Dispose()
+   em System.Net.HttpListenerResponse.Close()
+   em server.Program.ProcessRequest(HttpListenerContext context) na C:\Users\Kastan\Desktop\Rotmg PServer\Pepinos\server\Program.cs:linha 108
+2016-08-27 22:48:30,468 [24] ERROR Server - System.Net.HttpListenerException (0x80004005): Tentativa de operação em uma conexão de rede não existente
+   em System.Net.HttpResponseStream.Dispose(Boolean disposing)
+   em System.IO.Stream.Close()
+   em System.Net.HttpListenerResponse.Dispose(Boolean disposing)
+   em System.Net.HttpListenerResponse.System.IDisposable.Dispose()
+   em System.Net.HttpListenerResponse.Close()
+   em server.Program.ProcessRequest(HttpListenerContext context) na C:\Users\Kastan\Desktop\Rotmg PServer\Pepinos\server\Program.cs:linha 108
+2016-08-27 22:48:30,473 [17] ERROR Server - System.Net.HttpListenerException (0x80004005): Tentativa de operação em uma conexão de rede não existente
+   em System.Net.HttpResponseStream.Dispose(Boolean disposing)
+   em System.IO.Stream.Close()
+   em System.Net.HttpListenerResponse.Dispose(Boolean disposing)
+   em System.Net.HttpListenerResponse.System.IDisposable.Dispose()
+   em System.Net.HttpListenerResponse.Close()
+   em server.Program.ProcessRequest(HttpListenerContext context) na C:\Users\Kastan\Desktop\Rotmg PServer\Pepinos\server\Program.cs:linha 108
+2016-08-27 22:48:30,467 [21] ERROR Server - System.Net.HttpListenerException (0x80004005): Tentativa de operação em uma conexão de rede não existente
+   em System.Net.HttpResponseStream.Dispose(Boolean disposing)
+   em System.IO.Stream.Close()
+   em System.Net.HttpListenerResponse.Dispose(Boolean disposing)
+   em System.Net.HttpListenerResponse.System.IDisposable.Dispose()
+   em System.Net.HttpListenerResponse.Close()
+   em server.Program.ProcessRequest(HttpListenerContext context) na C:\Users\Kastan\Desktop\Rotmg PServer\Pepinos\server\Program.cs:linha 108
+2016-08-27 22:48:30,465 [18] ERROR Server - System.Net.HttpListenerException (0x80004005): Tentativa de operação em uma conexão de rede não existente
+   em System.Net.HttpResponseStream.Dispose(Boolean disposing)
+   em System.IO.Stream.Close()
+   em System.Net.HttpListenerResponse.Dispose(Boolean disposing)
+   em System.Net.HttpListenerResponse.System.IDisposable.Dispose()
+   em System.Net.HttpListenerResponse.Close()
+   em server.Program.ProcessRequest(HttpListenerContext context) na C:\Users\Kastan\Desktop\Rotmg PServer\Pepinos\server\Program.cs:linha 108
+2016-08-27 22:48:30,466 [25] ERROR Server - System.Net.HttpListenerException (0x80004005): Tentativa de operação em uma conexão de rede não existente
+   em System.Net.HttpResponseStream.Dispose(Boolean disposing)
+   em System.IO.Stream.Close()
+   em System.Net.HttpListenerResponse.Dispose(Boolean disposing)
+   em System.Net.HttpListenerResponse.System.IDisposable.Dispose()
+   em System.Net.HttpListenerResponse.Close()
+   em server.Program.ProcessRequest(HttpListenerContext context) na C:\Users\Kastan\Desktop\Rotmg PServer\Pepinos\server\Program.cs:linha 108
+2016-08-27 22:48:30,466 [22] ERROR Server - System.Net.HttpListenerException (0x80004005): Tentativa de operação em uma conexão de rede não existente
+   em System.Net.HttpResponseStream.Dispose(Boolean disposing)
+   em System.IO.Stream.Close()
+   em System.Net.HttpListenerResponse.Dispose(Boolean disposing)
+   em System.Net.HttpListenerResponse.System.IDisposable.Dispose()
+   em System.Net.HttpListenerResponse.Close()
+   em server.Program.ProcessRequest(HttpListenerContext context) na C:\Users\Kastan\Desktop\Rotmg PServer\Pepinos\server\Program.cs:linha 108
+2016-08-27 22:48:30,465 [20] ERROR Server - System.Net.HttpListenerException (0x80004005): Tentativa de operação em uma conexão de rede não existente
+   em System.Net.HttpResponseStream.Dispose(Boolean disposing)
+   em System.IO.Stream.Close()
+   em System.Net.HttpListenerResponse.Dispose(Boolean disposing)
+   em System.Net.HttpListenerResponse.System.IDisposable.Dispose()
+   em System.Net.HttpListenerResponse.Close()
+   em server.Program.ProcessRequest(HttpListenerContext context) na C:\Users\Kastan\Desktop\Rotmg PServer\Pepinos\server\Program.cs:linha 108
+2016-08-27 22:48:30,466 [23] ERROR Server - System.Net.HttpListenerException (0x80004005): Tentativa de operação em uma conexão de rede não existente
+   em System.Net.HttpResponseStream.Dispose(Boolean disposing)
+   em System.IO.Stream.Close()
+   em System.Net.HttpListenerResponse.Dispose(Boolean disposing)
+   em System.Net.HttpListenerResponse.System.IDisposable.Dispose()
+   em System.Net.HttpListenerResponse.Close()
+   em server.Program.ProcessRequest(HttpListenerContext context) na C:\Users\Kastan\Desktop\Rotmg PServer\Pepinos\server\Program.cs:linha 108
+2016-08-27 22:48:30,471 [15] ERROR Server - System.Net.HttpListenerException (0x80004005): Tentativa de operação em uma conexão de rede não existente
+   em System.Net.HttpResponseStream.Dispose(Boolean disposing)
+   em System.IO.Stream.Close()
+   em System.Net.HttpListenerResponse.Dispose(Boolean disposing)
+   em System.Net.HttpListenerResponse.System.IDisposable.Dispose()
+   em System.Net.HttpListenerResponse.Close()
+   em server.Program.ProcessRequest(HttpListenerContext context) na C:\Users\Kastan\Desktop\Rotmg PServer\Pepinos\server\Program.cs:linha 108
+2016-08-27 22:48:30,471 [16] ERROR Server - System.Net.HttpListenerException (0x80004005): Tentativa de operação em uma conexão de rede não existente
+   em System.Net.HttpResponseStream.Dispose(Boolean disposing)
+   em System.IO.Stream.Close()
+   em System.Net.HttpListenerResponse.Dispose(Boolean disposing)
+   em System.Net.HttpListenerResponse.System.IDisposable.Dispose()
+   em System.Net.HttpListenerResponse.Close()
+   em server.Program.ProcessRequest(HttpListenerContext context) na C:\Users\Kastan\Desktop\Rotmg PServer\Pepinos\server\Program.cs:linha 108
+2016-08-27 22:48:30,531 [21] ERROR Server - System.Net.HttpListenerException (0x80004005): Tentativa de operação em uma conexão de rede não existente
+   em System.Net.HttpResponseStream.Dispose(Boolean disposing)
+   em System.IO.Stream.Close()
+   em System.Net.HttpListenerResponse.Dispose(Boolean disposing)
+   em System.Net.HttpListenerResponse.System.IDisposable.Dispose()
+   em System.Net.HttpListenerResponse.Close()
+   em server.Program.ProcessRequest(HttpListenerContext context) na C:\Users\Kastan\Desktop\Rotmg PServer\Pepinos\server\Program.cs:linha 108
+2016-08-27 22:48:30,538 [23] ERROR Server - System.Net.HttpListenerException (0x80004005): Tentativa de operação em uma conexão de rede não existente
+   em System.Net.HttpResponseStream.Dispose(Boolean disposing)
+   em System.IO.Stream.Close()
+   em System.Net.HttpListenerResponse.Dispose(Boolean disposing)
+   em System.Net.HttpListenerResponse.System.IDisposable.Dispose()
+   em System.Net.HttpListenerResponse.Close()
+   em server.Program.ProcessRequest(HttpListenerContext context) na C:\Users\Kastan\Desktop\Rotmg PServer\Pepinos\server\Program.cs:linha 108
+2016-08-27 22:48:30,531 [18] ERROR Server - System.Net.HttpListenerException (0x80004005): Tentativa de operação em uma conexão de rede não existente
+   em System.Net.HttpResponseStream.Dispose(Boolean disposing)
+   em System.IO.Stream.Close()
+   em System.Net.HttpListenerResponse.Dispose(Boolean disposing)
+   em System.Net.HttpListenerResponse.System.IDisposable.Dispose()
+   em System.Net.HttpListenerResponse.Close()
+   em server.Program.ProcessRequest(HttpListenerContext context) na C:\Users\Kastan\Desktop\Rotmg PServer\Pepinos\server\Program.cs:linha 108
+2016-08-27 22:48:30,528 [24] ERROR Server - System.Net.HttpListenerException (0x80004005): Tentativa de operação em uma conexão de rede não existente
+   em System.Net.HttpResponseStream.Dispose(Boolean disposing)
+   em System.IO.Stream.Close()
+   em System.Net.HttpListenerResponse.Dispose(Boolean disposing)
+   em System.Net.HttpListenerResponse.System.IDisposable.Dispose()
+   em System.Net.HttpListenerResponse.Close()
+   em server.Program.ProcessRequest(HttpListenerContext context) na C:\Users\Kastan\Desktop\Rotmg PServer\Pepinos\server\Program.cs:linha 108
+2016-08-27 22:48:30,536 [22] ERROR Server - System.Net.HttpListenerException (0x80004005): Tentativa de operação em uma conexão de rede não existente
+   em System.Net.HttpResponseStream.Dispose(Boolean disposing)
+   em System.IO.Stream.Close()
+   em System.Net.HttpListenerResponse.Dispose(Boolean disposing)
+   em System.Net.HttpListenerResponse.System.IDisposable.Dispose()
+   em System.Net.HttpListenerResponse.Close()
+   em server.Program.ProcessRequest(HttpListenerContext context) na C:\Users\Kastan\Desktop\Rotmg PServer\Pepinos\server\Program.cs:linha 108
+2016-08-27 23:13:58,357 [12] ERROR Server - Not supported server detected: 
+Host: 25.145.99.110
+Port: 2050
+2016-08-27 23:15:01,995 [26] ERROR Server - Not supported server detected: 
+Host: 25.145.99.110
+Port: 2050
+2016-08-27 23:15:05,986 [12] ERROR Server - Not supported server detected: 
+Host: 25.145.99.110
+Port: 2050
+2016-08-27 23:15:51,660 [Entry] WARN  db.data.XmlData - 0x0065 and 0x0061 has the same name of Grey Circle!
+2016-08-28 00:01:34,697 [Entry] WARN  db.data.XmlData - 0x0065 and 0x0061 has the same name of Grey Circle!
+2016-08-28 00:02:17,709 [3] ERROR Server - System.Net.HttpListenerException (0x80004005): Tentativa de operação em uma conexão de rede não existente
+   em System.Net.HttpResponseStream.Write(Byte[] buffer, Int32 offset, Int32 size)
+   em server.app.getLanguageStrings.HandleRequest() na C:\Users\Kastan\Desktop\Rotmg PServer\Pepinos\server\app\getLanguageStrings.cs:linha 37
+   em server.RequestHandler.HandleRequest(HttpListenerContext context) na C:\Users\Kastan\Desktop\Rotmg PServer\Pepinos\server\RequestHandlers.cs:linha 38
+   em server.Program.ProcessRequest(HttpListenerContext context) na C:\Users\Kastan\Desktop\Rotmg PServer\Pepinos\server\Program.cs:linha 156
+2016-08-28 00:06:12,027 [Entry] WARN  db.data.XmlData - 0x0065 and 0x0061 has the same name of Grey Circle!
+2016-08-28 00:24:13,042 [Entry] WARN  db.data.XmlData - 0x0065 and 0x0061 has the same name of Grey Circle!
+2016-08-28 00:30:54,606 [Entry] WARN  db.data.XmlData - 0x0065 and 0x0061 has the same name of Grey Circle!
+2016-08-28 00:43:43,683 [Entry] WARN  db.data.XmlData - 0x0065 and 0x0061 has the same name of Grey Circle!
+2016-08-28 01:03:36,092 [Entry] WARN  db.data.XmlData - 0x0065 and 0x0061 has the same name of Grey Circle!
+2016-08-28 01:20:06,944 [Entry] WARN  db.data.XmlData - 0x0065 and 0x0061 has the same name of Grey Circle!
+2016-08-28 11:40:33,070 [Entry] WARN  db.data.XmlData - 0x0065 and 0x0061 has the same name of Grey Circle!
+2016-08-28 11:51:34,404 [Entry] WARN  db.data.XmlData - 0x0065 and 0x0061 has the same name of Grey Circle!
+2016-08-28 11:58:43,018 [Entry] WARN  db.data.XmlData - 0x0065 and 0x0061 has the same name of Grey Circle!
+2016-08-28 12:02:19,892 [Entry] WARN  db.data.XmlData - 0x0065 and 0x0061 has the same name of Grey Circle!
+2016-08-28 12:11:13,832 [Entry] WARN  db.data.XmlData - 0x0065 and 0x0061 has the same name of Grey Circle!
+2016-08-28 12:16:40,563 [Entry] WARN  db.data.XmlData - 0x0065 and 0x0061 has the same name of Grey Circle!
+2016-08-28 12:24:56,871 [Entry] WARN  db.data.XmlData - 0x0065 and 0x0061 has the same name of Grey Circle!
+2016-08-28 12:29:00,196 [Entry] WARN  db.data.XmlData - 0x0065 and 0x0061 has the same name of Grey Circle!
+2016-08-28 12:36:56,981 [Entry] WARN  db.data.XmlData - 0x0065 and 0x0061 has the same name of Grey Circle!
+2016-08-28 12:41:41,034 [Entry] WARN  db.data.XmlData - 0x0065 and 0x0061 has the same name of Grey Circle!
+2016-08-28 13:31:18,812 [Entry] WARN  db.data.XmlData - 0x0065 and 0x0061 has the same name of Grey Circle!
+2016-08-28 19:22:27,428 [Entry] WARN  db.data.XmlData - 0x0065 and 0x0061 has the same name of Grey Circle!
+2016-08-28 20:25:43,549 [Entry] WARN  db.data.XmlData - 0x0065 and 0x0061 has the same name of Grey Circle!
+2016-08-28 21:06:44,948 [Entry] WARN  db.data.XmlData - 0x0065 and 0x0061 has the same name of Grey Circle!
+2016-08-28 21:20:13,514 [Entry] WARN  db.data.XmlData - 0x0065 and 0x0061 has the same name of Grey Circle!
+2016-08-28 21:40:11,364 [Entry] WARN  db.data.XmlData - 0x0065 and 0x0061 has the same name of Grey Circle!

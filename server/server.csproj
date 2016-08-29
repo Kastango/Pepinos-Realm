@@ -961,21 +961,7 @@
     <Content Include="sfx\music\Nexus.mp3">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
-    <Content Include="sfx\music\sorc - Copy.mp3">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </Content>
-    <Content Include="sfx\music\sorc org.mp3">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </Content>
-    <Content Include="sfx\music\sorc-old.mp3">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </Content>
-    <Content Include="sfx\music\sorc prod.mp3">
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-    </Content>
-    <Content Include="sfx\music\sorc.mp3">
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-    </Content>
+    <Content Include="sfx\music\sorc.mp3" />
     <Content Include="sfx\no_mana.mp3">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>

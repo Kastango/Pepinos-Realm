@@ -1,0 +1,8 @@
+#version 3
+program
+ minorversion 16
+ majorversion 46
+
+ #include "_-0Tm/_-1ck.script.asasm"
+
+end ; program

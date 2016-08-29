@@ -1,0 +1,11 @@
+C:\Users\Namik\Desktop\Rotmg PServer\fabiano-swagger-of-doom-master\DungeonGen\bin\Debug\DungeonGen.dll
+C:\Users\Namik\Desktop\Rotmg PServer\fabiano-swagger-of-doom-master\DungeonGen\bin\Debug\DungeonGen.pdb
+C:\Users\Namik\Desktop\Rotmg PServer\fabiano-swagger-of-doom-master\DungeonGen\bin\Debug\RotMG.Common.dll
+C:\Users\Namik\Desktop\Rotmg PServer\fabiano-swagger-of-doom-master\DungeonGen\obj\Debug\DungeonGen.dll
+C:\Users\Namik\Desktop\Rotmg PServer\fabiano-swagger-of-doom-master\DungeonGen\obj\Debug\DungeonGen.pdb
+C:\Users\Kastan\Desktop\Rotmg PServer\Pepinos\DungeonGen\bin\Debug\DungeonGen.dll
+C:\Users\Kastan\Desktop\Rotmg PServer\Pepinos\DungeonGen\bin\Debug\DungeonGen.pdb
+C:\Users\Kastan\Desktop\Rotmg PServer\Pepinos\DungeonGen\bin\Debug\RotMG.Common.dll
+C:\Users\Kastan\Desktop\Rotmg PServer\Pepinos\DungeonGen\obj\Debug\DungeonGen.dll
+C:\Users\Kastan\Desktop\Rotmg PServer\Pepinos\DungeonGen\obj\Debug\DungeonGen.pdb
+C:\Users\Kastan\Desktop\Rotmg PServer\Pepinos\DungeonGen\obj\Debug\DungeonGen.csprojResolveAssemblyReference.cache
