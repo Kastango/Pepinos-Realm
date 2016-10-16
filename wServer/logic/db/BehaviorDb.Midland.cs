@@ -194,7 +194,8 @@ namespace wServer.logic
                 new TierLoot(2, ItemType.Ability, 0.28),
                 new TierLoot(3, ItemType.Ability, 0.01),
                 new ItemLoot("Health Potion", 0.15),
-                new ItemLoot("Magic Potion", 0.07)
+                new ItemLoot("Magic Potion", 0.07),
+                new ItemLoot("Wasp Wings", 0.05)
             )
             .Init("Worker Wasp",
                 new State(
@@ -259,7 +260,8 @@ namespace wServer.logic
                 new TierLoot(2, ItemType.Ring, 0.07),
                 new TierLoot(2, ItemType.Ability, 0.27),
                 new ItemLoot("Health Potion", 0.15),
-                new ItemLoot("Magic Potion", 0.10)
+                new ItemLoot("Magic Potion", 0.10),
+                new ItemLoot("Putrid Helmet", 0.02)
             )
             .Init("Sludget",
                 new State(
@@ -492,7 +494,8 @@ namespace wServer.logic
                 new TierLoot(5, ItemType.Armor, 0.02),
                 new TierLoot(1, ItemType.Ring, 0.11),
                 new TierLoot(1, ItemType.Ability, 0.38),
-                new ItemLoot("Magic Potion", 0.03)
+                new ItemLoot("Magic Potion", 0.03),
+                new ItemLoot("Dwarf Hammer", 0.03)
             )
             .Init("Werelion",
                 new State(
@@ -785,7 +788,8 @@ namespace wServer.logic
                 new TierLoot(2, ItemType.Ring, 0.07),
                 new TierLoot(2, ItemType.Ability, 0.27),
                 new ItemLoot("Health Potion", 0.12),
-                new ItemLoot("Magic Potion", 0.10)
+                new ItemLoot("Magic Potion", 0.10),
+                new ItemLoot("Lizard Robe", 0.04)
             )
             .Init("Tawny Warg",
                 new State(

@@ -36,7 +36,8 @@ namespace wServer.logic
                         ),
                     new Shoot(10)
                     ),
-                new ItemLoot("Magic Potion", 0.05)
+                new ItemLoot("Magic Potion", 0.05),
+                new ItemLoot("Oasis Bow", 0.005)
             )
             .Init("Oasis Soldier",
                 new State(
@@ -47,7 +48,8 @@ namespace wServer.logic
                         ),
                     new Shoot(10, predictive: 0.5)
                     ),
-                new ItemLoot("Health Potion", 0.05)
+                new ItemLoot("Health Potion", 0.05),
+                new ItemLoot("Oasis Bow", 0.005)
             )
             .Init("Oasis Creature",
                 new State(
@@ -58,7 +60,8 @@ namespace wServer.logic
                         ),
                     new Shoot(10, coolDown: 400)
                     ),
-                new ItemLoot("Health Potion", 0.05)
+                new ItemLoot("Health Potion", 0.05),
+                new ItemLoot("Oasis Bow", 0.005)
             )
             .Init("Oasis Monster",
                 new State(
@@ -69,7 +72,8 @@ namespace wServer.logic
                         ),
                     new Shoot(10, predictive: 0.5)
                     ),
-                new ItemLoot("Magic Potion", 0.05)
+                new ItemLoot("Magic Potion", 0.05),
+                new ItemLoot("Oasis Bow", 0.005)
             )
             ;
     }

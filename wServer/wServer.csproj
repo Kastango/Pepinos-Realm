@@ -153,6 +153,7 @@
     <Compile Include="logic\behaviors\RemoveEntity.cs" />
     <Compile Include="logic\db\BehaviorDb.Abyss.cs" />
     <Compile Include="logic\db\BehaviorDb.Astor.cs" />
+    <Compile Include="logic\db\BehaviorDb.BattlefortheNexus.cs" />
     <Compile Include="logic\db\BehaviorDb.CandyLand.cs" />
     <Compile Include="logic\db\BehaviorDb.Draconis.cs" />
     <Compile Include="logic\db\BehaviorDb.Drakes.cs" />
@@ -170,10 +171,13 @@
     <Compile Include="logic\db\BehaviorDb.Pentaract.cs" />
     <Compile Include="logic\db\BehaviorDb.PirateCave.cs" />
     <Compile Include="logic\db\BehaviorDb.Ozone.cs" />
+    <Compile Include="logic\db\BehaviorDb.Nekrusha.cs" />
     <Compile Include="logic\db\BehaviorDb.TreasureCave.cs" />
     <Compile Include="logic\db\BehaviorDb.Sphinx.cs" />
     <Compile Include="logic\db\BehaviorDb.SpiderDen.cs" />
     <Compile Include="logic\db\BehaviorDb.SpriteWorld.cs" />
+    <Compile Include="logic\db\BehaviorDb.Kings.cs" />
+    <Compile Include="logic\db\BehaviorDb.StrangeGod.cs" />
     <Compile Include="logic\db\BehaviorDb.Witch.cs" />
     <Compile Include="logic\transitions\ChatTransition.cs" />
     <Compile Include="logic\transitions\EntitiesNotExistsTransition.cs" />
@@ -417,11 +421,13 @@
     <Compile Include="realm\PetLevel.cs" />
     <Compile Include="realm\RealmManager.cs" />
     <Compile Include="realm\RealmPortalMonitor.cs" />
+    <Compile Include="realm\setpieces\RealmPortal.cs" />
     <Compile Include="realm\setpieces\AbyssDeath.cs" />
     <Compile Include="realm\setpieces\Avatar.cs" />
     <Compile Include="realm\setpieces\BridgeSentinel.cs" />
     <Compile Include="realm\setpieces\Building.cs" />
     <Compile Include="realm\setpieces\Castle.cs" />
+    <Compile Include="realm\setpieces\UrgleGod.cs" />
     <Compile Include="realm\setpieces\CubeGod.cs" />
     <Compile Include="realm\setpieces\GhostShip.cs" />
     <Compile Include="realm\setpieces\Graveyard.cs" />
@@ -466,6 +472,7 @@
     <Compile Include="realm\worlds\GuildHall.cs" />
     <Compile Include="realm\worlds\DailyQuestRoom.cs" />
     <Compile Include="realm\worlds\MadLab.cs" />
+    <Compile Include="realm\worlds\BattlefortheNexus.cs" />
     <Compile Include="realm\worlds\PirateCave.cs" />
     <Compile Include="realm\worlds\SpiderDen.cs" />
     <Compile Include="realm\worlds\SpriteWorld.cs" />
@@ -619,6 +626,7 @@
     <EmbeddedResource Include="realm\worlds\maps\spriteworld.wmap" />
     <EmbeddedResource Include="realm\worlds\maps\nexus_winter.jm" />
     <EmbeddedResource Include="realm\worlds\maps\nexus_summer.jm" />
+    <None Include="realm\worlds\maps\BattlefortheNexus.jm" />
     <None Include="wServer.cfg">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </None>

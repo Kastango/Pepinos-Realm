@@ -135,7 +135,8 @@ namespace wServer.logic
                     new Reproduce(densityMax: 1)
                     ),
                 new TierLoot(2, ItemType.Ring, 0.02),
-                new ItemLoot("Health Potion", 0.03)
+                new ItemLoot("Health Potion", 0.03),
+                new ItemLoot("Crumbling Wand", 0.06)
             )
             .Init("Paper Golem",
                 new State(
@@ -156,7 +157,8 @@ namespace wServer.logic
                     new Reproduce(densityMax: 1)
                     ),
                 new TierLoot(5, ItemType.Weapon, 0.02),
-                new ItemLoot("Health Potion", 0.03)
+                new ItemLoot("Health Potion", 0.03),
+                new ItemLoot("Paper Spell", 0.03)
             )
             .Init("Fire Golem",
                 new State(
@@ -240,7 +242,8 @@ namespace wServer.logic
                     new Reproduce(densityMax: 1)
                     ),
                 new TierLoot(2, ItemType.Ring, 0.02),
-                new ItemLoot("Magic Potion", 0.03)
+                new ItemLoot("Magic Potion", 0.03),
+                new ItemLoot("Dark Heavy Armor", 0.03)
             )
             ;
     }

@@ -20,7 +20,8 @@ namespace wServer.logic
                     new Shoot(3, coolDown: 2500)
                     ),
                 new TierLoot(1, ItemType.Weapon, 0.2),
-                new ItemLoot("Health Potion", 0.03)
+                new ItemLoot("Health Potion", 0.03),
+                new ItemLoot("Eyepatch", 0.01)
             )
             .Init("Piratess",
                 new State(

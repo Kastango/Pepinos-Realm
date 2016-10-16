@@ -416,17 +416,17 @@ namespace wServer.realm.entities.player
                             }
                             if (HasConditionEffect(ConditionEffectIndex.HPBoost))
                             {
-                                
+
 
                                 if (amountSBA == 0) ;
-                                
-                            else if (amountSBA >= 1) ;
+
+                                else if (amountSBA >= 1) ;
                                 amountSBA = 0;
                                 durationSBA = 0;
                                 return false;
 
-                            } 
-                
+                            }
+
                             this.Aoe(rangeSBA, true, player =>
                             {
                                 ApplyConditionEffect(new ConditionEffect
@@ -440,7 +440,7 @@ namespace wServer.realm.entities.player
                                 {
                                     (player as Player).Boost[idx] -= amountSBA;
                                     player.UpdateCount++;
-                               
+
                                 }));
                             });
                             BroadcastSync(new ShowEffectPacket()
@@ -450,7 +450,8 @@ namespace wServer.realm.entities.player
                                 Color = new ARGB(0xffffffff),
                                 PosA = new Position() { X = rangeSBA }
                             }, p => this.Dist(p) < 25);
-                        } break;;
+                        }
+                        break;
 
                     case ActivateEffects.ConditionEffectSelf:
                     {

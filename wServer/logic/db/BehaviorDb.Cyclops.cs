@@ -82,7 +82,8 @@ namespace wServer.logic
                     ),
                 new ItemLoot("Golden Sword", 0.02),
                 new ItemLoot("Studded Leather Armor", 0.02),
-                new ItemLoot("Health Potion", 0.05)
+                new ItemLoot("Health Potion", 0.05),
+                new ItemLoot("Cyclops Club", 0.04)
             )
             .Init("Cyclops Warrior",
                 new State(

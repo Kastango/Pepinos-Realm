@@ -98,7 +98,8 @@ namespace wServer.logic
                         new TimedTransition(4500, "xxx")
                         )
                     ),
-                new ItemLoot("Wine Cellar Incantation", 0.002)
+                new ItemLoot("Wine Cellar Incantation", 0.002),
+                new ItemLoot("Reddobureido", 0.02)
             )
             ;
     }

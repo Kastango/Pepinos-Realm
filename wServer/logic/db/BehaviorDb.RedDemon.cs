@@ -37,7 +37,8 @@ namespace wServer.logic
                 new ItemLoot("Golden Sword", 0.04),
                 new ItemLoot("Ring of Greater Defense", 0.04),
                 new ItemLoot("Potion of Speed", 0.03),
-                new ItemLoot("Steel Helm", 0.04)
+                new ItemLoot("Steel Helm", 0.04),
+                new ItemLoot("Demon Horn Ring", 0.04)
             )
             .Init("Imp",
                 new State(

@@ -6,7 +6,7 @@ using Newtonsoft.Json;
 
 #endregion
 
-namespace terrain
+namespace wServer.realm.terrain
 {
     internal class JsonMapExporter
     {

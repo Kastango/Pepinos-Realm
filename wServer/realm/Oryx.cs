@@ -28,6 +28,8 @@ namespace wServer.realm
             Tuple.Create("Skull Shrine", (ISetPiece) new SkullShrine()),
             Tuple.Create("Pentaract", (ISetPiece) new Pentaract()),
             Tuple.Create("Grand Sphinx", (ISetPiece) new Sphinx()),
+            Tuple.Create("Urgle God", (ISetPiece) new UrgleGod()),
+            Tuple.Create("Hermit God", (ISetPiece) new Hermit()),
             //"Lord of the Lost Lands",
             //"Hermit God",
             //"Ghost Ship",
@@ -470,7 +472,7 @@ namespace wServer.realm
                 if (state[i] != 2) continue;
                 var x = diff[i];
                 var t = (WmapTerrain)(i + 1);
-                for (var j = 0; j < x; )
+                for (var j = 0; j < x;)
                 {
                     var objType = GetRandomObjType(spawn[t].Item2);
                     if (objType == 0) continue;
@@ -837,6 +839,28 @@ namespace wServer.realm
                 {
                     "How dare you foul-mouthed hooligans treat my Lord of the Lost Lands with such indignity!",
                     "What trickery is this?! My Lord of the Lost Lands was invincible!"
+                }
+            }),
+            Tuple.Create("Urgle God", new TauntData
+            {
+                spawn = new[]
+                {
+                    "Fools! The Urgle God is the true lord of the highlands!",
+                    "Behold the almighty Urgle God!"
+                },
+                //numberOfEnemies = new string[] {
+                //    "You dull-spirited apes! You shall pose no challenge for {COUNT} Grand Sphinxes!",
+                //    "Regret your choices, blasphemers! My {COUNT} Grand Sphinxes will teach you respect!",
+                //    "My Grand Sphinxes will bewitch you with their beauty!"
+                //},
+                //final = new string[] {
+                //    "You festering rat-catchers! A Grand Sphinx will make you doubt your purpose!",
+                //    "Gaze upon the beauty of the Grand Sphinx and feel your last hopes drain away."
+                //},
+                killed = new[]
+                {
+                    "{PLAYER}, i will turn you into Urgle food!",
+                    "You'll pay for defeating my Urgle God!"
                 }
             }),
             Tuple.Create("Hermit God", new TauntData

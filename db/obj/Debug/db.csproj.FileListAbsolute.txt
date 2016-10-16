@@ -22,6 +22,7 @@ C:\Users\Namik\Desktop\Rotmg PServer\fabiano-swagger-of-doom-master\db\obj\Debug
 C:\Users\Namik\Desktop\Rotmg PServer\fabiano-swagger-of-doom-master\db\obj\Debug\db.pdb
 C:\Users\Kastan\Desktop\Rotmg PServer\Pepinos\db\bin\Debug\data\Addition.xml
 C:\Users\Kastan\Desktop\Rotmg PServer\Pepinos\db\bin\Debug\data\dat0.xml
+C:\Users\Kastan\Desktop\Rotmg PServer\Pepinos\db\bin\Debug\data\dat1.xml
 C:\Users\Kastan\Desktop\Rotmg PServer\Pepinos\db\bin\Debug\data\EquipmentSets.xml
 C:\Users\Kastan\Desktop\Rotmg PServer\Pepinos\db\bin\Debug\bannednames.txt
 C:\Users\Kastan\Desktop\Rotmg PServer\Pepinos\db\bin\Debug\texture\dark_fire.png
@@ -30,7 +31,6 @@ C:\Users\Kastan\Desktop\Rotmg PServer\Pepinos\db\bin\Debug\texture\fire_mystic_s
 C:\Users\Kastan\Desktop\Rotmg PServer\Pepinos\db\bin\Debug\texture\forgotten_archmage_of_flame.png
 C:\Users\Kastan\Desktop\Rotmg PServer\Pepinos\db\bin\Debug\texture\staff_of_the_abyss.png
 C:\Users\Kastan\Desktop\Rotmg PServer\Pepinos\db\bin\Debug\UnlockedAccounts.txt
-C:\Users\Kastan\Desktop\Rotmg PServer\Pepinos\db\bin\Debug\data\dat1.xml
 C:\Users\Kastan\Desktop\Rotmg PServer\Pepinos\db\bin\Debug\db.dll.config
 C:\Users\Kastan\Desktop\Rotmg PServer\Pepinos\db\bin\Debug\db.dll
 C:\Users\Kastan\Desktop\Rotmg PServer\Pepinos\db\bin\Debug\db.pdb
@@ -42,4 +42,3 @@ C:\Users\Kastan\Desktop\Rotmg PServer\Pepinos\db\bin\Debug\log4net.xml
 C:\Users\Kastan\Desktop\Rotmg PServer\Pepinos\db\bin\Debug\Newtonsoft.Json.xml
 C:\Users\Kastan\Desktop\Rotmg PServer\Pepinos\db\obj\Debug\db.dll
 C:\Users\Kastan\Desktop\Rotmg PServer\Pepinos\db\obj\Debug\db.pdb
-C:\Users\Kastan\Desktop\Rotmg PServer\Pepinos\db\obj\Debug\db.csprojResolveAssemblyReference.cache

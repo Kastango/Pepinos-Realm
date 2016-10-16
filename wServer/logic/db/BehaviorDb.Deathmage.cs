@@ -43,7 +43,8 @@ namespace wServer.logic
                         )
                     ),
                 new ItemLoot("Long Sword", 0.02),
-                new ItemLoot("Dirk", 0.02)
+                new ItemLoot("Dirk", 0.02),
+                new ItemLoot("Deathbound Staff", 0.01)
             )
             .Init("Skeleton Swordsman",
                 new State(

@@ -25,7 +25,8 @@ namespace wServer.logic
                 new ItemLoot("Purple Gumball", 0.5),
                 new ItemLoot("Blue Gumball", 0.5),
                 new ItemLoot("Green Gumball", 0.5),
-                new ItemLoot("Yellow Gumball", 0.5)
+                new ItemLoot("Yellow Gumball", 0.5),
+                new ItemLoot("Candy Hat", 0.5)
                 )
             )
             .Init("Desire Troll",

@@ -174,7 +174,8 @@ namespace wServer.logic
                 new TierLoot(2, ItemType.Ability, 0.15),
                 new TierLoot(3, ItemType.Ability, 0.02),
                 new ItemLoot("Health Potion", 0.4),
-                new ItemLoot("Magic Potion", 0.4)
+                new ItemLoot("Magic Potion", 0.4),
+                new ItemLoot("Lichs Skull", 0.2)
             )
             .Init("Phylactery Bearer",
                 new State(

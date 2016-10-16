@@ -757,3 +757,700 @@ Port: 2050
 2016-08-28 21:06:44,948 [Entry] WARN  db.data.XmlData - 0x0065 and 0x0061 has the same name of Grey Circle!
 2016-08-28 21:20:13,514 [Entry] WARN  db.data.XmlData - 0x0065 and 0x0061 has the same name of Grey Circle!
 2016-08-28 21:40:11,364 [Entry] WARN  db.data.XmlData - 0x0065 and 0x0061 has the same name of Grey Circle!
+2016-08-29 23:24:22,423 [Entry] WARN  db.data.XmlData - 0x0065 and 0x0061 has the same name of Grey Circle!
+2016-08-29 23:30:43,001 [Entry] WARN  db.data.XmlData - 0x0065 and 0x0061 has the same name of Grey Circle!
+2016-08-29 23:38:31,456 [Entry] WARN  db.data.XmlData - 0x0065 and 0x0061 has the same name of Grey Circle!
+2016-08-31 23:07:21,109 [Entry] WARN  db.data.XmlData - 0x0065 and 0x0061 has the same name of Grey Circle!
+2016-08-31 23:07:21,241 [Entry] WARN  db.data.XmlData - 'Valentine' and 'Putrid Helmet' has the same ID of 0x161f!
+2016-08-31 23:07:21,254 [Entry] WARN  db.data.XmlData - 'America Ring' and 'Demon Horn Ring' has the same ID of 0x0c2d!
+2016-08-31 23:16:48,138 [Entry] WARN  db.data.XmlData - 0x0065 and 0x0061 has the same name of Grey Circle!
+2016-09-02 15:10:02,032 [Entry] WARN  db.data.XmlData - 0x0065 and 0x0061 has the same name of Grey Circle!
+2016-09-02 15:21:42,083 [Entry] WARN  db.data.XmlData - 0x0065 and 0x0061 has the same name of Grey Circle!
+2016-09-02 15:57:45,990 [Entry] WARN  db.data.XmlData - 0x0065 and 0x0061 has the same name of Grey Circle!
+2016-09-02 16:02:43,164 [3] ERROR Server - Not supported server detected: 
+Host: 25.145.99.110
+Port: 2050
+2016-09-02 16:03:46,795 [Entry] WARN  db.data.XmlData - 0x0065 and 0x0061 has the same name of Grey Circle!
+2016-09-02 18:23:01,022 [Entry] WARN  db.data.XmlData - 0x0065 and 0x0061 has the same name of Grey Circle!
+2016-09-02 19:25:02,176 [Entry] WARN  db.data.XmlData - 0x0065 and 0x0061 has the same name of Grey Circle!
+2016-09-03 17:04:37,251 [Entry] WARN  db.data.XmlData - 0x0065 and 0x0061 has the same name of Grey Circle!
+2016-09-03 17:21:58,219 [Entry] WARN  db.data.XmlData - 0x0065 and 0x0061 has the same name of Grey Circle!
+2016-09-03 17:27:27,264 [Entry] WARN  db.data.XmlData - 0x0065 and 0x0061 has the same name of Grey Circle!
+2016-09-03 17:32:59,291 [Entry] WARN  db.data.XmlData - 0x0065 and 0x0061 has the same name of Grey Circle!
+2016-09-03 17:35:30,766 [Entry] WARN  db.data.XmlData - 0x0065 and 0x0061 has the same name of Grey Circle!
+2016-09-03 17:39:28,415 [Entry] WARN  db.data.XmlData - 0x0065 and 0x0061 has the same name of Grey Circle!
+2016-09-03 17:42:55,211 [Entry] WARN  db.data.XmlData - 0x0065 and 0x0061 has the same name of Grey Circle!
+2016-09-03 17:49:18,889 [Entry] WARN  db.data.XmlData - 0x0065 and 0x0061 has the same name of Grey Circle!
+2016-09-03 17:52:10,795 [Entry] WARN  db.data.XmlData - 0x0065 and 0x0061 has the same name of Grey Circle!
+2016-09-03 17:53:08,198 [Entry] WARN  db.data.XmlData - 0x0065 and 0x0061 has the same name of Grey Circle!
+2016-09-03 17:55:15,156 [Entry] WARN  db.data.XmlData - 0x0065 and 0x0061 has the same name of Grey Circle!
+2016-09-03 18:55:20,995 [15] ERROR Server - System.NullReferenceException: Referência de objeto não definida para uma instância de um objeto.
+   em server.char.fame.HandleRequest() na C:\Users\Kastan\Desktop\Rotmg PServer\Pepinos\server\char\fame.cs:linha 39
+   em server.RequestHandler.HandleRequest(HttpListenerContext context) na C:\Users\Kastan\Desktop\Rotmg PServer\Pepinos\server\RequestHandlers.cs:linha 38
+   em server.Program.ProcessRequest(HttpListenerContext context) na C:\Users\Kastan\Desktop\Rotmg PServer\Pepinos\server\Program.cs:linha 156
+2016-09-03 18:55:45,746 [18] ERROR Server - Not supported server detected: 
+Host: 25.145.99.110
+Port: 2050
+2016-09-03 18:56:26,570 [Entry] WARN  db.data.XmlData - 0x0065 and 0x0061 has the same name of Grey Circle!
+2016-09-04 13:55:41,142 [Entry] WARN  db.data.XmlData - 0x0065 and 0x0061 has the same name of Grey Circle!
+2016-09-04 13:55:41,267 [Entry] WARN  db.data.XmlData - 'Moon Boomerang' and 'Green Fade' has the same ID of 0xa243!
+2016-09-04 14:04:12,036 [Entry] WARN  db.data.XmlData - 0x0065 and 0x0061 has the same name of Grey Circle!
+2016-09-04 14:27:55,669 [Entry] WARN  db.data.XmlData - 0x0065 and 0x0061 has the same name of Grey Circle!
+2016-09-04 15:02:31,786 [Entry] WARN  db.data.XmlData - 0x0065 and 0x0061 has the same name of Grey Circle!
+2016-09-04 15:17:33,749 [Entry] WARN  db.data.XmlData - 0x0065 and 0x0061 has the same name of Grey Circle!
+2016-09-04 15:34:01,579 [Entry] WARN  db.data.XmlData - 0x0065 and 0x0061 has the same name of Grey Circle!
+2016-09-04 15:35:55,189 [Entry] WARN  db.data.XmlData - 0x0065 and 0x0061 has the same name of Grey Circle!
+2016-09-05 19:49:38,253 [Entry] WARN  db.data.XmlData - 0x0065 and 0x0061 has the same name of Grey Circle!
+2016-09-05 19:52:28,577 [Entry] WARN  db.data.XmlData - 0x0065 and 0x0061 has the same name of Grey Circle!
+2016-09-05 20:08:44,127 [Entry] WARN  db.data.XmlData - 0x0065 and 0x0061 has the same name of Grey Circle!
+2016-09-05 20:46:09,818 [Entry] WARN  db.data.XmlData - 0x0065 and 0x0061 has the same name of Grey Circle!
+2016-09-05 20:53:32,250 [Entry] WARN  db.data.XmlData - 0x0065 and 0x0061 has the same name of Grey Circle!
+2016-09-05 20:53:46,549 [Entry] WARN  db.data.XmlData - 0x0065 and 0x0061 has the same name of Grey Circle!
+2016-09-05 20:57:52,320 [Entry] WARN  db.data.XmlData - 0x0065 and 0x0061 has the same name of Grey Circle!
+2016-09-05 21:19:46,035 [Entry] WARN  db.data.XmlData - 0x0065 and 0x0061 has the same name of Grey Circle!
+2016-09-05 21:20:44,954 [6] ERROR Server - System.Net.HttpListenerException (0x80004005): A operação de E/S foi anulada devido a uma saída de thread ou a uma requisição de aplicativo
+   em System.Net.HttpResponseStream.Write(Byte[] buffer, Int32 offset, Int32 size)
+   em server.app.getLanguageStrings.HandleRequest() na C:\Users\Kastan\Desktop\Rotmg PServer\Pepinos\server\app\getLanguageStrings.cs:linha 37
+   em server.RequestHandler.HandleRequest(HttpListenerContext context) na C:\Users\Kastan\Desktop\Rotmg PServer\Pepinos\server\RequestHandlers.cs:linha 38
+   em server.Program.ProcessRequest(HttpListenerContext context) na C:\Users\Kastan\Desktop\Rotmg PServer\Pepinos\server\Program.cs:linha 156
+2016-09-05 22:28:40,956 [46] ERROR Server - Not supported server detected: 
+Host: 25.145.99.110
+Port: 2050
+2016-09-05 22:28:40,980 [9] ERROR Server - Not supported server detected: 
+Host: 25.145.99.110
+Port: 2050
+2016-09-05 22:28:40,958 [47] ERROR Server - Not supported server detected: 
+Host: 25.145.99.110
+Port: 2050
+2016-09-05 22:28:40,959 [48] ERROR Server - Not supported server detected: 
+Host: 25.145.99.110
+Port: 2050
+2016-09-05 22:28:40,962 [51] ERROR Server - Not supported server detected: 
+Host: 25.145.99.110
+Port: 2050
+2016-09-05 22:28:40,960 [49] ERROR Server - Not supported server detected: 
+Host: 25.145.99.110
+Port: 2050
+2016-09-05 22:28:40,962 [45] ERROR Server - Not supported server detected: 
+Host: 25.145.99.110
+Port: 2050
+2016-09-05 22:28:40,961 [50] ERROR Server - Not supported server detected: 
+Host: 25.145.99.110
+Port: 2050
+2016-09-05 22:28:40,962 [44] ERROR Server - Not supported server detected: 
+Host: 25.145.99.110
+Port: 2050
+2016-09-05 22:28:40,963 [41] ERROR Server - Not supported server detected: 
+Host: 25.145.99.110
+Port: 2050
+2016-09-05 22:28:40,963 [42] ERROR Server - Not supported server detected: 
+Host: 25.145.99.110
+Port: 2050
+2016-09-05 22:28:40,964 [39] ERROR Server - Not supported server detected: 
+Host: 25.145.99.110
+Port: 2050
+2016-09-05 22:28:40,964 [40] ERROR Server - Not supported server detected: 
+Host: 25.145.99.110
+Port: 2050
+2016-09-05 22:28:40,963 [43] ERROR Server - Not supported server detected: 
+Host: 25.145.99.110
+Port: 2050
+2016-09-05 22:28:40,964 [38] ERROR Server - Not supported server detected: 
+Host: 25.145.99.110
+Port: 2050
+2016-09-05 22:28:40,965 [37] ERROR Server - Not supported server detected: 
+Host: 25.145.99.110
+Port: 2050
+2016-09-05 22:28:40,965 [36] ERROR Server - Not supported server detected: 
+Host: 25.145.99.110
+Port: 2050
+2016-09-05 22:28:40,967 [34] ERROR Server - Not supported server detected: 
+Host: 25.145.99.110
+Port: 2050
+2016-09-05 22:28:40,968 [32] ERROR Server - Not supported server detected: 
+Host: 25.145.99.110
+Port: 2050
+2016-09-05 22:28:40,967 [35] ERROR Server - Not supported server detected: 
+Host: 25.145.99.110
+Port: 2050
+2016-09-05 22:28:40,968 [30] ERROR Server - Not supported server detected: 
+Host: 25.145.99.110
+Port: 2050
+2016-09-05 22:28:40,967 [33] ERROR Server - Not supported server detected: 
+Host: 25.145.99.110
+Port: 2050
+2016-09-05 22:28:40,971 [27] ERROR Server - Not supported server detected: 
+Host: 25.145.99.110
+Port: 2050
+2016-09-05 22:28:40,968 [31] ERROR Server - Not supported server detected: 
+Host: 25.145.99.110
+Port: 2050
+2016-09-05 22:28:40,969 [28] ERROR Server - Not supported server detected: 
+Host: 25.145.99.110
+Port: 2050
+2016-09-05 22:28:40,969 [29] ERROR Server - Not supported server detected: 
+Host: 25.145.99.110
+Port: 2050
+2016-09-05 22:28:40,973 [26] ERROR Server - Not supported server detected: 
+Host: 25.145.99.110
+Port: 2050
+2016-09-05 22:28:40,973 [25] ERROR Server - Not supported server detected: 
+Host: 25.145.99.110
+Port: 2050
+2016-09-05 22:28:40,973 [24] ERROR Server - Not supported server detected: 
+Host: 25.145.99.110
+Port: 2050
+2016-09-05 22:28:40,974 [23] ERROR Server - Not supported server detected: 
+Host: 25.145.99.110
+Port: 2050
+2016-09-05 22:28:40,974 [22] ERROR Server - Not supported server detected: 
+Host: 25.145.99.110
+Port: 2050
+2016-09-05 22:28:40,975 [21] ERROR Server - Not supported server detected: 
+Host: 25.145.99.110
+Port: 2050
+2016-09-05 22:28:40,975 [19] ERROR Server - Not supported server detected: 
+Host: 25.145.99.110
+Port: 2050
+2016-09-05 22:28:40,975 [20] ERROR Server - Not supported server detected: 
+Host: 25.145.99.110
+Port: 2050
+2016-09-05 22:28:40,976 [18] ERROR Server - Not supported server detected: 
+Host: 25.145.99.110
+Port: 2050
+2016-09-05 22:28:40,977 [17] ERROR Server - Not supported server detected: 
+Host: 25.145.99.110
+Port: 2050
+2016-09-05 22:28:40,977 [16] ERROR Server - Not supported server detected: 
+Host: 25.145.99.110
+Port: 2050
+2016-09-05 22:28:40,978 [10] ERROR Server - Not supported server detected: 
+Host: 25.145.99.110
+Port: 2050
+2016-09-05 22:28:40,978 [12] ERROR Server - Not supported server detected: 
+Host: 25.145.99.110
+Port: 2050
+2016-09-05 22:28:40,978 [13] ERROR Server - Not supported server detected: 
+Host: 25.145.99.110
+Port: 2050
+2016-09-05 22:28:40,979 [8] ERROR Server - Not supported server detected: 
+Host: 25.145.99.110
+Port: 2050
+2016-09-05 22:28:40,983 [14] ERROR Server - Not supported server detected: 
+Host: 25.145.99.110
+Port: 2050
+2016-09-05 22:28:40,980 [15] ERROR Server - Not supported server detected: 
+Host: 25.145.99.110
+Port: 2050
+2016-09-05 22:28:45,820 [38] ERROR Server - System.Net.HttpListenerException (0x80004005): Tentativa de operação em uma conexão de rede não existente
+   em System.Net.HttpResponseStream.Write(Byte[] buffer, Int32 offset, Int32 size)
+   em System.Xml.XmlUtf8RawTextWriter.FlushBuffer()
+   em System.Xml.XmlUtf8RawTextWriter.Flush()
+   em System.Xml.XmlWellFormedWriter.Flush()
+   em System.Xml.Serialization.XmlSerializer.Serialize(XmlWriter xmlWriter, Object o, XmlSerializerNamespaces namespaces, String encodingStyle, String id)
+   em System.Xml.Serialization.XmlSerializer.Serialize(XmlWriter xmlWriter, Object o, XmlSerializerNamespaces namespaces)
+   em server.char.list.HandleRequest() na C:\Users\Kastan\Desktop\Rotmg PServer\Pepinos\server\char\list.cs:linha 106
+   em server.RequestHandler.HandleRequest(HttpListenerContext context) na C:\Users\Kastan\Desktop\Rotmg PServer\Pepinos\server\RequestHandlers.cs:linha 38
+   em server.Program.ProcessRequest(HttpListenerContext context) na C:\Users\Kastan\Desktop\Rotmg PServer\Pepinos\server\Program.cs:linha 156
+2016-09-05 22:28:46,111 [32] ERROR Server - System.Net.HttpListenerException (0x80004005): Tentativa de operação em uma conexão de rede não existente
+   em System.Net.HttpResponseStream.Write(Byte[] buffer, Int32 offset, Int32 size)
+   em System.Xml.XmlUtf8RawTextWriter.FlushBuffer()
+   em System.Xml.XmlUtf8RawTextWriter.Flush()
+   em System.Xml.XmlWellFormedWriter.Flush()
+   em System.Xml.Serialization.XmlSerializer.Serialize(XmlWriter xmlWriter, Object o, XmlSerializerNamespaces namespaces, String encodingStyle, String id)
+   em System.Xml.Serialization.XmlSerializer.Serialize(XmlWriter xmlWriter, Object o, XmlSerializerNamespaces namespaces)
+   em server.char.list.HandleRequest() na C:\Users\Kastan\Desktop\Rotmg PServer\Pepinos\server\char\list.cs:linha 106
+   em server.RequestHandler.HandleRequest(HttpListenerContext context) na C:\Users\Kastan\Desktop\Rotmg PServer\Pepinos\server\RequestHandlers.cs:linha 38
+   em server.Program.ProcessRequest(HttpListenerContext context) na C:\Users\Kastan\Desktop\Rotmg PServer\Pepinos\server\Program.cs:linha 156
+2016-09-05 22:28:45,982 [37] ERROR Server - System.Net.HttpListenerException (0x80004005): Tentativa de operação em uma conexão de rede não existente
+   em System.Net.HttpResponseStream.Write(Byte[] buffer, Int32 offset, Int32 size)
+   em System.Xml.XmlUtf8RawTextWriter.FlushBuffer()
+   em System.Xml.XmlUtf8RawTextWriter.Flush()
+   em System.Xml.XmlWellFormedWriter.Flush()
+   em System.Xml.Serialization.XmlSerializer.Serialize(XmlWriter xmlWriter, Object o, XmlSerializerNamespaces namespaces, String encodingStyle, String id)
+   em System.Xml.Serialization.XmlSerializer.Serialize(XmlWriter xmlWriter, Object o, XmlSerializerNamespaces namespaces)
+   em server.char.list.HandleRequest() na C:\Users\Kastan\Desktop\Rotmg PServer\Pepinos\server\char\list.cs:linha 106
+   em server.RequestHandler.HandleRequest(HttpListenerContext context) na C:\Users\Kastan\Desktop\Rotmg PServer\Pepinos\server\RequestHandlers.cs:linha 38
+   em server.Program.ProcessRequest(HttpListenerContext context) na C:\Users\Kastan\Desktop\Rotmg PServer\Pepinos\server\Program.cs:linha 156
+2016-09-05 22:28:45,983 [21] ERROR Server - System.Net.HttpListenerException (0x80004005): Tentativa de operação em uma conexão de rede não existente
+   em System.Net.HttpResponseStream.Write(Byte[] buffer, Int32 offset, Int32 size)
+   em System.Xml.XmlUtf8RawTextWriter.FlushBuffer()
+   em System.Xml.XmlUtf8RawTextWriter.Flush()
+   em System.Xml.XmlWellFormedWriter.Flush()
+   em System.Xml.Serialization.XmlSerializer.Serialize(XmlWriter xmlWriter, Object o, XmlSerializerNamespaces namespaces, String encodingStyle, String id)
+   em System.Xml.Serialization.XmlSerializer.Serialize(XmlWriter xmlWriter, Object o, XmlSerializerNamespaces namespaces)
+   em server.char.list.HandleRequest() na C:\Users\Kastan\Desktop\Rotmg PServer\Pepinos\server\char\list.cs:linha 106
+   em server.RequestHandler.HandleRequest(HttpListenerContext context) na C:\Users\Kastan\Desktop\Rotmg PServer\Pepinos\server\RequestHandlers.cs:linha 38
+   em server.Program.ProcessRequest(HttpListenerContext context) na C:\Users\Kastan\Desktop\Rotmg PServer\Pepinos\server\Program.cs:linha 156
+2016-09-05 22:28:45,983 [35] ERROR Server - System.Net.HttpListenerException (0x80004005): Tentativa de operação em uma conexão de rede não existente
+   em System.Net.HttpResponseStream.Write(Byte[] buffer, Int32 offset, Int32 size)
+   em System.Xml.XmlUtf8RawTextWriter.FlushBuffer()
+   em System.Xml.XmlUtf8RawTextWriter.Flush()
+   em System.Xml.XmlWellFormedWriter.Flush()
+   em System.Xml.Serialization.XmlSerializer.Serialize(XmlWriter xmlWriter, Object o, XmlSerializerNamespaces namespaces, String encodingStyle, String id)
+   em System.Xml.Serialization.XmlSerializer.Serialize(XmlWriter xmlWriter, Object o, XmlSerializerNamespaces namespaces)
+   em server.char.list.HandleRequest() na C:\Users\Kastan\Desktop\Rotmg PServer\Pepinos\server\char\list.cs:linha 106
+   em server.RequestHandler.HandleRequest(HttpListenerContext context) na C:\Users\Kastan\Desktop\Rotmg PServer\Pepinos\server\RequestHandlers.cs:linha 38
+   em server.Program.ProcessRequest(HttpListenerContext context) na C:\Users\Kastan\Desktop\Rotmg PServer\Pepinos\server\Program.cs:linha 156
+2016-09-05 22:28:46,031 [49] ERROR Server - System.Net.HttpListenerException (0x80004005): Tentativa de operação em uma conexão de rede não existente
+   em System.Net.HttpResponseStream.Write(Byte[] buffer, Int32 offset, Int32 size)
+   em System.Xml.XmlUtf8RawTextWriter.FlushBuffer()
+   em System.Xml.XmlUtf8RawTextWriter.Flush()
+   em System.Xml.XmlWellFormedWriter.Flush()
+   em System.Xml.Serialization.XmlSerializer.Serialize(XmlWriter xmlWriter, Object o, XmlSerializerNamespaces namespaces, String encodingStyle, String id)
+   em System.Xml.Serialization.XmlSerializer.Serialize(XmlWriter xmlWriter, Object o, XmlSerializerNamespaces namespaces)
+   em server.char.list.HandleRequest() na C:\Users\Kastan\Desktop\Rotmg PServer\Pepinos\server\char\list.cs:linha 106
+   em server.RequestHandler.HandleRequest(HttpListenerContext context) na C:\Users\Kastan\Desktop\Rotmg PServer\Pepinos\server\RequestHandlers.cs:linha 38
+   em server.Program.ProcessRequest(HttpListenerContext context) na C:\Users\Kastan\Desktop\Rotmg PServer\Pepinos\server\Program.cs:linha 156
+2016-09-05 22:28:46,132 [33] ERROR Server - System.Net.HttpListenerException (0x80004005): Tentativa de operação em uma conexão de rede não existente
+   em System.Net.HttpResponseStream.Write(Byte[] buffer, Int32 offset, Int32 size)
+   em System.Xml.XmlUtf8RawTextWriter.FlushBuffer()
+   em System.Xml.XmlUtf8RawTextWriter.Flush()
+   em System.Xml.XmlWellFormedWriter.Flush()
+   em System.Xml.Serialization.XmlSerializer.Serialize(XmlWriter xmlWriter, Object o, XmlSerializerNamespaces namespaces, String encodingStyle, String id)
+   em System.Xml.Serialization.XmlSerializer.Serialize(XmlWriter xmlWriter, Object o, XmlSerializerNamespaces namespaces)
+   em server.char.list.HandleRequest() na C:\Users\Kastan\Desktop\Rotmg PServer\Pepinos\server\char\list.cs:linha 106
+   em server.RequestHandler.HandleRequest(HttpListenerContext context) na C:\Users\Kastan\Desktop\Rotmg PServer\Pepinos\server\RequestHandlers.cs:linha 38
+   em server.Program.ProcessRequest(HttpListenerContext context) na C:\Users\Kastan\Desktop\Rotmg PServer\Pepinos\server\Program.cs:linha 156
+2016-09-05 22:28:47,620 [44] ERROR Server - System.Net.HttpListenerException (0x80004005): Tentativa de operação em uma conexão de rede não existente
+   em System.Net.HttpResponseStream.Write(Byte[] buffer, Int32 offset, Int32 size)
+   em System.Xml.XmlUtf8RawTextWriter.FlushBuffer()
+   em System.Xml.XmlUtf8RawTextWriter.Flush()
+   em System.Xml.XmlWellFormedWriter.Flush()
+   em System.Xml.Serialization.XmlSerializer.Serialize(XmlWriter xmlWriter, Object o, XmlSerializerNamespaces namespaces, String encodingStyle, String id)
+   em System.Xml.Serialization.XmlSerializer.Serialize(XmlWriter xmlWriter, Object o, XmlSerializerNamespaces namespaces)
+   em server.char.list.HandleRequest() na C:\Users\Kastan\Desktop\Rotmg PServer\Pepinos\server\char\list.cs:linha 106
+   em server.RequestHandler.HandleRequest(HttpListenerContext context) na C:\Users\Kastan\Desktop\Rotmg PServer\Pepinos\server\RequestHandlers.cs:linha 38
+   em server.Program.ProcessRequest(HttpListenerContext context) na C:\Users\Kastan\Desktop\Rotmg PServer\Pepinos\server\Program.cs:linha 156
+2016-09-05 22:28:47,704 [41] ERROR Server - System.Net.HttpListenerException (0x80004005): Tentativa de operação em uma conexão de rede não existente
+   em System.Net.HttpResponseStream.Write(Byte[] buffer, Int32 offset, Int32 size)
+   em System.Xml.XmlUtf8RawTextWriter.FlushBuffer()
+   em System.Xml.XmlUtf8RawTextWriter.Flush()
+   em System.Xml.XmlWellFormedWriter.Flush()
+   em System.Xml.Serialization.XmlSerializer.Serialize(XmlWriter xmlWriter, Object o, XmlSerializerNamespaces namespaces, String encodingStyle, String id)
+   em System.Xml.Serialization.XmlSerializer.Serialize(XmlWriter xmlWriter, Object o, XmlSerializerNamespaces namespaces)
+   em server.char.list.HandleRequest() na C:\Users\Kastan\Desktop\Rotmg PServer\Pepinos\server\char\list.cs:linha 106
+   em server.RequestHandler.HandleRequest(HttpListenerContext context) na C:\Users\Kastan\Desktop\Rotmg PServer\Pepinos\server\RequestHandlers.cs:linha 38
+   em server.Program.ProcessRequest(HttpListenerContext context) na C:\Users\Kastan\Desktop\Rotmg PServer\Pepinos\server\Program.cs:linha 156
+2016-09-05 22:28:48,102 [15] ERROR Server - System.Net.HttpListenerException (0x80004005): Tentativa de operação em uma conexão de rede não existente
+   em System.Net.HttpResponseStream.Write(Byte[] buffer, Int32 offset, Int32 size)
+   em System.Xml.XmlUtf8RawTextWriter.FlushBuffer()
+   em System.Xml.XmlUtf8RawTextWriter.Flush()
+   em System.Xml.XmlWellFormedWriter.Flush()
+   em System.Xml.Serialization.XmlSerializer.Serialize(XmlWriter xmlWriter, Object o, XmlSerializerNamespaces namespaces, String encodingStyle, String id)
+   em System.Xml.Serialization.XmlSerializer.Serialize(XmlWriter xmlWriter, Object o, XmlSerializerNamespaces namespaces)
+   em server.char.list.HandleRequest() na C:\Users\Kastan\Desktop\Rotmg PServer\Pepinos\server\char\list.cs:linha 106
+   em server.RequestHandler.HandleRequest(HttpListenerContext context) na C:\Users\Kastan\Desktop\Rotmg PServer\Pepinos\server\RequestHandlers.cs:linha 38
+   em server.Program.ProcessRequest(HttpListenerContext context) na C:\Users\Kastan\Desktop\Rotmg PServer\Pepinos\server\Program.cs:linha 156
+2016-09-05 22:28:49,191 [34] ERROR Server - System.Net.HttpListenerException (0x80004005): Tentativa de operação em uma conexão de rede não existente
+   em System.Net.HttpResponseStream.Write(Byte[] buffer, Int32 offset, Int32 size)
+   em System.Xml.XmlUtf8RawTextWriter.FlushBuffer()
+   em System.Xml.XmlUtf8RawTextWriter.Flush()
+   em System.Xml.XmlWellFormedWriter.Flush()
+   em System.Xml.Serialization.XmlSerializer.Serialize(XmlWriter xmlWriter, Object o, XmlSerializerNamespaces namespaces, String encodingStyle, String id)
+   em System.Xml.Serialization.XmlSerializer.Serialize(XmlWriter xmlWriter, Object o, XmlSerializerNamespaces namespaces)
+   em server.char.list.HandleRequest() na C:\Users\Kastan\Desktop\Rotmg PServer\Pepinos\server\char\list.cs:linha 106
+   em server.RequestHandler.HandleRequest(HttpListenerContext context) na C:\Users\Kastan\Desktop\Rotmg PServer\Pepinos\server\RequestHandlers.cs:linha 38
+   em server.Program.ProcessRequest(HttpListenerContext context) na C:\Users\Kastan\Desktop\Rotmg PServer\Pepinos\server\Program.cs:linha 156
+2016-09-05 22:28:49,185 [8] ERROR Server - System.Net.HttpListenerException (0x80004005): Tentativa de operação em uma conexão de rede não existente
+   em System.Net.HttpResponseStream.Write(Byte[] buffer, Int32 offset, Int32 size)
+   em System.Xml.XmlUtf8RawTextWriter.FlushBuffer()
+   em System.Xml.XmlUtf8RawTextWriter.Flush()
+   em System.Xml.XmlWellFormedWriter.Flush()
+   em System.Xml.Serialization.XmlSerializer.Serialize(XmlWriter xmlWriter, Object o, XmlSerializerNamespaces namespaces, String encodingStyle, String id)
+   em System.Xml.Serialization.XmlSerializer.Serialize(XmlWriter xmlWriter, Object o, XmlSerializerNamespaces namespaces)
+   em server.char.list.HandleRequest() na C:\Users\Kastan\Desktop\Rotmg PServer\Pepinos\server\char\list.cs:linha 106
+   em server.RequestHandler.HandleRequest(HttpListenerContext context) na C:\Users\Kastan\Desktop\Rotmg PServer\Pepinos\server\RequestHandlers.cs:linha 38
+   em server.Program.ProcessRequest(HttpListenerContext context) na C:\Users\Kastan\Desktop\Rotmg PServer\Pepinos\server\Program.cs:linha 156
+2016-09-05 22:28:49,226 [17] ERROR Server - System.Net.HttpListenerException (0x80004005): Tentativa de operação em uma conexão de rede não existente
+   em System.Net.HttpResponseStream.Write(Byte[] buffer, Int32 offset, Int32 size)
+   em System.Xml.XmlUtf8RawTextWriter.FlushBuffer()
+   em System.Xml.XmlUtf8RawTextWriter.Flush()
+   em System.Xml.XmlWellFormedWriter.Flush()
+   em System.Xml.Serialization.XmlSerializer.Serialize(XmlWriter xmlWriter, Object o, XmlSerializerNamespaces namespaces, String encodingStyle, String id)
+   em System.Xml.Serialization.XmlSerializer.Serialize(XmlWriter xmlWriter, Object o, XmlSerializerNamespaces namespaces)
+   em server.char.list.HandleRequest() na C:\Users\Kastan\Desktop\Rotmg PServer\Pepinos\server\char\list.cs:linha 106
+   em server.RequestHandler.HandleRequest(HttpListenerContext context) na C:\Users\Kastan\Desktop\Rotmg PServer\Pepinos\server\RequestHandlers.cs:linha 38
+   em server.Program.ProcessRequest(HttpListenerContext context) na C:\Users\Kastan\Desktop\Rotmg PServer\Pepinos\server\Program.cs:linha 156
+2016-09-05 22:28:49,248 [27] ERROR Server - System.Net.HttpListenerException (0x80004005): Tentativa de operação em uma conexão de rede não existente
+   em System.Net.HttpResponseStream.Write(Byte[] buffer, Int32 offset, Int32 size)
+   em System.Xml.XmlUtf8RawTextWriter.FlushBuffer()
+   em System.Xml.XmlUtf8RawTextWriter.Flush()
+   em System.Xml.XmlWellFormedWriter.Flush()
+   em System.Xml.Serialization.XmlSerializer.Serialize(XmlWriter xmlWriter, Object o, XmlSerializerNamespaces namespaces, String encodingStyle, String id)
+   em System.Xml.Serialization.XmlSerializer.Serialize(XmlWriter xmlWriter, Object o, XmlSerializerNamespaces namespaces)
+   em server.char.list.HandleRequest() na C:\Users\Kastan\Desktop\Rotmg PServer\Pepinos\server\char\list.cs:linha 106
+   em server.RequestHandler.HandleRequest(HttpListenerContext context) na C:\Users\Kastan\Desktop\Rotmg PServer\Pepinos\server\RequestHandlers.cs:linha 38
+   em server.Program.ProcessRequest(HttpListenerContext context) na C:\Users\Kastan\Desktop\Rotmg PServer\Pepinos\server\Program.cs:linha 156
+2016-09-05 22:28:49,419 [46] ERROR Server - System.InvalidOperationException: Erro ao gerar o documento XML. ---> System.Net.HttpListenerException: Tentativa de operação em uma conexão de rede não existente
+   em System.Net.HttpResponseStream.Write(Byte[] buffer, Int32 offset, Int32 size)
+   em System.Xml.XmlUtf8RawTextWriter.FlushBuffer()
+   em System.Xml.XmlUtf8RawTextWriter.RawText(Char* pSrcBegin, Char* pSrcEnd)
+   em System.Xml.XmlUtf8RawTextWriter.RawText(String s)
+   em System.Xml.XmlUtf8RawTextWriter.WriteStartAttribute(String prefix, String localName, String ns)
+   em System.Xml.XmlUtf8RawTextWriterIndent.WriteStartAttribute(String prefix, String localName, String ns)
+   em System.Xml.XmlWellFormedWriter.WriteStartAttribute(String prefix, String localName, String namespaceName)
+   em System.Xml.Serialization.XmlSerializationWriter.WriteAttribute(String localName, String ns, String value)
+   em Microsoft.Xml.Serialization.GeneratedAssembly.XmlSerializationWriterChars.Write3_PetItem(String n, String ns, PetItem o, Boolean isNullable, Boolean needType)
+   em Microsoft.Xml.Serialization.GeneratedAssembly.XmlSerializationWriterChars.Write4_Char(String n, String ns, Char o, Boolean isNullable, Boolean needType)
+   em Microsoft.Xml.Serialization.GeneratedAssembly.XmlSerializationWriterChars.Write17_Chars(String n, String ns, Chars o, Boolean isNullable, Boolean needType)
+   em Microsoft.Xml.Serialization.GeneratedAssembly.XmlSerializationWriterChars.Write18_Chars(Object o)
+   --- Fim do rastreamento de pilha de exceções internas ---
+   em System.Xml.Serialization.XmlSerializer.Serialize(XmlWriter xmlWriter, Object o, XmlSerializerNamespaces namespaces, String encodingStyle, String id)
+   em System.Xml.Serialization.XmlSerializer.Serialize(XmlWriter xmlWriter, Object o, XmlSerializerNamespaces namespaces)
+   em server.char.list.HandleRequest() na C:\Users\Kastan\Desktop\Rotmg PServer\Pepinos\server\char\list.cs:linha 106
+   em server.RequestHandler.HandleRequest(HttpListenerContext context) na C:\Users\Kastan\Desktop\Rotmg PServer\Pepinos\server\RequestHandlers.cs:linha 38
+   em server.Program.ProcessRequest(HttpListenerContext context) na C:\Users\Kastan\Desktop\Rotmg PServer\Pepinos\server\Program.cs:linha 156
+2016-09-05 22:28:49,461 [30] ERROR Server - System.Net.HttpListenerException (0x80004005): Tentativa de operação em uma conexão de rede não existente
+   em System.Net.HttpResponseStream.Write(Byte[] buffer, Int32 offset, Int32 size)
+   em System.Xml.XmlUtf8RawTextWriter.FlushBuffer()
+   em System.Xml.XmlUtf8RawTextWriter.Flush()
+   em System.Xml.XmlWellFormedWriter.Flush()
+   em System.Xml.Serialization.XmlSerializer.Serialize(XmlWriter xmlWriter, Object o, XmlSerializerNamespaces namespaces, String encodingStyle, String id)
+   em System.Xml.Serialization.XmlSerializer.Serialize(XmlWriter xmlWriter, Object o, XmlSerializerNamespaces namespaces)
+   em server.char.list.HandleRequest() na C:\Users\Kastan\Desktop\Rotmg PServer\Pepinos\server\char\list.cs:linha 106
+   em server.RequestHandler.HandleRequest(HttpListenerContext context) na C:\Users\Kastan\Desktop\Rotmg PServer\Pepinos\server\RequestHandlers.cs:linha 38
+   em server.Program.ProcessRequest(HttpListenerContext context) na C:\Users\Kastan\Desktop\Rotmg PServer\Pepinos\server\Program.cs:linha 156
+2016-09-05 22:28:49,419 [48] ERROR Server - System.InvalidOperationException: Erro ao gerar o documento XML. ---> System.Net.HttpListenerException: Tentativa de operação em uma conexão de rede não existente
+   em System.Net.HttpResponseStream.Write(Byte[] buffer, Int32 offset, Int32 size)
+   em System.Xml.XmlUtf8RawTextWriter.FlushBuffer()
+   em System.Xml.XmlUtf8RawTextWriter.RawText(Char* pSrcBegin, Char* pSrcEnd)
+   em System.Xml.XmlUtf8RawTextWriter.RawText(String s)
+   em System.Xml.XmlUtf8RawTextWriter.WriteStartAttribute(String prefix, String localName, String ns)
+   em System.Xml.XmlUtf8RawTextWriterIndent.WriteStartAttribute(String prefix, String localName, String ns)
+   em System.Xml.XmlWellFormedWriter.WriteStartAttribute(String prefix, String localName, String namespaceName)
+   em System.Xml.Serialization.XmlSerializationWriter.WriteAttribute(String localName, String ns, String value)
+   em Microsoft.Xml.Serialization.GeneratedAssembly.XmlSerializationWriterChars.Write3_PetItem(String n, String ns, PetItem o, Boolean isNullable, Boolean needType)
+   em Microsoft.Xml.Serialization.GeneratedAssembly.XmlSerializationWriterChars.Write4_Char(String n, String ns, Char o, Boolean isNullable, Boolean needType)
+   em Microsoft.Xml.Serialization.GeneratedAssembly.XmlSerializationWriterChars.Write17_Chars(String n, String ns, Chars o, Boolean isNullable, Boolean needType)
+   em Microsoft.Xml.Serialization.GeneratedAssembly.XmlSerializationWriterChars.Write18_Chars(Object o)
+   --- Fim do rastreamento de pilha de exceções internas ---
+   em System.Xml.Serialization.XmlSerializer.Serialize(XmlWriter xmlWriter, Object o, XmlSerializerNamespaces namespaces, String encodingStyle, String id)
+   em System.Xml.Serialization.XmlSerializer.Serialize(XmlWriter xmlWriter, Object o, XmlSerializerNamespaces namespaces)
+   em server.char.list.HandleRequest() na C:\Users\Kastan\Desktop\Rotmg PServer\Pepinos\server\char\list.cs:linha 106
+   em server.RequestHandler.HandleRequest(HttpListenerContext context) na C:\Users\Kastan\Desktop\Rotmg PServer\Pepinos\server\RequestHandlers.cs:linha 38
+   em server.Program.ProcessRequest(HttpListenerContext context) na C:\Users\Kastan\Desktop\Rotmg PServer\Pepinos\server\Program.cs:linha 156
+2016-09-05 22:28:49,430 [18] ERROR Server - System.Net.HttpListenerException (0x80004005): Tentativa de operação em uma conexão de rede não existente
+   em System.Net.HttpResponseStream.Write(Byte[] buffer, Int32 offset, Int32 size)
+   em System.Xml.XmlUtf8RawTextWriter.FlushBuffer()
+   em System.Xml.XmlUtf8RawTextWriter.Flush()
+   em System.Xml.XmlWellFormedWriter.Flush()
+   em System.Xml.Serialization.XmlSerializer.Serialize(XmlWriter xmlWriter, Object o, XmlSerializerNamespaces namespaces, String encodingStyle, String id)
+   em System.Xml.Serialization.XmlSerializer.Serialize(XmlWriter xmlWriter, Object o, XmlSerializerNamespaces namespaces)
+   em server.char.list.HandleRequest() na C:\Users\Kastan\Desktop\Rotmg PServer\Pepinos\server\char\list.cs:linha 106
+   em server.RequestHandler.HandleRequest(HttpListenerContext context) na C:\Users\Kastan\Desktop\Rotmg PServer\Pepinos\server\RequestHandlers.cs:linha 38
+   em server.Program.ProcessRequest(HttpListenerContext context) na C:\Users\Kastan\Desktop\Rotmg PServer\Pepinos\server\Program.cs:linha 156
+2016-09-05 22:28:49,232 [28] ERROR Server - System.Net.HttpListenerException (0x80004005): Tentativa de operação em uma conexão de rede não existente
+   em System.Net.HttpResponseStream.Write(Byte[] buffer, Int32 offset, Int32 size)
+   em System.Xml.XmlUtf8RawTextWriter.FlushBuffer()
+   em System.Xml.XmlUtf8RawTextWriter.Flush()
+   em System.Xml.XmlWellFormedWriter.Flush()
+   em System.Xml.Serialization.XmlSerializer.Serialize(XmlWriter xmlWriter, Object o, XmlSerializerNamespaces namespaces, String encodingStyle, String id)
+   em System.Xml.Serialization.XmlSerializer.Serialize(XmlWriter xmlWriter, Object o, XmlSerializerNamespaces namespaces)
+   em server.char.list.HandleRequest() na C:\Users\Kastan\Desktop\Rotmg PServer\Pepinos\server\char\list.cs:linha 106
+   em server.RequestHandler.HandleRequest(HttpListenerContext context) na C:\Users\Kastan\Desktop\Rotmg PServer\Pepinos\server\RequestHandlers.cs:linha 38
+   em server.Program.ProcessRequest(HttpListenerContext context) na C:\Users\Kastan\Desktop\Rotmg PServer\Pepinos\server\Program.cs:linha 156
+2016-09-05 22:28:49,112 [42] ERROR Server - System.Net.HttpListenerException (0x80004005): Tentativa de operação em uma conexão de rede não existente
+   em System.Net.HttpResponseStream.Write(Byte[] buffer, Int32 offset, Int32 size)
+   em System.Xml.XmlUtf8RawTextWriter.FlushBuffer()
+   em System.Xml.XmlUtf8RawTextWriter.Flush()
+   em System.Xml.XmlWellFormedWriter.Flush()
+   em System.Xml.Serialization.XmlSerializer.Serialize(XmlWriter xmlWriter, Object o, XmlSerializerNamespaces namespaces, String encodingStyle, String id)
+   em System.Xml.Serialization.XmlSerializer.Serialize(XmlWriter xmlWriter, Object o, XmlSerializerNamespaces namespaces)
+   em server.char.list.HandleRequest() na C:\Users\Kastan\Desktop\Rotmg PServer\Pepinos\server\char\list.cs:linha 106
+   em server.RequestHandler.HandleRequest(HttpListenerContext context) na C:\Users\Kastan\Desktop\Rotmg PServer\Pepinos\server\RequestHandlers.cs:linha 38
+   em server.Program.ProcessRequest(HttpListenerContext context) na C:\Users\Kastan\Desktop\Rotmg PServer\Pepinos\server\Program.cs:linha 156
+2016-09-05 22:28:49,125 [39] ERROR Server - System.Net.HttpListenerException (0x80004005): Tentativa de operação em uma conexão de rede não existente
+   em System.Net.HttpResponseStream.Write(Byte[] buffer, Int32 offset, Int32 size)
+   em System.Xml.XmlUtf8RawTextWriter.FlushBuffer()
+   em System.Xml.XmlUtf8RawTextWriter.Flush()
+   em System.Xml.XmlWellFormedWriter.Flush()
+   em System.Xml.Serialization.XmlSerializer.Serialize(XmlWriter xmlWriter, Object o, XmlSerializerNamespaces namespaces, String encodingStyle, String id)
+   em System.Xml.Serialization.XmlSerializer.Serialize(XmlWriter xmlWriter, Object o, XmlSerializerNamespaces namespaces)
+   em server.char.list.HandleRequest() na C:\Users\Kastan\Desktop\Rotmg PServer\Pepinos\server\char\list.cs:linha 106
+   em server.RequestHandler.HandleRequest(HttpListenerContext context) na C:\Users\Kastan\Desktop\Rotmg PServer\Pepinos\server\RequestHandlers.cs:linha 38
+   em server.Program.ProcessRequest(HttpListenerContext context) na C:\Users\Kastan\Desktop\Rotmg PServer\Pepinos\server\Program.cs:linha 156
+2016-09-05 22:28:49,157 [36] ERROR Server - System.Net.HttpListenerException (0x80004005): Tentativa de operação em uma conexão de rede não existente
+   em System.Net.HttpResponseStream.Write(Byte[] buffer, Int32 offset, Int32 size)
+   em System.Xml.XmlUtf8RawTextWriter.FlushBuffer()
+   em System.Xml.XmlUtf8RawTextWriter.Flush()
+   em System.Xml.XmlWellFormedWriter.Flush()
+   em System.Xml.Serialization.XmlSerializer.Serialize(XmlWriter xmlWriter, Object o, XmlSerializerNamespaces namespaces, String encodingStyle, String id)
+   em System.Xml.Serialization.XmlSerializer.Serialize(XmlWriter xmlWriter, Object o, XmlSerializerNamespaces namespaces)
+   em server.char.list.HandleRequest() na C:\Users\Kastan\Desktop\Rotmg PServer\Pepinos\server\char\list.cs:linha 106
+   em server.RequestHandler.HandleRequest(HttpListenerContext context) na C:\Users\Kastan\Desktop\Rotmg PServer\Pepinos\server\RequestHandlers.cs:linha 38
+   em server.Program.ProcessRequest(HttpListenerContext context) na C:\Users\Kastan\Desktop\Rotmg PServer\Pepinos\server\Program.cs:linha 156
+2016-09-05 22:28:49,562 [14] ERROR Server - System.InvalidOperationException: Erro ao gerar o documento XML. ---> System.Net.HttpListenerException: Tentativa de operação em uma conexão de rede não existente
+   em System.Net.HttpResponseStream.Write(Byte[] buffer, Int32 offset, Int32 size)
+   em System.Xml.XmlUtf8RawTextWriter.FlushBuffer()
+   em System.Xml.XmlUtf8RawTextWriter.WriteElementTextBlock(Char* pSrc, Char* pSrcEnd)
+   em System.Xml.XmlUtf8RawTextWriter.WriteString(String text)
+   em System.Xml.XmlUtf8RawTextWriterIndent.WriteString(String text)
+   em System.Xml.XmlWellFormedWriter.WriteString(String text)
+   em System.Xml.XmlWriter.WriteElementString(String localName, String ns, String value)
+   em System.Xml.Serialization.XmlSerializationWriter.WriteElementString(String localName, String ns, String value, XmlQualifiedName xsiType)
+   em Microsoft.Xml.Serialization.GeneratedAssembly.XmlSerializationWriterChars.Write4_Char(String n, String ns, Char o, Boolean isNullable, Boolean needType)
+   em Microsoft.Xml.Serialization.GeneratedAssembly.XmlSerializationWriterChars.Write17_Chars(String n, String ns, Chars o, Boolean isNullable, Boolean needType)
+   em Microsoft.Xml.Serialization.GeneratedAssembly.XmlSerializationWriterChars.Write18_Chars(Object o)
+   --- Fim do rastreamento de pilha de exceções internas ---
+   em System.Xml.Serialization.XmlSerializer.Serialize(XmlWriter xmlWriter, Object o, XmlSerializerNamespaces namespaces, String encodingStyle, String id)
+   em System.Xml.Serialization.XmlSerializer.Serialize(XmlWriter xmlWriter, Object o, XmlSerializerNamespaces namespaces)
+   em server.char.list.HandleRequest() na C:\Users\Kastan\Desktop\Rotmg PServer\Pepinos\server\char\list.cs:linha 106
+   em server.RequestHandler.HandleRequest(HttpListenerContext context) na C:\Users\Kastan\Desktop\Rotmg PServer\Pepinos\server\RequestHandlers.cs:linha 38
+   em server.Program.ProcessRequest(HttpListenerContext context) na C:\Users\Kastan\Desktop\Rotmg PServer\Pepinos\server\Program.cs:linha 156
+2016-09-05 22:28:49,561 [9] ERROR Server - System.InvalidOperationException: Erro ao gerar o documento XML. ---> System.Net.HttpListenerException: Tentativa de operação em uma conexão de rede não existente
+   em System.Net.HttpResponseStream.Write(Byte[] buffer, Int32 offset, Int32 size)
+   em System.Xml.XmlUtf8RawTextWriter.FlushBuffer()
+   em System.Xml.XmlUtf8RawTextWriter.WriteElementTextBlock(Char* pSrc, Char* pSrcEnd)
+   em System.Xml.XmlUtf8RawTextWriter.WriteString(String text)
+   em System.Xml.XmlUtf8RawTextWriterIndent.WriteString(String text)
+   em System.Xml.XmlWellFormedWriter.WriteString(String text)
+   em System.Xml.XmlWriter.WriteElementString(String localName, String ns, String value)
+   em System.Xml.Serialization.XmlSerializationWriter.WriteElementString(String localName, String ns, String value)
+   em Microsoft.Xml.Serialization.GeneratedAssembly.XmlSerializationWriterChars.Write4_Char(String n, String ns, Char o, Boolean isNullable, Boolean needType)
+   em Microsoft.Xml.Serialization.GeneratedAssembly.XmlSerializationWriterChars.Write17_Chars(String n, String ns, Chars o, Boolean isNullable, Boolean needType)
+   em Microsoft.Xml.Serialization.GeneratedAssembly.XmlSerializationWriterChars.Write18_Chars(Object o)
+   --- Fim do rastreamento de pilha de exceções internas ---
+   em System.Xml.Serialization.XmlSerializer.Serialize(XmlWriter xmlWriter, Object o, XmlSerializerNamespaces namespaces, String encodingStyle, String id)
+   em System.Xml.Serialization.XmlSerializer.Serialize(XmlWriter xmlWriter, Object o, XmlSerializerNamespaces namespaces)
+   em server.char.list.HandleRequest() na C:\Users\Kastan\Desktop\Rotmg PServer\Pepinos\server\char\list.cs:linha 106
+   em server.RequestHandler.HandleRequest(HttpListenerContext context) na C:\Users\Kastan\Desktop\Rotmg PServer\Pepinos\server\RequestHandlers.cs:linha 38
+   em server.Program.ProcessRequest(HttpListenerContext context) na C:\Users\Kastan\Desktop\Rotmg PServer\Pepinos\server\Program.cs:linha 156
+2016-09-05 22:28:49,575 [13] ERROR Server - System.Net.HttpListenerException (0x80004005): Tentativa de operação em uma conexão de rede não existente
+   em System.Net.HttpResponseStream.Write(Byte[] buffer, Int32 offset, Int32 size)
+   em System.Xml.XmlUtf8RawTextWriter.FlushBuffer()
+   em System.Xml.XmlUtf8RawTextWriter.Flush()
+   em System.Xml.XmlWellFormedWriter.Flush()
+   em System.Xml.Serialization.XmlSerializer.Serialize(XmlWriter xmlWriter, Object o, XmlSerializerNamespaces namespaces, String encodingStyle, String id)
+   em System.Xml.Serialization.XmlSerializer.Serialize(XmlWriter xmlWriter, Object o, XmlSerializerNamespaces namespaces)
+   em server.char.list.HandleRequest() na C:\Users\Kastan\Desktop\Rotmg PServer\Pepinos\server\char\list.cs:linha 106
+   em server.RequestHandler.HandleRequest(HttpListenerContext context) na C:\Users\Kastan\Desktop\Rotmg PServer\Pepinos\server\RequestHandlers.cs:linha 38
+   em server.Program.ProcessRequest(HttpListenerContext context) na C:\Users\Kastan\Desktop\Rotmg PServer\Pepinos\server\Program.cs:linha 156
+2016-09-05 22:28:49,559 [50] ERROR Server - System.InvalidOperationException: Erro ao gerar o documento XML. ---> System.Net.HttpListenerException: Tentativa de operação em uma conexão de rede não existente
+   em System.Net.HttpResponseStream.Write(Byte[] buffer, Int32 offset, Int32 size)
+   em System.Xml.XmlUtf8RawTextWriter.FlushBuffer()
+   em System.Xml.XmlUtf8RawTextWriter.RawText(Char* pSrcBegin, Char* pSrcEnd)
+   em System.Xml.XmlUtf8RawTextWriter.RawText(String s)
+   em System.Xml.XmlUtf8RawTextWriter.WriteStartAttribute(String prefix, String localName, String ns)
+   em System.Xml.XmlUtf8RawTextWriterIndent.WriteStartAttribute(String prefix, String localName, String ns)
+   em System.Xml.XmlWellFormedWriter.WriteStartAttribute(String prefix, String localName, String namespaceName)
+   em System.Xml.Serialization.XmlSerializationWriter.WriteAttribute(String localName, String ns, String value)
+   em Microsoft.Xml.Serialization.GeneratedAssembly.XmlSerializationWriterChars.Write3_PetItem(String n, String ns, PetItem o, Boolean isNullable, Boolean needType)
+   em Microsoft.Xml.Serialization.GeneratedAssembly.XmlSerializationWriterChars.Write4_Char(String n, String ns, Char o, Boolean isNullable, Boolean needType)
+   em Microsoft.Xml.Serialization.GeneratedAssembly.XmlSerializationWriterChars.Write17_Chars(String n, String ns, Chars o, Boolean isNullable, Boolean needType)
+   em Microsoft.Xml.Serialization.GeneratedAssembly.XmlSerializationWriterChars.Write18_Chars(Object o)
+   --- Fim do rastreamento de pilha de exceções internas ---
+   em System.Xml.Serialization.XmlSerializer.Serialize(XmlWriter xmlWriter, Object o, XmlSerializerNamespaces namespaces, String encodingStyle, String id)
+   em System.Xml.Serialization.XmlSerializer.Serialize(XmlWriter xmlWriter, Object o, XmlSerializerNamespaces namespaces)
+   em server.char.list.HandleRequest() na C:\Users\Kastan\Desktop\Rotmg PServer\Pepinos\server\char\list.cs:linha 106
+   em server.RequestHandler.HandleRequest(HttpListenerContext context) na C:\Users\Kastan\Desktop\Rotmg PServer\Pepinos\server\RequestHandlers.cs:linha 38
+   em server.Program.ProcessRequest(HttpListenerContext context) na C:\Users\Kastan\Desktop\Rotmg PServer\Pepinos\server\Program.cs:linha 156
+2016-09-05 22:28:49,550 [24] ERROR Server - System.Net.HttpListenerException (0x80004005): Tentativa de operação em uma conexão de rede não existente
+   em System.Net.HttpResponseStream.Write(Byte[] buffer, Int32 offset, Int32 size)
+   em System.Xml.XmlUtf8RawTextWriter.FlushBuffer()
+   em System.Xml.XmlUtf8RawTextWriter.Flush()
+   em System.Xml.XmlWellFormedWriter.Flush()
+   em System.Xml.Serialization.XmlSerializer.Serialize(XmlWriter xmlWriter, Object o, XmlSerializerNamespaces namespaces, String encodingStyle, String id)
+   em System.Xml.Serialization.XmlSerializer.Serialize(XmlWriter xmlWriter, Object o, XmlSerializerNamespaces namespaces)
+   em server.char.list.HandleRequest() na C:\Users\Kastan\Desktop\Rotmg PServer\Pepinos\server\char\list.cs:linha 106
+   em server.RequestHandler.HandleRequest(HttpListenerContext context) na C:\Users\Kastan\Desktop\Rotmg PServer\Pepinos\server\RequestHandlers.cs:linha 38
+   em server.Program.ProcessRequest(HttpListenerContext context) na C:\Users\Kastan\Desktop\Rotmg PServer\Pepinos\server\Program.cs:linha 156
+2016-09-05 22:28:48,693 [10] ERROR Server - System.Net.HttpListenerException (0x80004005): Tentativa de operação em uma conexão de rede não existente
+   em System.Net.HttpResponseStream.Write(Byte[] buffer, Int32 offset, Int32 size)
+   em System.Xml.XmlUtf8RawTextWriter.FlushBuffer()
+   em System.Xml.XmlUtf8RawTextWriter.Flush()
+   em System.Xml.XmlWellFormedWriter.Flush()
+   em System.Xml.Serialization.XmlSerializer.Serialize(XmlWriter xmlWriter, Object o, XmlSerializerNamespaces namespaces, String encodingStyle, String id)
+   em System.Xml.Serialization.XmlSerializer.Serialize(XmlWriter xmlWriter, Object o, XmlSerializerNamespaces namespaces)
+   em server.char.list.HandleRequest() na C:\Users\Kastan\Desktop\Rotmg PServer\Pepinos\server\char\list.cs:linha 106
+   em server.RequestHandler.HandleRequest(HttpListenerContext context) na C:\Users\Kastan\Desktop\Rotmg PServer\Pepinos\server\RequestHandlers.cs:linha 38
+   em server.Program.ProcessRequest(HttpListenerContext context) na C:\Users\Kastan\Desktop\Rotmg PServer\Pepinos\server\Program.cs:linha 156
+2016-09-05 22:28:48,695 [26] ERROR Server - System.Net.HttpListenerException (0x80004005): Tentativa de operação em uma conexão de rede não existente
+   em System.Net.HttpResponseStream.Write(Byte[] buffer, Int32 offset, Int32 size)
+   em System.Xml.XmlUtf8RawTextWriter.FlushBuffer()
+   em System.Xml.XmlUtf8RawTextWriter.Flush()
+   em System.Xml.XmlWellFormedWriter.Flush()
+   em System.Xml.Serialization.XmlSerializer.Serialize(XmlWriter xmlWriter, Object o, XmlSerializerNamespaces namespaces, String encodingStyle, String id)
+   em System.Xml.Serialization.XmlSerializer.Serialize(XmlWriter xmlWriter, Object o, XmlSerializerNamespaces namespaces)
+   em server.char.list.HandleRequest() na C:\Users\Kastan\Desktop\Rotmg PServer\Pepinos\server\char\list.cs:linha 106
+   em server.RequestHandler.HandleRequest(HttpListenerContext context) na C:\Users\Kastan\Desktop\Rotmg PServer\Pepinos\server\RequestHandlers.cs:linha 38
+   em server.Program.ProcessRequest(HttpListenerContext context) na C:\Users\Kastan\Desktop\Rotmg PServer\Pepinos\server\Program.cs:linha 156
+2016-09-05 22:28:49,094 [31] ERROR Server - System.Net.HttpListenerException (0x80004005): Tentativa de operação em uma conexão de rede não existente
+   em System.Net.HttpResponseStream.Write(Byte[] buffer, Int32 offset, Int32 size)
+   em System.Xml.XmlUtf8RawTextWriter.FlushBuffer()
+   em System.Xml.XmlUtf8RawTextWriter.Flush()
+   em System.Xml.XmlWellFormedWriter.Flush()
+   em System.Xml.Serialization.XmlSerializer.Serialize(XmlWriter xmlWriter, Object o, XmlSerializerNamespaces namespaces, String encodingStyle, String id)
+   em System.Xml.Serialization.XmlSerializer.Serialize(XmlWriter xmlWriter, Object o, XmlSerializerNamespaces namespaces)
+   em server.char.list.HandleRequest() na C:\Users\Kastan\Desktop\Rotmg PServer\Pepinos\server\char\list.cs:linha 106
+   em server.RequestHandler.HandleRequest(HttpListenerContext context) na C:\Users\Kastan\Desktop\Rotmg PServer\Pepinos\server\RequestHandlers.cs:linha 38
+   em server.Program.ProcessRequest(HttpListenerContext context) na C:\Users\Kastan\Desktop\Rotmg PServer\Pepinos\server\Program.cs:linha 156
+2016-09-05 22:28:48,682 [16] ERROR Server - System.Net.HttpListenerException (0x80004005): Tentativa de operação em uma conexão de rede não existente
+   em System.Net.HttpResponseStream.Write(Byte[] buffer, Int32 offset, Int32 size)
+   em System.Xml.XmlUtf8RawTextWriter.FlushBuffer()
+   em System.Xml.XmlUtf8RawTextWriter.Flush()
+   em System.Xml.XmlWellFormedWriter.Flush()
+   em System.Xml.Serialization.XmlSerializer.Serialize(XmlWriter xmlWriter, Object o, XmlSerializerNamespaces namespaces, String encodingStyle, String id)
+   em System.Xml.Serialization.XmlSerializer.Serialize(XmlWriter xmlWriter, Object o, XmlSerializerNamespaces namespaces)
+   em server.char.list.HandleRequest() na C:\Users\Kastan\Desktop\Rotmg PServer\Pepinos\server\char\list.cs:linha 106
+   em server.RequestHandler.HandleRequest(HttpListenerContext context) na C:\Users\Kastan\Desktop\Rotmg PServer\Pepinos\server\RequestHandlers.cs:linha 38
+   em server.Program.ProcessRequest(HttpListenerContext context) na C:\Users\Kastan\Desktop\Rotmg PServer\Pepinos\server\Program.cs:linha 156
+2016-09-05 22:28:49,649 [40] ERROR Server - System.Net.HttpListenerException (0x80004005): Tentativa de operação em uma conexão de rede não existente
+   em System.Net.HttpResponseStream.Write(Byte[] buffer, Int32 offset, Int32 size)
+   em System.Xml.XmlUtf8RawTextWriter.FlushBuffer()
+   em System.Xml.XmlUtf8RawTextWriter.Flush()
+   em System.Xml.XmlWellFormedWriter.Flush()
+   em System.Xml.Serialization.XmlSerializer.Serialize(XmlWriter xmlWriter, Object o, XmlSerializerNamespaces namespaces, String encodingStyle, String id)
+   em System.Xml.Serialization.XmlSerializer.Serialize(XmlWriter xmlWriter, Object o, XmlSerializerNamespaces namespaces)
+   em server.char.list.HandleRequest() na C:\Users\Kastan\Desktop\Rotmg PServer\Pepinos\server\char\list.cs:linha 106
+   em server.RequestHandler.HandleRequest(HttpListenerContext context) na C:\Users\Kastan\Desktop\Rotmg PServer\Pepinos\server\RequestHandlers.cs:linha 38
+   em server.Program.ProcessRequest(HttpListenerContext context) na C:\Users\Kastan\Desktop\Rotmg PServer\Pepinos\server\Program.cs:linha 156
+2016-09-05 22:28:49,631 [20] ERROR Server - System.Net.HttpListenerException (0x80004005): Tentativa de operação em uma conexão de rede não existente
+   em System.Net.HttpResponseStream.Write(Byte[] buffer, Int32 offset, Int32 size)
+   em System.Xml.XmlUtf8RawTextWriter.FlushBuffer()
+   em System.Xml.XmlUtf8RawTextWriter.Flush()
+   em System.Xml.XmlWellFormedWriter.Flush()
+   em System.Xml.Serialization.XmlSerializer.Serialize(XmlWriter xmlWriter, Object o, XmlSerializerNamespaces namespaces, String encodingStyle, String id)
+   em System.Xml.Serialization.XmlSerializer.Serialize(XmlWriter xmlWriter, Object o, XmlSerializerNamespaces namespaces)
+   em server.char.list.HandleRequest() na C:\Users\Kastan\Desktop\Rotmg PServer\Pepinos\server\char\list.cs:linha 106
+   em server.RequestHandler.HandleRequest(HttpListenerContext context) na C:\Users\Kastan\Desktop\Rotmg PServer\Pepinos\server\RequestHandlers.cs:linha 38
+   em server.Program.ProcessRequest(HttpListenerContext context) na C:\Users\Kastan\Desktop\Rotmg PServer\Pepinos\server\Program.cs:linha 156
+2016-09-05 22:28:49,624 [45] ERROR Server - System.Net.HttpListenerException (0x80004005): Tentativa de operação em uma conexão de rede não existente
+   em System.Net.HttpResponseStream.Write(Byte[] buffer, Int32 offset, Int32 size)
+   em System.Xml.XmlUtf8RawTextWriter.FlushBuffer()
+   em System.Xml.XmlUtf8RawTextWriter.Flush()
+   em System.Xml.XmlWellFormedWriter.Flush()
+   em System.Xml.Serialization.XmlSerializer.Serialize(XmlWriter xmlWriter, Object o, XmlSerializerNamespaces namespaces, String encodingStyle, String id)
+   em System.Xml.Serialization.XmlSerializer.Serialize(XmlWriter xmlWriter, Object o, XmlSerializerNamespaces namespaces)
+   em server.char.list.HandleRequest() na C:\Users\Kastan\Desktop\Rotmg PServer\Pepinos\server\char\list.cs:linha 106
+   em server.RequestHandler.HandleRequest(HttpListenerContext context) na C:\Users\Kastan\Desktop\Rotmg PServer\Pepinos\server\RequestHandlers.cs:linha 38
+   em server.Program.ProcessRequest(HttpListenerContext context) na C:\Users\Kastan\Desktop\Rotmg PServer\Pepinos\server\Program.cs:linha 156
+2016-09-05 22:28:49,629 [19] ERROR Server - System.Net.HttpListenerException (0x80004005): Tentativa de operação em uma conexão de rede não existente
+   em System.Net.HttpResponseStream.Write(Byte[] buffer, Int32 offset, Int32 size)
+   em System.Xml.XmlUtf8RawTextWriter.FlushBuffer()
+   em System.Xml.XmlUtf8RawTextWriter.Flush()
+   em System.Xml.XmlWellFormedWriter.Flush()
+   em System.Xml.Serialization.XmlSerializer.Serialize(XmlWriter xmlWriter, Object o, XmlSerializerNamespaces namespaces, String encodingStyle, String id)
+   em System.Xml.Serialization.XmlSerializer.Serialize(XmlWriter xmlWriter, Object o, XmlSerializerNamespaces namespaces)
+   em server.char.list.HandleRequest() na C:\Users\Kastan\Desktop\Rotmg PServer\Pepinos\server\char\list.cs:linha 106
+   em server.RequestHandler.HandleRequest(HttpListenerContext context) na C:\Users\Kastan\Desktop\Rotmg PServer\Pepinos\server\RequestHandlers.cs:linha 38
+   em server.Program.ProcessRequest(HttpListenerContext context) na C:\Users\Kastan\Desktop\Rotmg PServer\Pepinos\server\Program.cs:linha 156
+2016-09-05 22:28:49,482 [22] ERROR Server - System.Net.HttpListenerException (0x80004005): Tentativa de operação em uma conexão de rede não existente
+   em System.Net.HttpResponseStream.Write(Byte[] buffer, Int32 offset, Int32 size)
+   em System.Xml.XmlUtf8RawTextWriter.FlushBuffer()
+   em System.Xml.XmlUtf8RawTextWriter.Flush()
+   em System.Xml.XmlWellFormedWriter.Flush()
+   em System.Xml.Serialization.XmlSerializer.Serialize(XmlWriter xmlWriter, Object o, XmlSerializerNamespaces namespaces, String encodingStyle, String id)
+   em System.Xml.Serialization.XmlSerializer.Serialize(XmlWriter xmlWriter, Object o, XmlSerializerNamespaces namespaces)
+   em server.char.list.HandleRequest() na C:\Users\Kastan\Desktop\Rotmg PServer\Pepinos\server\char\list.cs:linha 106
+   em server.RequestHandler.HandleRequest(HttpListenerContext context) na C:\Users\Kastan\Desktop\Rotmg PServer\Pepinos\server\RequestHandlers.cs:linha 38
+   em server.Program.ProcessRequest(HttpListenerContext context) na C:\Users\Kastan\Desktop\Rotmg PServer\Pepinos\server\Program.cs:linha 156
+2016-09-05 22:28:49,521 [29] ERROR Server - System.Net.HttpListenerException (0x80004005): Tentativa de operação em uma conexão de rede não existente
+   em System.Net.HttpResponseStream.Write(Byte[] buffer, Int32 offset, Int32 size)
+   em System.Xml.XmlUtf8RawTextWriter.FlushBuffer()
+   em System.Xml.XmlUtf8RawTextWriter.Flush()
+   em System.Xml.XmlWellFormedWriter.Flush()
+   em System.Xml.Serialization.XmlSerializer.Serialize(XmlWriter xmlWriter, Object o, XmlSerializerNamespaces namespaces, String encodingStyle, String id)
+   em System.Xml.Serialization.XmlSerializer.Serialize(XmlWriter xmlWriter, Object o, XmlSerializerNamespaces namespaces)
+   em server.char.list.HandleRequest() na C:\Users\Kastan\Desktop\Rotmg PServer\Pepinos\server\char\list.cs:linha 106
+   em server.RequestHandler.HandleRequest(HttpListenerContext context) na C:\Users\Kastan\Desktop\Rotmg PServer\Pepinos\server\RequestHandlers.cs:linha 38
+   em server.Program.ProcessRequest(HttpListenerContext context) na C:\Users\Kastan\Desktop\Rotmg PServer\Pepinos\server\Program.cs:linha 156
+2016-09-05 22:28:49,690 [43] ERROR Server - System.Net.HttpListenerException (0x80004005): Tentativa de operação em uma conexão de rede não existente
+   em System.Net.HttpResponseStream.Write(Byte[] buffer, Int32 offset, Int32 size)
+   em System.Xml.XmlUtf8RawTextWriter.FlushBuffer()
+   em System.Xml.XmlUtf8RawTextWriter.Flush()
+   em System.Xml.XmlWellFormedWriter.Flush()
+   em System.Xml.Serialization.XmlSerializer.Serialize(XmlWriter xmlWriter, Object o, XmlSerializerNamespaces namespaces, String encodingStyle, String id)
+   em System.Xml.Serialization.XmlSerializer.Serialize(XmlWriter xmlWriter, Object o, XmlSerializerNamespaces namespaces)
+   em server.char.list.HandleRequest() na C:\Users\Kastan\Desktop\Rotmg PServer\Pepinos\server\char\list.cs:linha 106
+   em server.RequestHandler.HandleRequest(HttpListenerContext context) na C:\Users\Kastan\Desktop\Rotmg PServer\Pepinos\server\RequestHandlers.cs:linha 38
+   em server.Program.ProcessRequest(HttpListenerContext context) na C:\Users\Kastan\Desktop\Rotmg PServer\Pepinos\server\Program.cs:linha 156
+2016-09-05 22:28:49,763 [12] ERROR Server - System.Net.HttpListenerException (0x80004005): Tentativa de operação em uma conexão de rede não existente
+   em System.Net.HttpResponseStream.Write(Byte[] buffer, Int32 offset, Int32 size)
+   em System.Xml.XmlUtf8RawTextWriter.FlushBuffer()
+   em System.Xml.XmlUtf8RawTextWriter.Flush()
+   em System.Xml.XmlWellFormedWriter.Flush()
+   em System.Xml.Serialization.XmlSerializer.Serialize(XmlWriter xmlWriter, Object o, XmlSerializerNamespaces namespaces, String encodingStyle, String id)
+   em System.Xml.Serialization.XmlSerializer.Serialize(XmlWriter xmlWriter, Object o, XmlSerializerNamespaces namespaces)
+   em server.char.list.HandleRequest() na C:\Users\Kastan\Desktop\Rotmg PServer\Pepinos\server\char\list.cs:linha 106
+   em server.RequestHandler.HandleRequest(HttpListenerContext context) na C:\Users\Kastan\Desktop\Rotmg PServer\Pepinos\server\RequestHandlers.cs:linha 38
+   em server.Program.ProcessRequest(HttpListenerContext context) na C:\Users\Kastan\Desktop\Rotmg PServer\Pepinos\server\Program.cs:linha 156
+2016-09-05 22:28:49,768 [47] ERROR Server - System.Net.HttpListenerException (0x80004005): Tentativa de operação em uma conexão de rede não existente
+   em System.Net.HttpResponseStream.Write(Byte[] buffer, Int32 offset, Int32 size)
+   em System.Xml.XmlUtf8RawTextWriter.FlushBuffer()
+   em System.Xml.XmlUtf8RawTextWriter.Flush()
+   em System.Xml.XmlWellFormedWriter.Flush()
+   em System.Xml.Serialization.XmlSerializer.Serialize(XmlWriter xmlWriter, Object o, XmlSerializerNamespaces namespaces, String encodingStyle, String id)
+   em System.Xml.Serialization.XmlSerializer.Serialize(XmlWriter xmlWriter, Object o, XmlSerializerNamespaces namespaces)
+   em server.char.list.HandleRequest() na C:\Users\Kastan\Desktop\Rotmg PServer\Pepinos\server\char\list.cs:linha 106
+   em server.RequestHandler.HandleRequest(HttpListenerContext context) na C:\Users\Kastan\Desktop\Rotmg PServer\Pepinos\server\RequestHandlers.cs:linha 38
+   em server.Program.ProcessRequest(HttpListenerContext context) na C:\Users\Kastan\Desktop\Rotmg PServer\Pepinos\server\Program.cs:linha 156
+2016-09-05 22:28:49,762 [23] ERROR Server - System.Net.HttpListenerException (0x80004005): Tentativa de operação em uma conexão de rede não existente
+   em System.Net.HttpResponseStream.Write(Byte[] buffer, Int32 offset, Int32 size)
+   em System.Xml.XmlUtf8RawTextWriter.FlushBuffer()
+   em System.Xml.XmlUtf8RawTextWriter.Flush()
+   em System.Xml.XmlWellFormedWriter.Flush()
+   em System.Xml.Serialization.XmlSerializer.Serialize(XmlWriter xmlWriter, Object o, XmlSerializerNamespaces namespaces, String encodingStyle, String id)
+   em System.Xml.Serialization.XmlSerializer.Serialize(XmlWriter xmlWriter, Object o, XmlSerializerNamespaces namespaces)
+   em server.char.list.HandleRequest() na C:\Users\Kastan\Desktop\Rotmg PServer\Pepinos\server\char\list.cs:linha 106
+   em server.RequestHandler.HandleRequest(HttpListenerContext context) na C:\Users\Kastan\Desktop\Rotmg PServer\Pepinos\server\RequestHandlers.cs:linha 38
+   em server.Program.ProcessRequest(HttpListenerContext context) na C:\Users\Kastan\Desktop\Rotmg PServer\Pepinos\server\Program.cs:linha 156
+2016-09-05 22:28:49,793 [25] ERROR Server - System.Net.HttpListenerException (0x80004005): Tentativa de operação em uma conexão de rede não existente
+   em System.Net.HttpResponseStream.Write(Byte[] buffer, Int32 offset, Int32 size)
+   em System.Xml.XmlUtf8RawTextWriter.FlushBuffer()
+   em System.Xml.XmlUtf8RawTextWriter.Flush()
+   em System.Xml.XmlWellFormedWriter.Flush()
+   em System.Xml.Serialization.XmlSerializer.Serialize(XmlWriter xmlWriter, Object o, XmlSerializerNamespaces namespaces, String encodingStyle, String id)
+   em System.Xml.Serialization.XmlSerializer.Serialize(XmlWriter xmlWriter, Object o, XmlSerializerNamespaces namespaces)
+   em server.char.list.HandleRequest() na C:\Users\Kastan\Desktop\Rotmg PServer\Pepinos\server\char\list.cs:linha 106
+   em server.RequestHandler.HandleRequest(HttpListenerContext context) na C:\Users\Kastan\Desktop\Rotmg PServer\Pepinos\server\RequestHandlers.cs:linha 38
+   em server.Program.ProcessRequest(HttpListenerContext context) na C:\Users\Kastan\Desktop\Rotmg PServer\Pepinos\server\Program.cs:linha 156
+2016-09-05 22:37:42,374 [Entry] WARN  db.data.XmlData - 0x0065 and 0x0061 has the same name of Grey Circle!
+2016-09-07 22:12:55,887 [Entry] WARN  db.data.XmlData - 0x0065 and 0x0061 has the same name of Grey Circle!
+2016-09-10 15:08:33,700 [Entry] WARN  db.data.XmlData - 0x0065 and 0x0061 has the same name of Grey Circle!
+2016-09-10 15:13:56,323 [Entry] WARN  db.data.XmlData - 0x0065 and 0x0061 has the same name of Grey Circle!
+2016-09-10 15:20:07,877 [Entry] WARN  db.data.XmlData - 0x0065 and 0x0061 has the same name of Grey Circle!
+2016-09-10 23:04:16,654 [Entry] WARN  db.data.XmlData - 0x0065 and 0x0061 has the same name of Grey Circle!
+2016-09-11 18:33:20,424 [Entry] WARN  db.data.XmlData - 0x0065 and 0x0061 has the same name of Grey Circle!
+2016-09-11 19:07:37,250 [15] ERROR Server - System.Net.HttpListenerException (0x80004005): A operação de E/S foi anulada devido a uma saída de thread ou a uma requisição de aplicativo
+   em System.Net.HttpResponseStream.Write(Byte[] buffer, Int32 offset, Int32 size)
+   em server.sfx.Sfx.HandleRequest() na C:\Users\Kastan\Desktop\Rotmg PServer\Pepinos\server\sfx\Sfx.cs:linha 26
+   em server.RequestHandler.HandleRequest(HttpListenerContext context) na C:\Users\Kastan\Desktop\Rotmg PServer\Pepinos\server\RequestHandlers.cs:linha 38
+   em server.Program.ProcessRequest(HttpListenerContext context) na C:\Users\Kastan\Desktop\Rotmg PServer\Pepinos\server\Program.cs:linha 107
+2016-09-11 19:08:00,285 [11] ERROR Server - System.Net.HttpListenerException (0x80004005): A operação de E/S foi anulada devido a uma saída de thread ou a uma requisição de aplicativo
+   em System.Net.HttpResponseStream.Write(Byte[] buffer, Int32 offset, Int32 size)
+   em server.sfx.Sfx.HandleRequest() na C:\Users\Kastan\Desktop\Rotmg PServer\Pepinos\server\sfx\Sfx.cs:linha 26
+   em server.RequestHandler.HandleRequest(HttpListenerContext context) na C:\Users\Kastan\Desktop\Rotmg PServer\Pepinos\server\RequestHandlers.cs:linha 38
+   em server.Program.ProcessRequest(HttpListenerContext context) na C:\Users\Kastan\Desktop\Rotmg PServer\Pepinos\server\Program.cs:linha 107
+2016-09-11 19:08:07,893 [15] ERROR Server - System.Net.HttpListenerException (0x80004005): A operação de E/S foi anulada devido a uma saída de thread ou a uma requisição de aplicativo
+   em System.Net.HttpResponseStream.Write(Byte[] buffer, Int32 offset, Int32 size)
+   em server.sfx.Sfx.HandleRequest() na C:\Users\Kastan\Desktop\Rotmg PServer\Pepinos\server\sfx\Sfx.cs:linha 26
+   em server.RequestHandler.HandleRequest(HttpListenerContext context) na C:\Users\Kastan\Desktop\Rotmg PServer\Pepinos\server\RequestHandlers.cs:linha 38
+   em server.Program.ProcessRequest(HttpListenerContext context) na C:\Users\Kastan\Desktop\Rotmg PServer\Pepinos\server\Program.cs:linha 107
+2016-09-11 19:08:13,344 [15] ERROR Server - Not supported server detected: 
+Host: 25.145.99.110
+Port: 2050
+2016-09-11 19:09:05,129 [Entry] WARN  db.data.XmlData - 0x0065 and 0x0061 has the same name of Grey Circle!
+2016-09-11 19:40:25,832 [Entry] WARN  db.data.XmlData - 0x0065 and 0x0061 has the same name of Grey Circle!
+2016-09-11 19:49:51,985 [Entry] WARN  db.data.XmlData - 0x0065 and 0x0061 has the same name of Grey Circle!
+2016-09-11 19:55:35,250 [Entry] WARN  db.data.XmlData - 0x0065 and 0x0061 has the same name of Grey Circle!
+2016-09-11 21:07:01,249 [6] ERROR Server - System.Net.HttpListenerException (0x80004005): A operação de E/S foi anulada devido a uma saída de thread ou a uma requisição de aplicativo
+   em System.Net.HttpResponseStream.Write(Byte[] buffer, Int32 offset, Int32 size)
+   em server.sfx.Sfx.HandleRequest() na C:\Users\Kastan\Desktop\Rotmg PServer\Pepinos\server\sfx\Sfx.cs:linha 26
+   em server.RequestHandler.HandleRequest(HttpListenerContext context) na C:\Users\Kastan\Desktop\Rotmg PServer\Pepinos\server\RequestHandlers.cs:linha 38
+   em server.Program.ProcessRequest(HttpListenerContext context) na C:\Users\Kastan\Desktop\Rotmg PServer\Pepinos\server\Program.cs:linha 107
+2016-09-13 20:02:39,616 [Entry] WARN  db.data.XmlData - 0x0065 and 0x0061 has the same name of Grey Circle!
+2016-09-13 20:06:18,869 [6] ERROR Server - System.Net.HttpListenerException (0x80004005): O nome da rede especificado não está mais disponível
+   em System.Net.HttpResponseStream.Write(Byte[] buffer, Int32 offset, Int32 size)
+   em server.app.getLanguageStrings.HandleRequest() na C:\Users\Kastan\Desktop\Rotmg PServer\Pepinos\server\app\getLanguageStrings.cs:linha 37
+   em server.RequestHandler.HandleRequest(HttpListenerContext context) na C:\Users\Kastan\Desktop\Rotmg PServer\Pepinos\server\RequestHandlers.cs:linha 38
+   em server.Program.ProcessRequest(HttpListenerContext context) na C:\Users\Kastan\Desktop\Rotmg PServer\Pepinos\server\Program.cs:linha 156
+2016-09-13 20:06:39,900 [6] ERROR Server - System.Net.HttpListenerException (0x80004005): Tentativa de operação em uma conexão de rede não existente
+   em System.Net.HttpResponseStream.Write(Byte[] buffer, Int32 offset, Int32 size)
+   em server.app.globalNews.HandleRequest() na C:\Users\Kastan\Desktop\Rotmg PServer\Pepinos\server\app\globalNews.cs:linha 40
+   em server.RequestHandler.HandleRequest(HttpListenerContext context) na C:\Users\Kastan\Desktop\Rotmg PServer\Pepinos\server\RequestHandlers.cs:linha 38
+   em server.Program.ProcessRequest(HttpListenerContext context) na C:\Users\Kastan\Desktop\Rotmg PServer\Pepinos\server\Program.cs:linha 156
+2016-09-19 22:07:24,399 [Entry] WARN  db.data.XmlData - 0x0065 and 0x0061 has the same name of Grey Circle!
+2016-09-19 22:07:59,677 [7] ERROR Server - Not supported server detected: 
+Host: 25.145.99.110
+Port: 2050

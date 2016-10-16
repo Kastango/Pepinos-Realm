@@ -20,15 +20,15 @@ namespace db
         private static readonly List<string> emails = new List<string>();
         private static readonly string[] Names =
         {
-            "Darq", "Deyst", "Drac", "Drol",
+            "Deimos", "Argond", "Pepino", "Drol",
             "Eango", "Eashy", "Eati", "Eendi", "Ehoni",
             "Gharr", "Iatho", "Iawa", "Idrae", "Iri", "Issz", "Itani",
             "Laen", "Lauk", "Lorz",
             "Oalei", "Odaru", "Oeti", "Orothi", "Oshyu",
-            "Queq", "Radph", "Rayr", "Ril", "Rilr", "Risrr",
+            "Queq", "Radph", "Rayr", "Ratynho", "Rilr", "Orion",
             "Saylt", "Scheev", "Sek", "Serl", "Seus",
             "Tal", "Tiar", "Uoro", "Urake", "Utanu",
-            "Vorck", "Vorv", "Yangu", "Yimi", "Zhiar"
+            "Vorck", "Vorv", "Yangu", "Gormar", "Zhiar"
         };
 
         private static string _host, _databaseName, _user, _password;
@@ -56,7 +56,7 @@ namespace db
                     {
                         s = rdr.ReadLine();
                         if (s != null && !s.StartsWith("#"))
-                            if(!emails.Contains(s))
+                            if (!emails.Contains(s))
                                 emails.Add(s);
                     } while (s != null);
                 }
@@ -239,8 +239,8 @@ AND characters.charId=death.chrId;";
 
             var fixedTime = new DateTime(converted.Year, converted.Month, converted.Day, 17, 0, 0, 0, DateTimeKind.Unspecified);
 
-            if (quest == null || ((converted.Hour >= 17 && converted.Day-1 == quest.Time.Day) || quest.Time.AddDays(1) <= converted))
-                    quest = GenerateDailyQuest(accId, data, fixedTime);
+            if (quest == null || ((converted.Hour >= 17 && converted.Day - 1 == quest.Time.Day) || quest.Time.AddDays(1) <= converted))
+                quest = GenerateDailyQuest(accId, data, fixedTime);
             return quest;
         }
 
@@ -300,7 +300,7 @@ AND characters.charId=death.chrId;";
             {
                 cmd = CreateQuery();
                 cmd.CommandText =
-                    "INSERT INTO stats(accId, fame, totalFame, credits, totalCredits) VALUES(@accId, 0, 0, 100, 100);";
+                    "INSERT INTO stats(accId, fame, totalFame, credits, totalCredits) VALUES(@accId, 0, 0, 1000, 1000);";
                 cmd.Parameters.AddWithValue("@accId", accId);
                 cmd.ExecuteNonQuery();
 
@@ -327,11 +327,11 @@ AND characters.charId=death.chrId;";
                 _.Value.Tier == 6 || _.Value.Tier == 7 ||
                 _.Value.Tier == 8 || _.Value.Tier == 9 ||
                 _.Value.Tier == 10).Select(_ => _.Value).ToList();
-            candidates.AddRange(data.Items.Where(_ => 
+            candidates.AddRange(data.Items.Where(_ =>
                 _.Value.SlotType == 4 || _.Value.SlotType == 5 ||
                 _.Value.SlotType == 11 || _.Value.SlotType == 12 ||
                 _.Value.SlotType == 13 || _.Value.SlotType == 15 ||
-                _.Value.SlotType == 16 ||  _.Value.SlotType == 18 ||
+                _.Value.SlotType == 16 || _.Value.SlotType == 18 ||
                 _.Value.SlotType == 19 || _.Value.SlotType == 20 ||
                 _.Value.SlotType == 21 || _.Value.SlotType == 22 ||
                 _.Value.SlotType == 23 || _.Value.SlotType == 25)
@@ -344,7 +344,7 @@ AND characters.charId=death.chrId;";
                 while (items.Contains(item)) item = candidates[(r = rand.Next(candidates.Count))].ObjectType;
                 items.Add(item);
             }
-            while(items.Count < DailyQuestConstants.QuestsPerDay);
+            while (items.Count < DailyQuestConstants.QuestsPerDay);
 
             var cmd = CreateQuery();
             cmd.CommandText = "INSERT INTO dailyQuests(accId, goals, tier, time) VALUES(@accId, @goals, @tier, @time) ON DUPLICATE KEY UPDATE accId=@accId, goals=@goals, tier=@tier, time=@time;";
@@ -356,7 +356,7 @@ AND characters.charId=death.chrId;";
             return GetDailyQuest(accId, data);
         }
 
-        public static string GenerateRandomString(int size, Random rand=null)
+        public static string GenerateRandomString(int size, Random rand = null)
         {
             var chars = "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789";
             var builder = new StringBuilder();
@@ -394,7 +394,7 @@ AND characters.charId=death.chrId;";
             return GetAccount(accId, data);
         }
 
-        public Account GetAccount(string accId, XmlData data, string uuid=null, string password=null)
+        public Account GetAccount(string accId, XmlData data, string uuid = null, string password = null)
         {
             if (String.IsNullOrWhiteSpace(accId)) return CreateGuestAccount(accId ?? String.Empty);
             MySqlCommand cmd = CreateQuery();
@@ -967,7 +967,7 @@ bestFame = GREATEST(bestFame, @bestFame);";
             using (MySqlDataReader rdr = cmd.ExecuteReader())
             {
                 if (!rdr.HasRows)
-                    return new [] { -1, -1, -1, -1, -1, -1, -1, -1 };
+                    return new[] { -1, -1, -1, -1, -1, -1, -1, -1 };
                 while (rdr.Read())
                     ret = Utils.FromCommaSepString32(rdr.GetString("items"));
             }
@@ -1318,7 +1318,7 @@ VALUES(@accId, @petId, @objType, @skinName, @skin, @rarity, @maxLevel, @abilitie
                 while (rdr.Read())
                 {
                     DateTime lastSeen = rdr.GetDateTime("lastSeen");
-                    if(lastSeen == DateTime.MinValue)
+                    if (lastSeen == DateTime.MinValue)
                         return false;
 
                     int timeInSec = 600 - (int)(DateTime.UtcNow - lastSeen).TotalSeconds;
@@ -1374,7 +1374,7 @@ VALUES(@accId, @petId, @objType, @skinName, @skin, @rarity, @maxLevel, @abilitie
             for (var i = 0; i < blocks; i++)
             {
                 builder.Append(GenerateRandomString(blockLength, rand));
-                if(i < blocks-1)
+                if (i < blocks - 1)
                     builder.Append("-");
             }
             return builder.ToString();

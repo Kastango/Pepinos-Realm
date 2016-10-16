@@ -201,7 +201,9 @@ namespace wServer.logic
                 new TierLoot(7, ItemType.Armor, 0.04),
                 new TierLoot(3, ItemType.Ring, 0.05),
                 new TierLoot(3, ItemType.Ability, 0.15),
-                new ItemLoot("Purple Drake Egg", 0.005)
+                new ItemLoot("Purple Drake Egg", 0.005),
+                new ItemLoot("Lizard Dagger", 0.05)
+
             )
             .Init("Night Elf Archer",
                 new State(
@@ -281,7 +283,8 @@ namespace wServer.logic
                 new TierLoot(7, ItemType.Armor, 0.04),
                 new TierLoot(3, ItemType.Ring, 0.05),
                 new TierLoot(3, ItemType.Ability, 0.2),
-                new ItemLoot("Purple Drake Egg", 0.005)
+                new ItemLoot("Purple Drake Egg", 0.005),
+                new ItemLoot("Dwarf God Platemail", 0.04)
             )
             .Init("Undead Dwarf Warrior",
                 new State(
@@ -398,7 +401,8 @@ namespace wServer.logic
                 new TierLoot(7, ItemType.Armor, 0.04),
                 new TierLoot(3, ItemType.Ring, 0.05),
                 new TierLoot(3, ItemType.Ability, 0.15),
-                new ItemLoot("Purple Drake Egg", 0.005)
+                new ItemLoot("Purple Drake Egg", 0.005),
+                new ItemLoot("Flayer Robe", 0.03)
             )
             .Init("Flayer",
                 new State(
@@ -738,7 +742,8 @@ namespace wServer.logic
                 new TierLoot(6, ItemType.Armor, 0.08),
                 new TierLoot(7, ItemType.Armor, 0.04),
                 new TierLoot(3, ItemType.Ring, 0.05),
-                new TierLoot(3, ItemType.Ability, 0.1)
+                new TierLoot(3, ItemType.Ability, 0.1),
+                new ItemLoot("Urgle Eye", 0.01)
             )
             ;
     }
